@@ -9,4 +9,10 @@ Letto dal Mac (che ha già un clone locale di questo repo) e riportato in
 di `Orvex---Brain-` e non può vedere direttamente la storia di questo repo. Vedi
 NOTE-CHECKUP.md, "Controllo 10".
 
+**RESET 30/08/2026**: l'unico commit precedente su questo file era stato creato dal Mac
+stesso durante lo sviluppo della feature (com.orvex.gitsync, non ancora corretto in
+quel momento), mai un tap su iPhone — vedi LEZIONI-IMPARATE.md. Questo commit di reset
+porta la data a una sentinella "mai successo" (1970), così Checkup mostra iPhone ❌ per
+questo repo finché non arriva un tap vero in GitSync.
+
 - [ ] tocco di sync
