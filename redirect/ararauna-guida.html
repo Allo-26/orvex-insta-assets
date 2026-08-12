@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>5 Errori Fatali nel Primo Mese con un Ararauna — Apri nel browser</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  /* Palette e font da assets/insta-style/STYLE.md (Orvex---Brain-),
+     specifica approvata per il brand Ararauna — stessa fonte di verità
+     usata dai caroselli Instagram, non una palette nuova inventata qui. */
+  :root {
+    --bg: #F7F1E1;
+    --title: #1E3A5C;
+    --body-text: #4A4335;
+    --eyebrow: #C4862E;
+    --footer: #9C8F72;
+    --senape: #C38530;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    font-family: 'Poppins', sans-serif;
+    color: var(--body-text);
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 24px;
+  }
+  .card {
+    max-width: 460px;
+    width: 100%;
+    text-align: center;
+  }
+  .eyebrow {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--eyebrow);
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.3;
+    color: var(--title);
+    margin: 0 0 16px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.55;
+    margin: 0 0 24px;
+  }
+  .steps {
+    text-align: left;
+    background: rgba(255, 255, 255, 0.5);
+    border-left: 3px solid var(--senape);
+    border-radius: 6px;
+    padding: 16px 18px;
+    margin: 0 0 28px;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .steps strong { font-weight: 600; color: var(--title); }
+  button {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    background: var(--title);
+    border: none;
+    border-radius: 8px;
+    padding: 14px 28px;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:active { opacity: 0.85; }
+  .copied {
+    display: none;
+    margin-top: 12px;
+    font-size: 13px;
+    color: var(--senape);
+    font-weight: 600;
+  }
+  .footer-note {
+    margin-top: 28px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--footer);
+  }
+</style>
+</head>
+<body>
+  <div class="card" id="card" hidden>
+    <div class="eyebrow">Ararauna Guida</div>
+    <h1>Per scaricare la guida, apri questo link nel tuo browser (Safari o Chrome)</h1>
+    <p>L'app da cui hai aperto questo link blocca lo scaricamento — bastano pochi secondi per aprirlo nel browser normale del telefono.</p>
+    <div class="steps">
+      <strong>iOS (Telegram/Instagram):</strong> tocca i tre puntini in alto a destra e scegli &laquo;Apri nel Browser&raquo;.<br><br>
+      <strong>Android:</strong> tocca i tre puntini (&#8942;) in alto a destra e scegli &laquo;Apri nel browser&raquo; o &laquo;Apri con Chrome&raquo;.
+    </div>
+    <button id="copy-btn" type="button">Copia link</button>
+    <div class="copied" id="copied-msg">Link copiato ✓</div>
+    <div class="footer-note">5 Errori Fatali nel Primo Mese con un Ararauna</div>
+  </div>
+
+  <script>
+    (function () {
+      // Destinazione reale confermata da Allo — non generata/dedotta, vedi
+      // data/link-tracciamento.md nel repo Orvex---Brain-.
+      var DESTINATION_BASE = "https://guidedaproprietari.gumroad.com/l/knhyrg";
+
+      function buildDestination() {
+        var search = window.location.search; // include già "?" se presente
+        return search ? DESTINATION_BASE + search : DESTINATION_BASE;
+      }
+
+      function isInAppBrowser(ua) {
+        return (
+          /Telegram/i.test(ua) ||
+          /Instagram/i.test(ua) ||
+          /FBAN|FBAV/i.test(ua) ||
+          /;\s*wv\)/i.test(ua)
+        );
+      }
+
+      var ua = window.navigator.userAgent || "";
+      var destination = buildDestination();
+
+      if (!isInAppBrowser(ua)) {
+        window.location.replace(destination);
+        return;
+      }
+
+      function fallbackCopy(text, onDone) {
+        var textarea = document.createElement("textarea");
+        textarea.value = text;
+        textarea.style.position = "fixed";
+        textarea.style.opacity = "0";
+        document.body.appendChild(textarea);
+        textarea.focus();
+        textarea.select();
+        try { document.execCommand("copy"); } catch (e) {}
+        document.body.removeChild(textarea);
+        onDone();
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("card").hidden = false;
+
+        var copyBtn = document.getElementById("copy-btn");
+        var copiedMsg = document.getElementById("copied-msg");
+        copyBtn.addEventListener("click", function () {
+          function showCopied() {
+            copiedMsg.style.display = "block";
+            setTimeout(function () { copiedMsg.style.display = "none"; }, 2500);
+          }
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(destination).then(showCopied).catch(function () {
+              fallbackCopy(destination, showCopied);
+            });
+          } else {
+            fallbackCopy(destination, showCopied);
+          }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
