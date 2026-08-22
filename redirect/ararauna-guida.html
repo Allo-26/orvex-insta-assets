@@ -60,39 +60,60 @@
     line-height: 1.55;
     margin: 0 0 24px;
   }
-  .steps {
+  .primary-action {
     text-align: left;
-    background: rgba(255, 255, 255, 0.5);
-    border-left: 3px solid var(--senape);
-    border-radius: 6px;
-    padding: 16px 18px;
+    background: rgba(195, 133, 48, 0.14);
+    border: 2px solid var(--senape);
+    border-radius: 10px;
+    padding: 20px 20px 18px;
     margin: 0 0 28px;
-    font-size: 15px;
+  }
+  .primary-label {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--senape);
+    margin-bottom: 14px;
+  }
+  .steps-list {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 16px;
     line-height: 1.6;
   }
-  .steps strong { font-weight: 600; color: var(--title); }
+  .steps-list li { margin-bottom: 12px; }
+  .steps-list li:last-child { margin-bottom: 0; }
+  .steps-list strong { font-weight: 700; color: var(--title); }
+  .fallback {
+    text-align: left;
+    margin: 0 0 6px;
+  }
+  .fallback-label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--footer);
+    margin-bottom: 10px;
+  }
   .btn {
     display: block;
     font-family: inherit;
     font-weight: 600;
-    font-size: 15px;
-    color: #fff;
-    background: var(--title);
-    border: none;
+    font-size: 14px;
+    background: transparent;
+    color: var(--title);
+    border: 1px solid var(--title);
     border-radius: 8px;
-    padding: 14px 28px;
+    padding: 12px 24px;
     cursor: pointer;
     width: 100%;
     text-decoration: none;
     text-align: center;
   }
   .btn:active { opacity: 0.85; }
-  .btn-secondary {
-    margin-top: 12px;
-    background: transparent;
-    color: var(--title);
-    border: 1px solid var(--title);
-  }
+  .btn + .btn { margin-top: 10px; }
   .copied {
     display: none;
     margin-top: 12px;
@@ -112,32 +133,30 @@
 <body>
   <div class="card" id="card">
     <div class="eyebrow">Ararauna Guida</div>
-    <h1>Per scaricare la guida, apri questo link nel tuo browser (Safari o Chrome)</h1>
-    <p>Se hai aperto questo link da un'app (Telegram, Instagram, ecc.), tocca il pulsante qui sotto o segui le istruzioni per aprirlo nel browser normale del telefono.</p>
-    <div class="steps">
-      <strong>iOS (Telegram/Instagram):</strong> tocca i tre puntini in alto a destra e scegli &laquo;Apri nel Browser&raquo;.<br><br>
-      <strong>Android:</strong> tocca i tre puntini (&#8942;) in alto a destra e scegli &laquo;Apri nel browser&raquo; o &laquo;Apri con Chrome&raquo;.
+    <h1>Un tap sul pulsante non basta: devi uscire dall'app</h1>
+    <p>Se hai aperto questo link da Telegram, Instagram o un'altra app, sei dentro il loro browser interno: non diventerà mai Safari o Chrome, nemmeno toccando un link. Per scaricare la guida esci con l'azione qui sotto.</p>
+    <div class="primary-action">
+      <div class="primary-label">Fai così (serve solo un tap in più)</div>
+      <ol class="steps-list">
+        <li><strong>iOS</strong> (Telegram/Instagram): tocca i tre puntini <strong>&middot;&middot;&middot;</strong> in alto a destra e scegli &laquo;<strong>Apri nel Browser</strong>&raquo;.</li>
+        <li><strong>Android</strong>: tocca i tre puntini (<strong>&#8942;</strong>) in alto a destra e scegli &laquo;<strong>Apri nel browser</strong>&raquo; o &laquo;<strong>Apri con Chrome</strong>&raquo;.</li>
+      </ol>
     </div>
-    <a class="btn" id="open-link" href="https://guidedaproprietari.gumroad.com/l/knhyrg">Apri il link</a>
-    <button class="btn btn-secondary" id="copy-btn" type="button">Copia link</button>
+    <div class="fallback">
+      <div class="fallback-label">Se sei già nel browser del telefono</div>
+      <a class="btn" id="open-link" href="https://guidedaproprietari.gumroad.com/l/knhyrg">Apri il link</a>
+      <button class="btn" id="copy-btn" type="button">Copia link</button>
+    </div>
     <div class="copied" id="copied-msg">Link copiato ✓</div>
     <div class="footer-note">5 Errori Fatali nel Primo Mese con un Ararauna</div>
   </div>
 
   <script>
     (function () {
-      // Destinazione reale confermata da Allo — non generata/dedotta, vedi
-      // data/link-tracciamento.md nel repo Orvex---Brain-.
       var DESTINATION_BASE = "https://guidedaproprietari.gumroad.com/l/knhyrg";
 
-      // Niente rilevamento in-app browser via user agent: non affidabile su
-      // iOS (Telegram/Instagram usano WKWebView generico, indistinguibile da
-      // Safari — vedi LEZIONI-IMPARATE.md, 11-12/08/2026 e 22/08/2026). La
-      // card "Apri nel Browser" viene mostrata sempre, senza eccezioni, e la
-      // navigazione avviene solo con un tap esplicito dell'utente sul link
-      // qui sotto — mai un redirect automatico via JavaScript.
       function buildDestination() {
-        var search = window.location.search; // include già "?" se presente
+        var search = window.location.search;
         return search ? DESTINATION_BASE + search : DESTINATION_BASE;
       }
 
