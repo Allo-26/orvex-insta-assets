@@ -39,26 +39,12 @@
     width: 100%;
     text-align: center;
   }
-  .eyebrow {
-    font-weight: 700;
-    font-size: 13px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--eyebrow);
-    margin-bottom: 20px;
-  }
   h1 {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.3;
     color: var(--title);
-    margin: 0 0 16px;
-  }
-  p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.55;
-    margin: 0 0 24px;
+    margin: 0 0 20px;
   }
   .primary-action {
     text-align: left;
@@ -66,7 +52,7 @@
     border: 2px solid var(--senape);
     border-radius: 10px;
     padding: 20px 20px 18px;
-    margin: 0 0 28px;
+    margin: 0 0 20px;
   }
   .primary-label {
     font-weight: 700;
@@ -85,56 +71,18 @@
   .steps-list li { margin-bottom: 12px; }
   .steps-list li:last-child { margin-bottom: 0; }
   .steps-list strong { font-weight: 700; color: var(--title); }
-  .fallback {
-    text-align: left;
-    margin: 0 0 6px;
-  }
-  .fallback-label {
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: var(--footer);
-    margin-bottom: 10px;
-  }
-  .btn {
-    display: block;
-    font-family: inherit;
-    font-weight: 600;
-    font-size: 14px;
-    background: transparent;
-    color: var(--title);
-    border: 1px solid var(--title);
-    border-radius: 8px;
-    padding: 12px 24px;
-    cursor: pointer;
-    width: 100%;
-    text-decoration: none;
-    text-align: center;
-  }
-  .btn:active { opacity: 0.85; }
-  .btn + .btn { margin-top: 10px; }
-  .copied {
-    display: none;
-    margin-top: 12px;
+  .continue-link {
+    display: inline-block;
     font-size: 13px;
-    color: var(--senape);
-    font-weight: 600;
-  }
-  .footer-note {
-    margin-top: 28px;
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
     color: var(--footer);
+    text-decoration: underline;
   }
+  .continue-link:active { opacity: 0.7; }
 </style>
 </head>
 <body>
   <div class="card" id="card">
-    <div class="eyebrow">Ararauna Guida</div>
     <h1>Un tap sul pulsante non basta: devi uscire dall'app</h1>
-    <p>Se hai aperto questo link da Telegram, Instagram o un'altra app, sei dentro il loro browser interno: non diventerà mai Safari o Chrome, nemmeno toccando un link. Per scaricare la guida esci con l'azione qui sotto.</p>
     <div class="primary-action">
       <div class="primary-label">Fai così (serve solo un tap in più)</div>
       <ol class="steps-list">
@@ -142,57 +90,28 @@
         <li><strong>Android</strong>: tocca i tre puntini (<strong>&#8942;</strong>) in alto a destra e scegli &laquo;<strong>Apri nel browser</strong>&raquo; o &laquo;<strong>Apri con Chrome</strong>&raquo;.</li>
       </ol>
     </div>
-    <div class="fallback">
-      <div class="fallback-label">Se sei già nel browser del telefono</div>
-      <a class="btn" id="open-link" href="https://guidedaproprietari.gumroad.com/l/knhyrg">Apri il link</a>
-      <button class="btn" id="copy-btn" type="button">Copia link</button>
-    </div>
-    <div class="copied" id="copied-msg">Link copiato ✓</div>
-    <div class="footer-note">5 Errori Fatali nel Primo Mese con un Ararauna</div>
+    <a class="continue-link" id="open-link" href="https://guidedaproprietari.gumroad.com/l/knhyrg">Continua (solo se sei già nel browser)</a>
   </div>
 
   <script>
     (function () {
+      // Destinazione reale confermata da Allo — non generata/dedotta, vedi
+      // data/link-tracciamento.md nel repo Orvex---Brain-.
       var DESTINATION_BASE = "https://guidedaproprietari.gumroad.com/l/knhyrg";
 
+      // Niente rilevamento in-app browser via user agent: non affidabile su
+      // iOS (Telegram/Instagram usano WKWebView generico, indistinguibile da
+      // Safari — vedi LEZIONI-IMPARATE.md, 11-12/08/2026 e 22/08/2026). Le
+      // istruzioni tre puntini vengono mostrate sempre, senza eccezioni, e
+      // la navigazione avviene solo con un tap esplicito dell'utente sul
+      // link qui sotto — mai un redirect automatico via JavaScript.
       function buildDestination() {
-        var search = window.location.search;
+        var search = window.location.search; // include già "?" se presente, es. utm_source
         return search ? DESTINATION_BASE + search : DESTINATION_BASE;
       }
 
-      var destination = buildDestination();
-
-      function fallbackCopy(text, onDone) {
-        var textarea = document.createElement("textarea");
-        textarea.value = text;
-        textarea.style.position = "fixed";
-        textarea.style.opacity = "0";
-        document.body.appendChild(textarea);
-        textarea.focus();
-        textarea.select();
-        try { document.execCommand("copy"); } catch (e) {}
-        document.body.removeChild(textarea);
-        onDone();
-      }
-
       document.addEventListener("DOMContentLoaded", function () {
-        document.getElementById("open-link").href = destination;
-
-        var copyBtn = document.getElementById("copy-btn");
-        var copiedMsg = document.getElementById("copied-msg");
-        copyBtn.addEventListener("click", function () {
-          function showCopied() {
-            copiedMsg.style.display = "block";
-            setTimeout(function () { copiedMsg.style.display = "none"; }, 2500);
-          }
-          if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(destination).then(showCopied).catch(function () {
-              fallbackCopy(destination, showCopied);
-            });
-          } else {
-            fallbackCopy(destination, showCopied);
-          }
-        });
+        document.getElementById("open-link").href = buildDestination();
       });
     })();
   </script>
