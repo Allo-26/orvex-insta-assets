@@ -72,12 +72,24 @@
   .steps-list li:last-child { margin-bottom: 0; }
   .steps-list strong { font-weight: 700; color: var(--title); }
   .continue-link {
-    display: inline-block;
-    font-size: 13px;
-    color: var(--footer);
-    text-decoration: underline;
+    display: block;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background: var(--title);
+    border-radius: 8px;
+    padding: 14px 28px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
   }
-  .continue-link:active { opacity: 0.7; }
+  .continue-link:active { opacity: 0.85; }
+  .continue-caption {
+    margin-top: 10px;
+    font-size: 12px;
+    color: var(--footer);
+  }
 </style>
 </head>
 <body>
@@ -90,7 +102,8 @@
         <li><strong>Android</strong>: tocca i tre puntini (<strong>&#8942;</strong>) in alto a destra e scegli &laquo;<strong>Apri nel browser</strong>&raquo; o &laquo;<strong>Apri con Chrome</strong>&raquo;.</li>
       </ol>
     </div>
-    <a class="continue-link" id="open-link" href="https://guidedaproprietari.gumroad.com/l/knhyrg">Continua (solo se sei già nel browser)</a>
+    <a class="continue-link" id="open-link" href="https://guidedaproprietari.gumroad.com/l/knhyrg">Vai al manuale</a>
+    <div class="continue-caption">Solo se sei già nel browser — non dentro Instagram o Telegram</div>
   </div>
 
   <script>
