@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Il Manuale dell'Ararauna — Apri nel browser</title>
+<!-- Pagina di passaggio del Manuale (dal 01/11/2026), gemella di
+     ararauna-guida.html: la usano i bottoni dei messaggi privati di
+     Instagram (scripts/lib/offerte-messaggi.js nel repo Orvex---Brain-).
+     Nessuna immagine di anteprima: l'unica che esiste è la copertina della
+     guida gratuita, e qui sarebbe il prodotto sbagliato. -->
+<meta name="description" content="Guida pratica e completa per conoscerlo, accudirlo e crescere insieme a lui.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Il Manuale dell'Ararauna">
+<meta property="og:description" content="Guida pratica e completa per conoscerlo, accudirlo e crescere insieme a lui.">
+<meta property="og:url" content="https://allo-26.github.io/orvex-insta-assets/redirect/ararauna-manuale.html">
+<meta property="og:locale" content="it_IT">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  /* Palette e font da assets/insta-style/STYLE.md (Orvex---Brain-), come
+     ararauna-guida.html. */
+  :root {
+    --bg: #F7F1E1;
+    --title: #1E3A5C;
+    --body-text: #4A4335;
+    --eyebrow: #C4862E;
+    --footer: #9C8F72;
+    --senape: #C38530;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    font-family: 'Poppins', sans-serif;
+    color: var(--body-text);
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 24px;
+  }
+  .card {
+    max-width: 460px;
+    width: 100%;
+    text-align: center;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.3;
+    color: var(--title);
+    margin: 0 0 20px;
+  }
+  .primary-action {
+    text-align: left;
+    background: rgba(195, 133, 48, 0.14);
+    border: 2px solid var(--senape);
+    border-radius: 10px;
+    padding: 20px 20px 18px;
+    margin: 0 0 20px;
+  }
+  .primary-label {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--senape);
+    margin-bottom: 14px;
+  }
+  .steps-list {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .steps-list li { margin-bottom: 12px; }
+  .steps-list li:last-child { margin-bottom: 0; }
+  .steps-list strong { font-weight: 700; color: var(--title); }
+  .note {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 16px;
+  }
+  .note strong { color: var(--title); }
+  .continue-link {
+    display: block;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background: var(--title);
+    border-radius: 8px;
+    padding: 14px 28px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .continue-link.secondary {
+    color: var(--title);
+    background: transparent;
+    border: 2px solid var(--title);
+  }
+  .continue-link:active { opacity: 0.85; }
+  .continue-caption {
+    font-size: 12px;
+    color: var(--footer);
+  }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Un tap sul pulsante non basta: devi uscire dall'app</h1>
+    <div class="primary-action">
+      <div class="primary-label">Fai così (serve solo un tap in più)</div>
+      <ol class="steps-list">
+        <li><strong>iOS</strong> (Instagram/Telegram): tocca i tre puntini <strong>&middot;&middot;&middot;</strong> in alto a destra e scegli &laquo;<strong>Apri nel Browser</strong>&raquo;.</li>
+        <li><strong>Android</strong>: tocca i tre puntini (<strong>&#8942;</strong>) in alto a destra e scegli &laquo;<strong>Apri nel browser</strong>&raquo; o &laquo;<strong>Apri con Chrome</strong>&raquo;.</li>
+      </ol>
+    </div>
+
+    <p class="note" id="sconto-attivo" hidden></p>
+
+    <div id="sconto-scaduto" hidden>
+      <p class="note"><strong>Questo sconto non è più disponibile</strong><span id="scaduto-quando"></span>. Puoi scaricare gratis la guida sui 5 errori del primo mese, oppure prendere il Manuale a prezzo pieno.</p>
+      <a class="continue-link secondary" id="guida-link" href="https://guidedaproprietari.gumroad.com/l/knhyrg">Scarica la guida gratuita</a>
+    </div>
+
+    <a class="continue-link" id="open-link" href="https://guidedaproprietari.gumroad.com/l/manuale-ararauna">Vai al Manuale</a>
+    <div class="continue-caption">Solo se sei già nel browser — non dentro Instagram o Telegram</div>
+  </div>
+
+  <script>
+    (function () {
+      // Destinazioni reali, le stesse di config/ararauna-privato.json e
+      // data/link-tracciamento.md nel repo Orvex---Brain-.
+      var MANUALE = "https://guidedaproprietari.gumroad.com/l/manuale-ararauna";
+      var GUIDA = "https://guidedaproprietari.gumroad.com/l/knhyrg";
+
+      // Come ararauna-guida.html: istruzioni sempre visibili, nessun
+      // redirect automatico, si va avanti solo con un tap (LEZIONI-IMPARATE.md,
+      // 11-12/08/2026 e 22/08/2026).
+      //
+      // Parametri: utm_* passano a Gumroad così come sono; codice e scade
+      // (data ISO) arrivano solo dai messaggi del Manuale scontato. Codice
+      // valido e non scaduto: link col codice già applicato (forma
+      // /l/<permalink>/<codice>, ASSUNTA dalla documentazione di Gumroad, da
+      // verificare al primo codice vero). Codice scaduto o illeggibile:
+      // "non più disponibile", la guida gratuita e il Manuale a prezzo pieno.
+      function leggi() {
+        var params = new URLSearchParams(window.location.search);
+        var utm = new URLSearchParams();
+        ["utm_source", "utm_medium", "utm_campaign", "utm_content"].forEach(function (k) {
+          var v = params.get(k);
+          if (v) utm.set(k, v);
+        });
+        var q = utm.toString() ? "?" + utm.toString() : "";
+        return { q: q, codice: params.get("codice") || "", scade: new Date(params.get("scade") || "") };
+      }
+
+      function quando(data) {
+        var t = new Intl.DateTimeFormat("it-IT", {
+          timeZone: "Europe/Rome", day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23"
+        }).formatToParts(data);
+        var p = {};
+        t.forEach(function (x) { p[x.type] = x.value; });
+        return p.day + "/" + p.month + " alle " + p.hour + ":" + p.minute;
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var x = leggi();
+        var apri = document.getElementById("open-link");
+        apri.href = MANUALE + x.q;
+        if (!x.codice) return;
+
+        var scadeValida = !isNaN(x.scade.getTime());
+        if (/^[A-Z0-9]{3,20}$/.test(x.codice) && scadeValida && Date.now() < x.scade.getTime()) {
+          apri.href = MANUALE + "/" + x.codice + x.q;
+          apri.textContent = "Vai al Manuale scontato";
+          var nota = document.getElementById("sconto-attivo");
+          nota.textContent = "Lo sconto è già applicato nel link: vale fino al " + quando(x.scade) + ".";
+          nota.hidden = false;
+          return;
+        }
+        document.getElementById("scaduto-quando").textContent = scadeValida && Date.now() >= x.scade.getTime() ? ": è scaduto il " + quando(x.scade) : "";
+        document.getElementById("guida-link").href = GUIDA + x.q;
+        document.getElementById("sconto-scaduto").hidden = false;
+        apri.textContent = "Vai al Manuale a prezzo pieno";
+      });
+    })();
+  </script>
+</body>
+</html>
