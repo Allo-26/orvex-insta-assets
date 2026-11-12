@@ -1,0 +1,312 @@
+{
+  "piano": {
+    "fuoriRegola": [],
+    "intensita": "calmo",
+    "perche": "La voce osserva piano un gesto tenero (china il capo, occhi socchiusi, 'va bene così') e il battito netto della musica serve solo a far entrare i segni a tempo, non a tagliare.",
+    "variante": "V1",
+    "look": "L4",
+    "apertura": "A4",
+    "scritte": "T3",
+    "D": 21.967,
+    "tP": 17.8,
+    "inquadrature": [
+      {
+        "id": "S1",
+        "clip": 1,
+        "inizio": 0,
+        "fine": 3.2,
+        "segmenti": [
+          [
+            3.2,
+            0,
+            3.2
+          ]
+        ],
+        "scala": 1.06,
+        "x": 0,
+        "y": -49,
+        "movimento": "fermo",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 560,
+        "testa_y": 1236,
+        "respiro": 1,
+        "picco": 1.06
+      },
+      {
+        "id": "S2",
+        "clip": 2,
+        "inizio": 3.2,
+        "fine": 7.967,
+        "segmenti": [
+          [
+            4.767,
+            0.2,
+            4.967
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "apertura",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 500,
+        "testa_y": 1085,
+        "respiro": 1.06,
+        "picco": 1.0801
+      },
+      {
+        "id": "S3",
+        "clip": 3,
+        "inizio": 7.967,
+        "fine": 11.767,
+        "segmenti": [
+          [
+            3.8,
+            0.3,
+            4.1
+          ]
+        ],
+        "scala": 1.027,
+        "x": 0,
+        "y": 0,
+        "movimento": "fermo",
+        "entrata": "frusta",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 400,
+        "testa_y": 990,
+        "respiro": 1,
+        "picco": 1.1092
+      },
+      {
+        "id": "S4",
+        "clip": 4,
+        "inizio": 11.767,
+        "fine": 15.233,
+        "segmenti": [
+          [
+            3.466,
+            0.9,
+            4.366
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "spinta",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 280,
+        "testa_y": 1070,
+        "respiro": 1.06,
+        "picco": 1.06
+      },
+      {
+        "id": "S5",
+        "clip": 5,
+        "inizio": 15.233,
+        "fine": 21.967,
+        "segmenti": [
+          [
+            0.798,
+            0,
+            0.593
+          ],
+          [
+            5.936,
+            0.593,
+            5.002
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "apertura",
+        "entrata": "maschera_cerchio",
+        "punto": {
+          "x": 570,
+          "y": 540
+        },
+        "testa_x": 470,
+        "testa_y": 990,
+        "respiro": 1.06,
+        "picco": 1.06
+      }
+    ],
+    "effetti": [
+      {
+        "tipo": "puntini",
+        "parola": "Che",
+        "inizio": 2.033,
+        "fine": 3.1,
+        "x": 900,
+        "y": 240
+      },
+      {
+        "tipo": "mirino",
+        "parola": "fissa",
+        "inizio": 4.333,
+        "fine": 5.1,
+        "x": 448,
+        "y": 556,
+        "raggio": 80
+      },
+      {
+        "tipo": "timbro",
+        "parola": "bene",
+        "inizio": 16.733,
+        "fine": 17.7,
+        "x": 740,
+        "y": 200,
+        "testo": "VA BENE"
+      }
+    ],
+    "oggetti": [
+      {
+        "nome": "testa di profilo con le piume della nuca che si arruffano una per battito",
+        "frase": "e arruffa le piume della nuca.",
+        "parola": "arruffa",
+        "perche": "Mostra in schizzo da quaderno il punto esatto, la nuca, da cui le piume si alzano mentre la voce lo dice.",
+        "inizio": 6.28,
+        "fine": 7.95,
+        "x": 300,
+        "y": 130,
+        "larghezza": 480,
+        "altezza": 300,
+        "entrata": "pezzi",
+        "parti": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "svg": "<g class=\"p1\"><circle cx=\"160\" cy=\"170\" r=\"80\" fill=\"none\" stroke=\"#12263C\" stroke-width=\"8\" /><circle cx=\"135\" cy=\"150\" r=\"9\" fill=\"#12263C\" /><polygon points=\"92,140 28,188 100,206\" fill=\"#4A4335\" /></g><path class=\"p2\" d=\"M 200 100 q 10 -55 50 -75\" fill=\"none\" stroke=\"#C4862E\" stroke-width=\"8\" stroke-linecap=\"round\" /><path class=\"p3\" d=\"M 229 128 q 30 -45 72 -58\" fill=\"none\" stroke=\"#C4862E\" stroke-width=\"8\" stroke-linecap=\"round\" /><path class=\"p4\" d=\"M 240 168 q 45 -22 88 -26\" fill=\"none\" stroke=\"#C4862E\" stroke-width=\"8\" stroke-linecap=\"round\" /><path class=\"p5\" d=\"M 232 204 q 50 6 92 28\" fill=\"none\" stroke=\"#C4862E\" stroke-width=\"8\" stroke-linecap=\"round\" /><text class=\"p6\" x=\"335\" y=\"285\" font-size=\"52\" font-weight=\"700\" fill=\"#C4862E\">NUCA</text>"
+      }
+    ]
+  },
+  "correzioni": [
+    "inquadratura 1: rallentatore non ammesso in questo reel, velocità riportata a 1",
+    "inquadratura 5: rallentatore non ammesso in questo reel, velocità riportata a 1",
+    "inquadratura 5: velocità ridotte per stare nella clip 5",
+    "effetto 1 (puntini): spostato da 1.24 a 2.03 s, quando la voce dice «Che»",
+    "effetto 2 (punto_interrogativo): punto interrogativo spento, tolto",
+    "effetto 4 (timbro): riportato dentro lo schermo (x da 880 a 740)",
+    "oggetto 2 («testa di profilo con l'arco tratteggiato»): riportato dentro lo schermo",
+    "oggetto 3 («file di piume a scaglie con il polpastre»): freccia già usato nei 2 reel precedenti, tolto",
+    "S3: deriva tolta, insieme agli effetti passerebbe l'ingrandimento massimo (1.11)",
+    "S3: scala da 1.03 a 1.027 per restare entro 1.11",
+    "oggetto «testa di profilo con l'arco tratteggiato del becco che non arriva alla nuca»: non trova posto fuori dall'ara nemmeno rimpicciolito, tolto"
+  ],
+  "rifatto": null,
+  "D": 21.967,
+  "tP": 17.8,
+  "attacco": 49.52,
+  "bpm": 152,
+  "lufs": -14.61,
+  "ramo": [
+    {
+      "guadagno": 0.7071,
+      "restoDb": -148.4
+    },
+    {
+      "guadagno": 0.7071,
+      "restoDb": -148.4
+    }
+  ],
+  "magenta": 0,
+  "tipi": {
+    "segni": [
+      "mirino",
+      "timbro",
+      "puntini"
+    ],
+    "stacchi": [
+      "frusta",
+      "maschera"
+    ],
+    "effetti": []
+  },
+  "tempi": [
+    {
+      "nome": "battiti della musica",
+      "secondi": 21.5
+    },
+    {
+      "nome": "preparazione delle inquadrature",
+      "secondi": 761.7
+    },
+    {
+      "nome": "dove sta l'ara per gli oggetti (rembg)",
+      "secondi": 30.2
+    },
+    {
+      "nome": "controllo della timeline",
+      "secondi": 0.8
+    },
+    {
+      "nome": "render",
+      "secondi": 202.5
+    },
+    {
+      "nome": "render di controllo magenta",
+      "secondi": 94.4
+    },
+    {
+      "nome": "mix",
+      "secondi": 7
+    },
+    {
+      "nome": "unione",
+      "secondi": 0.6
+    }
+  ],
+  "audio": {
+    "misure": {
+      "voce": -15.82,
+      "musicaSottoVoce": -29.28,
+      "distacco": 13.45,
+      "lufs": -14.61,
+      "picco": -1.67
+    },
+    "scarti": [],
+    "riferimento": {
+      "voce": -15.81,
+      "musicaSottoVoce": -29.27,
+      "distacco": 13.46,
+      "lufs": -14.27,
+      "picco": -1.48
+    },
+    "musicaDb": -0.29,
+    "guadagnoFinale": 3.11
+  },
+  "pianoDaFable": true,
+  "velocitaVoce": {
+    "misurata": 3.277,
+    "fattore": 0.946,
+    "finale": 3.1
+  },
+  "pianoDelRun": "43164505202",
+  "registro": {
+    "data": "12/11 (prova a secco)",
+    "reel": "storytelling-ara-china-la-testa (prova a secco)",
+    "segni": "puntini di sospensione (2,03); mirino tratteggiato (4,33); timbro «VA BENE» (16,73); testa di profilo con le piume della nuca che si arruffano una per battito (6,28)",
+    "tagli": "tagli puliti sul respiro (3,2 / 11,77)",
+    "transizioni": "frusta orizzontale con sfocatura (7,97); maschera circolare dall'occhio (15,23); invito sopra l'ultima ripresa, velo blu dal fondo",
+    "altri": "fermo / apertura / spinta"
+  }
+}

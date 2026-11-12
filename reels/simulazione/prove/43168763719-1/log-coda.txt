@@ -1,0 +1,138 @@
+fmpeg -i "assets/clips/S5.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S4" has sparse keyframes (max interval: 3.93s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S4.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S1" has sparse keyframes (max interval: 3.4s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S1.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S3" has sparse keyframes (max interval: 4.13s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S3.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[INFO] Extracting frames from video 1/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] Extracting frames from video 2/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] Extracting frames from video 3/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] Extracting frames from video 4/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] Extracting frames from video 5/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] [Render] SDR forced by --sdr flag {"renderJobId":"[REDACTED]"}
+[INFO] [Render] Parallel beginframe capture will stream to the encoder (interleaved, 2 workers) instead of the disk path. Set HF_CAPTURE_PARALLEL_STREAM=false to disable. {"renderJobId":"[REDACTED]"}
+[INFO] streaming-encode gate {"renderJobId":"[REDACTED]","enabled":true,"reason":"parallel_forced","configFlag":true,"durationCapEnabled":false,"outputFormat":"mp4","workerCount":2,"durationSeconds":21.967,"maxDurationSeconds":240}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"browser_launch","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"browser_launch","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"browser_probe","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"session_init","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (1ms)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"browser_probe","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"session_init","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (1ms)
+[initSession:beginframe] page.goto complete (264ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] page.goto complete (364ms)
+[initSession:beginframe] GSAP proxy flush complete (390ms)
+[initSession:beginframe] GSAP proxy flush complete (605ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] pollHfReady complete (655ms)
+[initSession:beginframe] pollHfReady complete (1237ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (1279ms)
+[initSession:beginframe] applyVideoMetadataHints complete (1305ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (1912ms)
+[initSession:beginframe] applyVideoMetadataHints complete (1995ms)
+[initSession:beginframe] media + fonts + tailwind ready (2033ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (2092ms)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"frame_capture","frameIndex":1,"browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":false,"gpuBackend":"unknown"}
+[initSession:beginframe] media + fonts + tailwind ready (2240ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (2397ms)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"frame_capture","frameIndex":0,"browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":false,"gpuBackend":"unknown"}
+◇  /tmp/[REDACTED]/render.mp4
+   26.8 MB · 22.0s video · rendered in 3m 19.9s
+   beginframe capture · software gpu · compile 1.2s · extract 20.5s · audio 0.0s · probe 0.7s · setup 0.0s · capture 2m 57.8s · encode (during capture) 2m 57.8s · assemble 0.1s
+   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.dev/studio/download?os=linux
+⏱ render: 202.5 s
+◆  Rendering reel-qc → /tmp/[REDACTED]/qc-magenta.mp4
+   30fps · draft · 2 workers
+[?25l│
+◒  Checking browser...
+[1G[J◇  Browser: env
+[?25h
+  Lint: 1 error(s), 14 warning(s) — run with --lint-verbose for full output.
+  Continuing render despite lint issues. Use --strict to block errors.
+[INFO] [Render] Pipeline started {"renderJobId":"[REDACTED]","platform":"linux","arch":"x64","nodeVersion":"v22.23.4","fps":{"num":30,"den":1},"format":"mp4","quality":"draft","browserGpuMode":"software","forceScreenshot":false,"protocolTimeout":300000,"browserTimeout":120000,"pageNavigationTimeout":60000,"playerReadyTimeout":45000}
+[INFO] [Compiler] Embedded local font file: assets/fonts/Poppins-400.woff2 (8 KB → data URI)
+[INFO] [Compiler] Embedded local font file: assets/fonts/Poppins-600.woff2 (8 KB → data URI)
+[INFO] [Compiler] Embedded local font file: assets/fonts/Poppins-700.woff2 (8 KB → data URI)
+[INFO] Compiled composition metadata {"renderJobId":"[REDACTED]","entryFile":"index.html","staticDuration":21.967,"width":540,"height":960,"videoCount":5,"audioCount":0,"renderModeHints":{"recommendScreenshot":false,"reasons":[]}}
+[WARN] [Compiler] WARNING: Video "S1" has sparse keyframes (max interval: 3.4s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S1.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S2" has sparse keyframes (max interval: 5.03s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S2.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S3" has sparse keyframes (max interval: 4.13s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S3.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S4" has sparse keyframes (max interval: 3.93s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S4.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S5" has sparse keyframes (max interval: 6.97s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S5.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[INFO] Extracting frames from video 1/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] Extracting frames from video 2/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] Extracting frames from video 3/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] Extracting frames from video 4/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] Extracting frames from video 5/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] [Render] SDR forced by --sdr flag {"renderJobId":"[REDACTED]"}
+[INFO] [Render] Parallel beginframe capture will stream to the encoder (interleaved, 2 workers) instead of the disk path. Set HF_CAPTURE_PARALLEL_STREAM=false to disable. {"renderJobId":"[REDACTED]"}
+[INFO] streaming-encode gate {"renderJobId":"[REDACTED]","enabled":true,"reason":"parallel_forced","configFlag":true,"durationCapEnabled":false,"outputFormat":"mp4","workerCount":2,"durationSeconds":21.967,"maxDurationSeconds":240}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"browser_launch","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"browser_launch","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"browser_probe","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"session_init","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (0ms)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"browser_probe","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"session_init","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (1ms)
+[initSession:beginframe] page.goto complete (350ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] page.goto complete (346ms)
+[initSession:beginframe] GSAP proxy flush complete (652ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] GSAP proxy flush complete (659ms)
+[initSession:beginframe] pollHfReady complete (889ms)
+[initSession:beginframe] pollHfReady complete (775ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (1075ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (1787ms)
+[initSession:beginframe] applyVideoMetadataHints complete (1808ms)
+[initSession:beginframe] applyVideoMetadataHints complete (2278ms)
+[initSession:beginframe] media + fonts + tailwind ready (2259ms)
+[initSession:beginframe] media + fonts + tailwind ready (2442ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (2378ms)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"frame_capture","frameIndex":0,"browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":false,"gpuBackend":"unknown"}
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (2610ms)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"frame_capture","frameIndex":1,"browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":false,"gpuBackend":"unknown"}
+◇  /tmp/[REDACTED]/qc-magenta.mp4
+   3.2 MB · 22.0s video · rendered in 1m 32.1s
+   beginframe capture · software gpu · compile 1.2s · extract 20.5s · audio 0.0s · probe 0.7s · setup 0.0s · capture 1m 10.3s · encode (during capture) 1m 10.3s · assemble 0.1s
+   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.dev/studio/download?os=linux
+⏱ render di controllo magenta: 94.4 s
+Controllo magenta: 0 fotogrammi con bordo vuoto su 660.
+Grafo del mix: [0:a]apad=whole_dur=21.967,aformat=channel_layouts=stereo,asplit=2[v][sc];[1:a][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=300:makeup=1[md];[2:a]adelay=7817|7817,volume=0.08,apad=whole_dur=21.967[w2];[3:a]adelay=15083|15083,volume=0.08,apad=whole_dur=21.967[w3];[v][md][w2][w3]amix=inputs=4:normalize=0:dropout_transition=0:duration=first,atrim=0:21.967[mix]
+mix-pre.wav: voce -18.92 dB, musica sotto la voce -32.09 dB, distacco 13.17 dB, -17.70 LUFS, picco -4.10 dBTP (k 0.706, spostamento 0 campioni)
+Grafo del mix: [0:a]apad=whole_dur=21.967,aformat=channel_layouts=stereo,asplit=2[v][sc];[1:a][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=300:makeup=1,volume=-0.29dB[md];[2:a]adelay=7817|7817,volume=0.08,apad=whole_dur=21.967[w2];[3:a]adelay=15083|15083,volume=0.08,apad=whole_dur=21.967[w3];[v][md][w2][w3]amix=inputs=4:normalize=0:dropout_transition=0:duration=first,atrim=0:21.967[mix]
+mix-pre.wav: voce -18.92 dB, musica sotto la voce -32.38 dB, distacco 13.46 dB, -17.70 LUFS, picco -4.13 dBTP (k 0.706, spostamento 0 campioni)
+mix-finale.wav: voce -15.82 dB, musica sotto la voce -29.27 dB, distacco 13.45 dB, -14.60 LUFS, picco -1.67 dBTP (k 1.009, spostamento 0 campioni)
+Mix col riferimento: musica -0.29 dB dopo il sidechain, guadagno finale +3.11 dB.
+⏱ mix: 7.0 s
+Mix: -14.6 LUFS, picco -1.67 dBTP, prova del ramo musica [{"guadagno":0.7071,"restoDb":-148.4},{"guadagno":0.7071,"restoDb":-148.4}].
+⏱ unione: 0.6 s
+finale.mp4: voce -15.82 dB, musica sotto la voce -29.28 dB, distacco 13.45 dB, -14.61 LUFS, picco -1.67 dBTP (k 1.009, spostamento 0 campioni)
+Audio contro il reel dell'allevatore: {"voce":-15.82,"musicaSottoVoce":-29.28,"distacco":13.45,"lufs":-14.61,"picco":-1.67} — tutto entro 0,5 dB.
+File finale: -14.61 LUFS, formato ok, 0 tratti neri, 0 tratti fermi.
+Prova a secco finita: /home/runner/work/_temp/prova-a-secco/reel-prova-a-secco.mp4
+Oggetti disegnati: «testa di profilo con le piume della nuca che si arruffano una per battito» su «e arruffa le piume della nuca.» (6.28-7.95 s, 300,130 480x300, pezzi): Mostra in schizzo da quaderno il punto esatto, la nuca, da cui le piume si alzano mentre la voce lo dice..
+Effetti del piano: puntini su «Che» (2.033 s) | mirino su «fissa» (4.333 s) | timbro su «bene» (16.733 s) «VA BENE».
+Inquadrature: S1 clip 1 0-3.2 s taglio/fermo scala 1.06 x 0 y -49 | S2 clip 2 3.2-7.967 s taglio/apertura scala 1 x 0 y 0 | S3 clip 3 7.967-11.767 s frusta/fermo scala 1.027 x 0 y 0 | S4 clip 4 11.767-15.233 s taglio/spinta scala 1 x 0 y 0 | S5 clip 5 15.233-21.967 s maschera_cerchio/apertura scala 1 x 0 y 0.
+Correzione del piano: inquadratura 1: rallentatore non ammesso in questo reel, velocità riportata a 1
+Correzione del piano: inquadratura 5: rallentatore non ammesso in questo reel, velocità riportata a 1
+Correzione del piano: inquadratura 5: velocità ridotte per stare nella clip 5
+Correzione del piano: effetto 1 (puntini): spostato da 1.24 a 2.03 s, quando la voce dice «Che»
+Correzione del piano: effetto 2 (punto_interrogativo): punto interrogativo spento, tolto
+Correzione del piano: effetto 4 (timbro): riportato dentro lo schermo (x da 880 a 740)
+Correzione del piano: oggetto 2 («testa di profilo con l'arco tratteggiato»): riportato dentro lo schermo
+Correzione del piano: oggetto 3 («file di piume a scaglie con il polpastre»): freccia già usato nei 2 reel precedenti, tolto
+Correzione del piano: S3: deriva tolta, insieme agli effetti passerebbe l'ingrandimento massimo (1.11)
+Correzione del piano: S3: scala da 1.03 a 1.027 per restare entro 1.11
+Correzione del piano: oggetto «testa di profilo con l'arco tratteggiato del becco che non arriva alla nuca»: non trova posto fuori dall'ara nemmeno rimpicciolito, tolto
+Tempi: battiti della musica 21.5 s, preparazione delle inquadrature 761.7 s, dove sta l'ara per gli oggetti (rembg) 30.2 s, controllo della timeline 0.8 s, render 202.5 s, render di controllo magenta 94.4 s, mix 7 s, unione 0.6 s
+Fogli dei fotogrammi: secondi-1.jpg, secondi-2.jpg, secondi-3.jpg, tagli.jpg, momenti-1.jpg.
