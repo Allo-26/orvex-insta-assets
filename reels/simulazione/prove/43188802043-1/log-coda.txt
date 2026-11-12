@@ -1,0 +1,165 @@
+:amd64 (2.42.10+dfsg-3ubuntu3.3) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.9) ...
+Running kernel seems to be up-to-date.
+No services need to be restarted.
+No containers need to be restarted.
+No user sessions are running outdated binaries.
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: python -m pip install --upgrade pip
+[0;93m2026-11-12 09:10:10.123363219 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Downloading data from 'https://github.com/danielgatis/rembg/releases/download/v0.0.0/isnet-general-use.onnx' to file '/home/runner/.rembg/models/isnet-general-use/isnet-general-use.onnx'.
+0.8.168
+Voce: 3.277 parole al secondo, 3.1 dopo la correzione (fattore 0.946).
+Prova a secco col piano di Fable del run 43183813368, senza richiamarlo.
+152.0 BPM, 287 battiti, forza del battito 2.25, durata 129.0 s
+⏱ battiti della musica: 22.8 s
+Musica: 152 BPM, attacco 49.52 s, 9/9 pause su un battito.
+Correzione del piano: inquadratura 5: rallentatore non ammesso in questo reel, velocità riportata a 1
+Correzione del piano: inquadratura 5: velocità ridotte per stare nella clip 5
+Correzione del piano: oggetto 1 («scheda della testa abbassata col collo g»): riportato dentro lo schermo
+Correzione del piano: oggetto 2 («fila di tre teste che si chinano»): riportato dentro lo schermo
+Correzione del piano: oggetto 3 («profilo con il becco che non arriva alla»): riportato dentro lo schermo
+Correzione del piano: oggetto 4 («piume con la linea tratteggiata del grat»): riportato dentro lo schermo
+Correzione del piano: S3: apertura ridotta a 1.0277 per restare entro 1.11
+Correzione del piano: effetto puntini su «vuole?»: finisce a 3.05 s, prima del taglio di 3.2 s
+Correzione del piano: effetto scritta_dietro su «nuca»: finisce a 7.817 s, prima del taglio di 7.967 s
+Correzione del piano: oggetto «profilo con il becco che non arriva alla»: finisce a 11.617 s, prima del taglio di 11.767 s
+Piano: calmo (La voce racconta un gesto dolce di fiducia (la testa che si china per i grattini) con tono di osservazione: inquadrature lunghe, segni discreti, il battito netto della musica serve solo a far entrare a tempo i pezzi degli oggetti.), variante V1, look L4, 5 inquadrature, 3 effetti.
+⏱ preparazione delle inquadrature: 788.0 s
+[0;93m2026-11-12 09:24:29.753320724 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-12 09:24:43.104906204 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-12 09:24:57.623648983 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-12 09:25:12.554577501 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+⏱ dove sta l'ara per gli oggetti (rembg): 57.3 s
+Correzione del piano: oggetto «scheda della testa abbassata col collo gonfio»: non trova posto fuori dall'ara nemmeno rimpicciolito, tolto
+Correzione del piano: oggetto «profilo con il becco che non arriva alla nuca»: era sopra l'ara, rimpicciolito a 85% e spostato da 280,120 a 280,120
+Correzione del piano: oggetto «piume con la linea tratteggiata del gratto piano»: era sopra l'ara, rimpicciolito a 85% e spostato da 280,120 a 280,120
+[0;93m2026-11-12 09:25:27.079556493 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-12 09:25:41.858371119 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+⏱ dove sta l'ara per i segni (rembg): 27.7 s
+Correzione del piano: oggetto «timbro «bene»»: non trova posto fuori dall'ara nemmeno rimpicciolito, tolto
+Correzione del piano: effetto timbro su «bene»: sopra l'ara e nessun posto libero, tolto
+Oggetti disegnati: «fila di tre teste che si chinano» su «poi china il capo» (5.19-6.7 s, 280,120 520x300, pezzi): Tre sagome di testa in fila, una per battito, ruotano sempre più in basso: è il capo che si china, fotogramma dopo fotogramma. | «profilo con il becco che non arriva alla nuca» su «a lisciarle lì, dove il becco non arriva.» (9.3-11.617 s, 280,120 520x300, pezzi): Una testa di profilo in sagoma: la linea tratteggiata parte dal becco, gira sopra la testa e si ferma prima della nuca, dove da sola non arriva. | «piume con la linea tratteggiata del gratto piano» su «Gratto piano, seguendo le piume.» (13.22-15.5 s, 280,120 520x320, pezzi): Tre piume in sagoma entrano una per battito e una linea tratteggiata le percorre nel loro verso, col polpastrello alla fine: il gratto che segue le piume..
+Effetti del piano: puntini su «vuole?» (2.033 s) | scritta_dietro su «nuca» (6.8 s) «NUCA».
+Inquadrature: S1 clip 1 0-3.2 s taglio/fermo scala 1 x 0 y 0 | S2 clip 2 3.2-7.967 s taglio/fermo scala 1 x 0 y 0 | S3 clip 3 7.967-11.767 s frusta/apertura scala 1 x 0 y 0 | S4 clip 4 11.767-16.733 s taglio/deriva scala 1 x 0 y 0 | S5 clip 5 16.733-21.967 s taglio/spinta scala 1 x 0 y 0.
+[0;93m2026-11-12 09:25:54.767560375 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+stabilità del ritaglio: {"peggiore": 0.98, "instabili": []}
+ritaglio: fotogrammi 108-138 di 139, /tmp/[REDACTED]/reel/assets/clips/S2_ara.webm
+controllo ritaglio: {"fotogrammi": 139, "attesi": 139, "peggiore": 2.51, "media": 2.27, "brutti": [], "ok": true}
+⏱ ritaglio dell'ara (rembg): 184.8 s
+⏱ controllo della timeline: 2.0 s
+◆  Rendering reel → /tmp/[REDACTED]/render.mp4
+   30fps · high · 2 workers
+[?25l│
+◒  Checking browser...
+[1G[J◇  Browser: env
+[?25h
+  Lint: 0 error(s), 14 warning(s) — run with --lint-verbose for full output.
+  Continuing render despite lint issues. Use --strict to block errors.
+[WARN] [Compiler] WARNING: Video "S1" has sparse keyframes (max interval: 3.4s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S1.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S2" has sparse keyframes (max interval: 5.03s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S2.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S3" has sparse keyframes (max interval: 4.13s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S3.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S4" has sparse keyframes (max interval: 5.23s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S4.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S5" has sparse keyframes (max interval: 5.47s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S5.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (1ms)
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (0ms)
+[initSession:beginframe] page.goto complete (2686ms)
+[initSession:beginframe] page.goto complete (2384ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] GSAP proxy flush complete (3235ms)
+[initSession:beginframe] GSAP proxy flush complete (2903ms)
+[initSession:beginframe] pollHfReady complete (3779ms)
+[initSession:beginframe] pollHfReady complete (4232ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (4729ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (5231ms)
+[initSession:beginframe] applyVideoMetadataHints complete (4868ms)
+[initSession:beginframe] applyVideoMetadataHints complete (5315ms)
+[initSession:beginframe] media + fonts + tailwind ready (5318ms)
+[initSession:beginframe] media + fonts + tailwind ready (4957ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (5346ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (4990ms)
+◇  /tmp/[REDACTED]/render.mp4
+   25.9 MB · 22.0s video · rendered in 3m 53.3s
+   beginframe capture · software gpu · compile 1.7s · extract 33.5s · audio 0.0s · probe 1.1s · setup 0.0s · capture 3m 17.7s · encode (during capture) 3m 17.7s · assemble 0.1s
+   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.dev/studio/download?os=linux
+⏱ render: 236.6 s
+◆  Rendering reel-qc → /tmp/[REDACTED]/qc-magenta.mp4
+   30fps · draft · 2 workers
+[?25l│
+◒  Checking browser...
+[1G[J◇  Browser: env
+[?25h
+  Lint: 1 error(s), 14 warning(s) — run with --lint-verbose for full output.
+  Continuing render despite lint issues. Use --strict to block errors.
+[WARN] [Compiler] WARNING: Video "S1" has sparse keyframes (max interval: 3.4s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S1.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S2" has sparse keyframes (max interval: 5.03s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S2.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S3" has sparse keyframes (max interval: 4.13s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S3.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S4" has sparse keyframes (max interval: 5.23s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S4.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S5" has sparse keyframes (max interval: 5.47s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S5.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (0ms)
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (1ms)
+[initSession:beginframe] page.goto complete (289ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] page.goto complete (422ms)
+[initSession:beginframe] GSAP proxy flush complete (551ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] pollHfReady complete (619ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (639ms)
+[initSession:beginframe] applyVideoMetadataHints complete (690ms)
+[initSession:beginframe] media + fonts + tailwind ready (745ms)
+[initSession:beginframe] GSAP proxy flush complete (701ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (805ms)
+[initSession:beginframe] pollHfReady complete (906ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (929ms)
+[initSession:beginframe] applyVideoMetadataHints complete (944ms)
+[initSession:beginframe] media + fonts + tailwind ready (990ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (1122ms)
+◇  /tmp/[REDACTED]/qc-magenta.mp4
+   3.2 MB · 22.0s video · rendered in 2m 1.8s
+   beginframe capture · software gpu · compile 1.6s · extract 33.6s · audio 0.0s · probe 1.0s · setup 0.0s · capture 1m 26.4s · encode (during capture) 1m 26.4s · assemble 0.1s
+   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.dev/studio/download?os=linux
+⏱ render di controllo magenta: 125.2 s
+Controllo magenta: 0 fotogrammi con bordo vuoto su 660.
+Grafo del mix: [0:a]apad=whole_dur=21.967,aformat=channel_layouts=stereo,asplit=2[v][sc];[1:a][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=300:makeup=1[md];[2:a]adelay=7817|7817,volume=0.08,apad=whole_dur=21.967[w2];[v][md][w2]amix=inputs=3:normalize=0:dropout_transition=0:duration=first,atrim=0:21.967[mix]
+mix-pre.wav: voce -18.92 dB, musica sotto la voce -32.09 dB, distacco 13.17 dB, -17.70 LUFS, picco -4.10 dBTP (k 0.706, spostamento 0 campioni)
+Grafo del mix: [0:a]apad=whole_dur=21.967,aformat=channel_layouts=stereo,asplit=2[v][sc];[1:a][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=300:makeup=1,volume=-0.29dB[md];[2:a]adelay=7817|7817,volume=0.08,apad=whole_dur=21.967[w2];[v][md][w2]amix=inputs=3:normalize=0:dropout_transition=0:duration=first,atrim=0:21.967[mix]
+mix-pre.wav: voce -18.92 dB, musica sotto la voce -32.38 dB, distacco 13.46 dB, -17.70 LUFS, picco -4.13 dBTP (k 0.706, spostamento 0 campioni)
+mix-finale.wav: voce -15.82 dB, musica sotto la voce -29.27 dB, distacco 13.45 dB, -14.60 LUFS, picco -1.67 dBTP (k 1.009, spostamento 0 campioni)
+Mix col riferimento: musica -0.29 dB dopo il sidechain, guadagno finale +3.11 dB.
+⏱ mix: 7.1 s
+Mix: -14.6 LUFS, picco -1.67 dBTP, prova del ramo musica [{"guadagno":0.7071,"restoDb":-148.4},{"guadagno":0.7071,"restoDb":-148.4}].
+⏱ unione: 0.6 s
+finale.mp4: voce -15.82 dB, musica sotto la voce -29.28 dB, distacco 13.45 dB, -14.61 LUFS, picco -1.67 dBTP (k 1.009, spostamento 0 campioni)
+Audio contro il reel dell'allevatore: {"voce":-15.82,"musicaSottoVoce":-29.28,"distacco":13.45,"lufs":-14.61,"picco":-1.67} — tutto entro 0,5 dB.
+File finale: -14.61 LUFS, formato ok, 0 tratti neri, 0 tratti fermi.
+Prova a secco finita: /home/runner/work/_temp/prova-a-secco/reel-prova-a-secco.mp4
+Oggetti disegnati: «fila di tre teste che si chinano» su «poi china il capo» (5.19-6.7 s, 280,120 520x300, pezzi): Tre sagome di testa in fila, una per battito, ruotano sempre più in basso: è il capo che si china, fotogramma dopo fotogramma. | «profilo con il becco che non arriva alla nuca» su «a lisciarle lì, dove il becco non arriva.» (9.3-11.617 s, 280,120 520x300, pezzi): Una testa di profilo in sagoma: la linea tratteggiata parte dal becco, gira sopra la testa e si ferma prima della nuca, dove da sola non arriva. | «piume con la linea tratteggiata del gratto piano» su «Gratto piano, seguendo le piume.» (13.22-15.5 s, 280,120 520x320, pezzi): Tre piume in sagoma entrano una per battito e una linea tratteggiata le percorre nel loro verso, col polpastrello alla fine: il gratto che segue le piume..
+Effetti del piano: puntini su «vuole?» (2.033 s) | scritta_dietro su «nuca» (6.8 s) «NUCA».
+Inquadrature: S1 clip 1 0-3.2 s taglio/fermo scala 1 x 0 y 0 | S2 clip 2 3.2-7.967 s taglio/fermo scala 1 x 0 y 0 | S3 clip 3 7.967-11.767 s frusta/apertura scala 1 x 0 y 0 | S4 clip 4 11.767-16.733 s taglio/deriva scala 1 x 0 y 0 | S5 clip 5 16.733-21.967 s taglio/spinta scala 1 x 0 y 0.
+Correzione del piano: inquadratura 5: rallentatore non ammesso in questo reel, velocità riportata a 1
+Correzione del piano: inquadratura 5: velocità ridotte per stare nella clip 5
+Correzione del piano: oggetto 1 («scheda della testa abbassata col collo g»): riportato dentro lo schermo
+Correzione del piano: oggetto 2 («fila di tre teste che si chinano»): riportato dentro lo schermo
+Correzione del piano: oggetto 3 («profilo con il becco che non arriva alla»): riportato dentro lo schermo
+Correzione del piano: oggetto 4 («piume con la linea tratteggiata del grat»): riportato dentro lo schermo
+Correzione del piano: S3: apertura ridotta a 1.0277 per restare entro 1.11
+Correzione del piano: effetto puntini su «vuole?»: finisce a 3.05 s, prima del taglio di 3.2 s
+Correzione del piano: effetto scritta_dietro su «nuca»: finisce a 7.817 s, prima del taglio di 7.967 s
+Correzione del piano: oggetto «profilo con il becco che non arriva alla»: finisce a 11.617 s, prima del taglio di 11.767 s
+Correzione del piano: oggetto «scheda della testa abbassata col collo gonfio»: non trova posto fuori dall'ara nemmeno rimpicciolito, tolto
+Correzione del piano: oggetto «profilo con il becco che non arriva alla nuca»: era sopra l'ara, rimpicciolito a 85% e spostato da 280,120 a 280,120
+Correzione del piano: oggetto «piume con la linea tratteggiata del gratto piano»: era sopra l'ara, rimpicciolito a 85% e spostato da 280,120 a 280,120
+Correzione del piano: oggetto «timbro «bene»»: non trova posto fuori dall'ara nemmeno rimpicciolito, tolto
+Correzione del piano: effetto timbro su «bene»: sopra l'ara e nessun posto libero, tolto
+Tempi: battiti della musica 22.8 s, preparazione delle inquadrature 788 s, dove sta l'ara per gli oggetti (rembg) 57.3 s, dove sta l'ara per i segni (rembg) 27.7 s, ritaglio dell'ara (rembg) 184.8 s, controllo della timeline 2 s, render 236.6 s, render di controllo magenta 125.2 s, mix 7.1 s, unione 0.6 s
+Fogli dei fotogrammi: secondi-1.jpg, secondi-2.jpg, secondi-3.jpg, tagli.jpg, momenti-1.jpg.

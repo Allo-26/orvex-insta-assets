@@ -1,0 +1,194 @@
+{
+  "intensita": "calmo",
+  "perche": "La voce racconta un gesto dolce di fiducia (la testa che si china per i grattini) con tono di osservazione: inquadrature lunghe, segni discreti, il battito netto della musica serve solo a far entrare a tempo i pezzi degli oggetti.",
+  "variante": "V1",
+  "look": "L4",
+  "apertura": "A2",
+  "scritte": "T3",
+  "inquadrature": [
+    {
+      "clip": 1,
+      "fine": 3.21,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 3.21,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "fermo",
+      "entrata": "taglio",
+      "testa_y": 780,
+      "testa_x": 480
+    },
+    {
+      "clip": 2,
+      "fine": 7.97,
+      "da": 0.2,
+      "tratti": [
+        {
+          "durata": 4.76,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "fermo",
+      "entrata": "taglio",
+      "testa_y": 1090,
+      "testa_x": 500
+    },
+    {
+      "clip": 3,
+      "fine": 11.78,
+      "da": 0.5,
+      "tratti": [
+        {
+          "durata": 3.81,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "apertura",
+      "entrata": "frusta",
+      "testa_y": 990,
+      "testa_x": 400
+    },
+    {
+      "clip": 4,
+      "fine": 16.73,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 4.95,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "deriva",
+      "entrata": "taglio",
+      "testa_y": 1070,
+      "testa_x": 280
+    },
+    {
+      "clip": 5,
+      "fine": 21.967,
+      "da": 0.3,
+      "tratti": [
+        {
+          "durata": 1.6,
+          "velocita": 0.6
+        },
+        {
+          "durata": 3.637,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "spinta",
+      "entrata": "taglio",
+      "testa_y": 1010,
+      "testa_x": 440
+    }
+  ],
+  "effetti": [
+    {
+      "tipo": "puntini",
+      "parola": "vuole?",
+      "inizio": 2.03,
+      "fine": 3.15,
+      "x": 840,
+      "y": 140
+    },
+    {
+      "tipo": "scritta_dietro",
+      "parola": "nuca",
+      "inizio": 6.74,
+      "fine": 7.95,
+      "testo": "NUCA",
+      "punti": [
+        {
+          "x": 540,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "tipo": "timbro",
+      "parola": "bene",
+      "inizio": 16.93,
+      "fine": 17.75,
+      "x": 540,
+      "y": 70,
+      "testo": "VA BENE"
+    }
+  ],
+  "oggetti": [
+    {
+      "nome": "scheda della testa abbassata col collo gonfio",
+      "frase": "Abbassa la testa e gonfia il collo.",
+      "parola": "Abbassa",
+      "perche": "Mostra in sagoma il gesto esatto che la voce descrive: testa giù e piume del collo che si gonfiano, un pezzo per battito.",
+      "inizio": 0.06,
+      "fine": 2,
+      "x": 60,
+      "y": 4,
+      "larghezza": 520,
+      "altezza": 260,
+      "entrata": "pezzi",
+      "svg": "<rect class=\"p1\" x=\"6\" y=\"6\" width=\"508\" height=\"248\" rx=\"20\" fill=\"#F7F1E1\" stroke=\"#12263C\" stroke-width=\"8\"/><g class=\"p2\"><circle cx=\"130\" cy=\"105\" r=\"56\" fill=\"#C4862E\" stroke=\"#12263C\" stroke-width=\"7\"/><polygon points=\"108,150 96,205 136,192\" fill=\"#12263C\"/><circle cx=\"150\" cy=\"92\" r=\"9\" fill=\"#12263C\"/></g><g class=\"p3\"><polygon points=\"50,170 72,200 92,172 112,206 134,176 156,210 178,180 200,214 222,184 214,242 56,242\" fill=\"#C4862E\" stroke=\"#12263C\" stroke-width=\"7\" stroke-linejoin=\"round\"/></g><g class=\"p4\"><text x=\"250\" y=\"112\" font-size=\"54\" font-weight=\"bold\" fill=\"#12263C\">GONFIA</text><text x=\"250\" y=\"186\" font-size=\"54\" font-weight=\"bold\" fill=\"#C4862E\">IL COLLO</text></g>"
+    },
+    {
+      "nome": "fila di tre teste che si chinano",
+      "frase": "poi china il capo",
+      "parola": "china",
+      "perche": "Tre sagome di testa in fila, una per battito, ruotano sempre più in basso: è il capo che si china, fotogramma dopo fotogramma.",
+      "inizio": 5.19,
+      "fine": 6.7,
+      "x": 280,
+      "y": 30,
+      "larghezza": 520,
+      "altezza": 300,
+      "entrata": "pezzi",
+      "svg": "<rect class=\"p1\" x=\"6\" y=\"6\" width=\"508\" height=\"288\" rx=\"20\" fill=\"#F7F1E1\" stroke=\"#12263C\" stroke-width=\"8\"/><g class=\"p2\"><circle cx=\"95\" cy=\"110\" r=\"50\" fill=\"#C4862E\" stroke=\"#12263C\" stroke-width=\"7\"/><polygon points=\"50,118 18,150 60,158\" fill=\"#12263C\"/><circle cx=\"110\" cy=\"98\" r=\"8\" fill=\"#12263C\"/></g><g class=\"p3\"><circle cx=\"255\" cy=\"125\" r=\"50\" fill=\"#C4862E\" stroke=\"#12263C\" stroke-width=\"7\"/><polygon points=\"222,160 206,210 250,198\" fill=\"#12263C\"/><circle cx=\"262\" cy=\"112\" r=\"8\" fill=\"#12263C\"/></g><g class=\"p4\"><circle cx=\"415\" cy=\"140\" r=\"50\" fill=\"#C4862E\" stroke=\"#12263C\" stroke-width=\"7\"/><polygon points=\"395,184 410,232 440,186\" fill=\"#12263C\"/><circle cx=\"405\" cy=\"150\" r=\"8\" fill=\"#12263C\"/></g><text class=\"p5\" x=\"260\" y=\"275\" font-size=\"50\" font-weight=\"bold\" fill=\"#12263C\" text-anchor=\"middle\">CHINA IL CAPO</text>"
+    },
+    {
+      "nome": "profilo con il becco che non arriva alla nuca",
+      "frase": "a lisciarle lì, dove il becco non arriva.",
+      "parola": "lisciarle",
+      "perche": "Una testa di profilo in sagoma: la linea tratteggiata parte dal becco, gira sopra la testa e si ferma prima della nuca, dove da sola non arriva.",
+      "inizio": 9.3,
+      "fine": 11.7,
+      "x": 280,
+      "y": 30,
+      "larghezza": 520,
+      "altezza": 300,
+      "entrata": "pezzi",
+      "svg": "<rect class=\"p1\" x=\"6\" y=\"6\" width=\"508\" height=\"288\" rx=\"20\" fill=\"#F7F1E1\" stroke=\"#12263C\" stroke-width=\"8\"/><g class=\"p2\"><ellipse cx=\"150\" cy=\"165\" rx=\"100\" ry=\"90\" fill=\"#C4862E\" stroke=\"#12263C\" stroke-width=\"7\"/><polygon points=\"232,95 262,78 254,120 240,118\" fill=\"#C4862E\" stroke=\"#12263C\" stroke-width=\"6\" stroke-linejoin=\"round\"/><path d=\"M62 140 Q20 150 30 200 Q60 215 72 180 Z\" fill=\"#12263C\"/><circle cx=\"115\" cy=\"135\" r=\"10\" fill=\"#12263C\"/></g><g class=\"p3\"><path class=\"tratt\" d=\"M48 150 Q90 20 215 60\" fill=\"none\" stroke=\"#C4862E\" stroke-width=\"7\" stroke-dasharray=\"14 12\"/><circle class=\"pallino\" cx=\"215\" cy=\"60\" r=\"11\" fill=\"#C4862E\" stroke=\"#12263C\" stroke-width=\"5\"/></g><g class=\"p4\"><text x=\"275\" y=\"165\" font-size=\"50\" font-weight=\"bold\" fill=\"#12263C\">NON</text><text x=\"275\" y=\"235\" font-size=\"50\" font-weight=\"bold\" fill=\"#C4862E\">ARRIVA</text></g>"
+    },
+    {
+      "nome": "piume con la linea tratteggiata del gratto piano",
+      "frase": "Gratto piano, seguendo le piume.",
+      "parola": "Gratto",
+      "perche": "Tre piume in sagoma entrano una per battito e una linea tratteggiata le percorre nel loro verso, col polpastrello alla fine: il gratto che segue le piume.",
+      "inizio": 13.22,
+      "fine": 15.5,
+      "x": 280,
+      "y": 30,
+      "larghezza": 520,
+      "altezza": 320,
+      "entrata": "pezzi",
+      "svg": "<rect class=\"p1\" x=\"6\" y=\"6\" width=\"508\" height=\"308\" rx=\"20\" fill=\"#F7F1E1\" stroke=\"#12263C\" stroke-width=\"8\"/><g class=\"p2\"><ellipse cx=\"150\" cy=\"80\" rx=\"100\" ry=\"28\" fill=\"#C4862E\" stroke=\"#12263C\" stroke-width=\"6\"/><line x1=\"60\" y1=\"80\" x2=\"240\" y2=\"80\" stroke=\"#12263C\" stroke-width=\"6\"/></g><g class=\"p3\"><ellipse cx=\"150\" cy=\"160\" rx=\"100\" ry=\"28\" fill=\"#C4862E\" stroke=\"#12263C\" stroke-width=\"6\"/><line x1=\"60\" y1=\"160\" x2=\"240\" y2=\"160\" stroke=\"#12263C\" stroke-width=\"6\"/></g><g class=\"p4\"><ellipse cx=\"150\" cy=\"240\" rx=\"100\" ry=\"28\" fill=\"#C4862E\" stroke=\"#12263C\" stroke-width=\"6\"/><line x1=\"60\" y1=\"240\" x2=\"240\" y2=\"240\" stroke=\"#12263C\" stroke-width=\"6\"/></g><g class=\"p5\"><path class=\"tratt\" d=\"M40 50 L260 280\" fill=\"none\" stroke=\"#12263C\" stroke-width=\"7\" stroke-dasharray=\"14 12\"/><circle class=\"pallino\" cx=\"262\" cy=\"282\" r=\"13\" fill=\"#F7F1E1\" stroke=\"#12263C\" stroke-width=\"6\"/></g><g class=\"p6\"><text x=\"300\" y=\"150\" font-size=\"60\" font-weight=\"bold\" fill=\"#C4862E\">PIANO</text><text x=\"300\" y=\"225\" font-size=\"48\" font-weight=\"bold\" fill=\"#12263C\">LE PIUME</text></g>"
+    }
+  ]
+}
