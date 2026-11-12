@@ -1,0 +1,188 @@
+{
+  "intensita": "calmo",
+  "perche": "La voce osserva piano un gesto tenero (china il capo, occhi socchiusi, 'va bene così') e il battito netto della musica serve solo a far entrare i segni a tempo, non a tagliare.",
+  "variante": "V1",
+  "look": "L4",
+  "apertura": "A4",
+  "scritte": "T3",
+  "inquadrature": [
+    {
+      "clip": 1,
+      "fine": 3.21,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 3.21,
+          "velocita": 0.6
+        }
+      ],
+      "scala": 1.06,
+      "x": 0,
+      "y": -55,
+      "movimento": "fermo",
+      "entrata": "taglio",
+      "testa_y": 1230,
+      "testa_x": 560
+    },
+    {
+      "clip": 2,
+      "fine": 7.97,
+      "da": 0.2,
+      "tratti": [
+        {
+          "durata": 4.76,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "apertura",
+      "entrata": "taglio",
+      "testa_y": 1085,
+      "testa_x": 500
+    },
+    {
+      "clip": 3,
+      "fine": 11.78,
+      "da": 0.3,
+      "tratti": [
+        {
+          "durata": 3.81,
+          "velocita": 1
+        }
+      ],
+      "scala": 1.03,
+      "x": 0,
+      "y": 0,
+      "movimento": "deriva",
+      "entrata": "frusta",
+      "testa_y": 990,
+      "testa_x": 400
+    },
+    {
+      "clip": 4,
+      "fine": 15.22,
+      "da": 0.9,
+      "tratti": [
+        {
+          "durata": 3.44,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "spinta",
+      "entrata": "taglio",
+      "testa_y": 1070,
+      "testa_x": 280
+    },
+    {
+      "clip": 5,
+      "fine": 21.967,
+      "da": 1.2,
+      "tratti": [
+        {
+          "durata": 0.8,
+          "velocita": 1
+        },
+        {
+          "durata": 5.947,
+          "velocita": 0.5
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "apertura",
+      "entrata": "maschera_cerchio",
+      "punto": {
+        "x": 570,
+        "y": 540
+      },
+      "testa_y": 990,
+      "testa_x": 470
+    }
+  ],
+  "effetti": [
+    {
+      "tipo": "puntini",
+      "parola": "Che",
+      "inizio": 1.24,
+      "fine": 2.3,
+      "x": 900,
+      "y": 240
+    },
+    {
+      "tipo": "punto_interrogativo",
+      "parola": "vuole?",
+      "inizio": 2.37,
+      "fine": 3.15,
+      "x": 160,
+      "y": 260
+    },
+    {
+      "tipo": "mirino",
+      "parola": "fissa",
+      "inizio": 4.33,
+      "fine": 5.1,
+      "x": 448,
+      "y": 556,
+      "raggio": 80
+    },
+    {
+      "tipo": "timbro",
+      "parola": "bene",
+      "inizio": 16.85,
+      "fine": 17.7,
+      "x": 880,
+      "y": 200,
+      "testo": "VA BENE"
+    }
+  ],
+  "oggetti": [
+    {
+      "nome": "testa di profilo con le piume della nuca che si arruffano una per battito",
+      "frase": "e arruffa le piume della nuca.",
+      "parola": "arruffa",
+      "perche": "Mostra in schizzo da quaderno il punto esatto, la nuca, da cui le piume si alzano mentre la voce lo dice.",
+      "inizio": 6.28,
+      "fine": 7.95,
+      "x": 300,
+      "y": 130,
+      "larghezza": 480,
+      "altezza": 300,
+      "entrata": "pezzi",
+      "svg": "<g class=\"p1\"><circle cx=\"160\" cy=\"170\" r=\"80\" fill=\"none\" stroke=\"#12263C\" stroke-width=\"8\"/><circle cx=\"135\" cy=\"150\" r=\"9\" fill=\"#12263C\"/><polygon points=\"92,140 28,188 100,206\" fill=\"#4A4335\"/></g><path class=\"p2\" d=\"M 200 100 q 10 -55 50 -75\" fill=\"none\" stroke=\"#C4862E\" stroke-width=\"8\" stroke-linecap=\"round\"/><path class=\"p3\" d=\"M 229 128 q 30 -45 72 -58\" fill=\"none\" stroke=\"#C4862E\" stroke-width=\"8\" stroke-linecap=\"round\"/><path class=\"p4\" d=\"M 240 168 q 45 -22 88 -26\" fill=\"none\" stroke=\"#C4862E\" stroke-width=\"8\" stroke-linecap=\"round\"/><path class=\"p5\" d=\"M 232 204 q 50 6 92 28\" fill=\"none\" stroke=\"#C4862E\" stroke-width=\"8\" stroke-linecap=\"round\"/><text class=\"p6\" x=\"335\" y=\"285\" font-size=\"52\" font-weight=\"bold\" fill=\"#C4862E\">NUCA</text>"
+    },
+    {
+      "nome": "testa di profilo con l'arco tratteggiato del becco che non arriva alla nuca",
+      "frase": "dove il becco non arriva.",
+      "parola": "dove",
+      "perche": "L'arco tratteggiato parte dal becco, gira sopra la testa e si ferma prima del pallino sulla nuca: si vede che il becco non ci arriva.",
+      "inizio": 10.16,
+      "fine": 11.7,
+      "x": 40,
+      "y": 70,
+      "larghezza": 420,
+      "altezza": 360,
+      "entrata": "pezzi",
+      "svg": "<g class=\"p1\"><circle cx=\"150\" cy=\"190\" r=\"85\" fill=\"none\" stroke=\"#12263C\" stroke-width=\"8\"/><circle cx=\"182\" cy=\"165\" r=\"9\" fill=\"#12263C\"/><polygon points=\"228,158 305,198 236,228\" fill=\"#4A4335\"/></g><circle class=\"p2 pallino\" cx=\"88\" cy=\"132\" r=\"12\" fill=\"#C4862E\"/><path class=\"p3 tratt\" d=\"M 300 178 C 335 60 230 8 150 40\" fill=\"none\" stroke=\"#C4862E\" stroke-width=\"7\" stroke-dasharray=\"14 12\"/><g class=\"p4\"><line x1=\"138\" y1=\"22\" x2=\"160\" y2=\"58\" stroke=\"#12263C\" stroke-width=\"8\" stroke-linecap=\"round\"/><text x=\"210\" y=\"340\" font-size=\"48\" font-weight=\"bold\" fill=\"#C4862E\" text-anchor=\"middle\">NON ARRIVA</text></g>"
+    },
+    {
+      "nome": "file di piume a scaglie con il polpastrello e la freccia tratteggiata che le segue",
+      "frase": "Gratto piano, seguendo le piume.",
+      "parola": "Gratto",
+      "perche": "Le tre file di piume a scaglie, il dito appoggiato e la freccia tratteggiata nel loro verso spiegano cosa vuol dire grattare seguendo le piume.",
+      "inizio": 13.22,
+      "fine": 15.1,
+      "x": 50,
+      "y": 90,
+      "larghezza": 680,
+      "altezza": 320,
+      "entrata": "pezzi",
+      "svg": "<path class=\"p1\" d=\"M 30 140 q 60 -60 120 0 q 60 -60 120 0 q 60 -60 120 0 q 60 -60 120 0\" fill=\"none\" stroke=\"#1E3A5C\" stroke-width=\"7\" stroke-linecap=\"round\"/><path class=\"p2\" d=\"M 90 210 q 60 -60 120 0 q 60 -60 120 0 q 60 -60 120 0\" fill=\"none\" stroke=\"#1E3A5C\" stroke-width=\"7\" stroke-linecap=\"round\"/><path class=\"p3\" d=\"M 30 280 q 60 -60 120 0 q 60 -60 120 0 q 60 -60 120 0 q 60 -60 120 0\" fill=\"none\" stroke=\"#1E3A5C\" stroke-width=\"7\" stroke-linecap=\"round\"/><ellipse class=\"p4\" cx=\"100\" cy=\"62\" rx=\"42\" ry=\"52\" fill=\"#F7F1E1\" stroke=\"#12263C\" stroke-width=\"7\"/><g class=\"p5\"><path class=\"tratt\" d=\"M 160 70 q 130 -40 275 0\" fill=\"none\" stroke=\"#C4862E\" stroke-width=\"7\" stroke-dasharray=\"14 12\"/><polygon points=\"430,52 466,70 430,88\" fill=\"#C4862E\"/></g><text class=\"p6\" x=\"490\" y=\"88\" font-size=\"50\" font-weight=\"bold\" fill=\"#C4862E\">PIANO</text>"
+    }
+  ]
+}
