@@ -1,0 +1,136 @@
+
+[INFO] Extracting frames from video 4/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] Extracting frames from video 5/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] [Render] SDR forced by --sdr flag {"renderJobId":"[REDACTED]"}
+[INFO] [Render] Parallel beginframe capture will stream to the encoder (interleaved, 2 workers) instead of the disk path. Set HF_CAPTURE_PARALLEL_STREAM=false to disable. {"renderJobId":"[REDACTED]"}
+[INFO] streaming-encode gate {"renderJobId":"[REDACTED]","enabled":true,"reason":"parallel_forced","configFlag":true,"durationCapEnabled":false,"outputFormat":"mp4","workerCount":2,"durationSeconds":21.967,"maxDurationSeconds":240}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"browser_launch","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"browser_launch","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"browser_probe","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"session_init","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (1ms)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"browser_probe","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"session_init","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (0ms)
+[initSession:beginframe] page.goto complete (317ms)
+[initSession:beginframe] GSAP proxy flush complete (421ms)
+[initSession:beginframe] page.goto complete (413ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] GSAP proxy flush complete (645ms)
+[initSession:beginframe] pollHfReady complete (670ms)
+[initSession:beginframe] pollHfReady complete (774ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (801ms)
+[initSession:beginframe] applyVideoMetadataHints complete (833ms)
+[initSession:beginframe] media + fonts + tailwind ready (869ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (929ms)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"frame_capture","frameIndex":1,"browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":false,"gpuBackend":"unknown"}
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (1078ms)
+[initSession:beginframe] applyVideoMetadataHints complete (1124ms)
+[initSession:beginframe] media + fonts + tailwind ready (1138ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (1204ms)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"frame_capture","frameIndex":0,"browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":false,"gpuBackend":"unknown"}
+◇  /tmp/reel-prova-a-secco-dZlZCT/render.mp4
+   26.5 MB · 22.0s video · rendered in 3m 21.7s
+   beginframe capture · software gpu · compile 1.2s · extract 20.4s · audio 0.0s · probe 0.7s · setup 0.0s · capture 2m 59.7s · encode (during capture) 2m 59.7s · assemble 0.1s
+   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.dev/studio/download?os=linux
+⏱ render: 204.4 s
+◆  Rendering reel-qc → /tmp/reel-prova-a-secco-dZlZCT/qc-magenta.mp4
+   30fps · draft · 2 workers
+[?25l│
+◒  Checking browser...
+[1G[J◇  Browser: env
+[?25h
+  Lint: 1 error(s), 14 warning(s) — run with --lint-verbose for full output.
+  Continuing render despite lint issues. Use --strict to block errors.
+[INFO] [Render] Pipeline started {"renderJobId":"[REDACTED]","platform":"linux","arch":"x64","nodeVersion":"v22.23.4","fps":{"num":30,"den":1},"format":"mp4","quality":"draft","browserGpuMode":"software","forceScreenshot":false,"protocolTimeout":300000,"browserTimeout":120000,"pageNavigationTimeout":60000,"playerReadyTimeout":45000}
+[INFO] [Compiler] Embedded local font file: assets/fonts/Poppins-400.woff2 (8 KB → data URI)
+[INFO] [Compiler] Embedded local font file: assets/fonts/Poppins-600.woff2 (8 KB → data URI)
+[INFO] [Compiler] Embedded local font file: assets/fonts/Poppins-700.woff2 (8 KB → data URI)
+[INFO] Compiled composition metadata {"renderJobId":"[REDACTED]","entryFile":"index.html","staticDuration":21.967,"width":540,"height":960,"videoCount":5,"audioCount":0,"renderModeHints":{"recommendScreenshot":false,"reasons":[]}}
+[WARN] [Compiler] WARNING: Video "S1" has sparse keyframes (max interval: 3.4s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S1.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S2" has sparse keyframes (max interval: 5.03s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S2.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S4" has sparse keyframes (max interval: 3.93s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S4.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S3" has sparse keyframes (max interval: 4.13s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S3.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S5" has sparse keyframes (max interval: 6.97s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S5.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[INFO] Extracting frames from video 1/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] Extracting frames from video 2/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] Extracting frames from video 3/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] Extracting frames from video 4/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] Extracting frames from video 5/5 {"renderJobId":"[REDACTED]","sourceType":"local"}
+[INFO] [Render] SDR forced by --sdr flag {"renderJobId":"[REDACTED]"}
+[INFO] [Render] Parallel beginframe capture will stream to the encoder (interleaved, 2 workers) instead of the disk path. Set HF_CAPTURE_PARALLEL_STREAM=false to disable. {"renderJobId":"[REDACTED]"}
+[INFO] streaming-encode gate {"renderJobId":"[REDACTED]","enabled":true,"reason":"parallel_forced","configFlag":true,"durationCapEnabled":false,"outputFormat":"mp4","workerCount":2,"durationSeconds":21.967,"maxDurationSeconds":240}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"browser_launch","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"browser_launch","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"browser_probe","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"session_init","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (1ms)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"browser_probe","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"unknown","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"session_init","browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":"unknown","gpuBackend":"unknown"}
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (0ms)
+[initSession:beginframe] page.goto complete (296ms)
+[initSession:beginframe] page.goto complete (368ms)
+[initSession:beginframe] GSAP proxy flush complete (358ms)
+[initSession:beginframe] GSAP proxy flush complete (404ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] pollHfReady complete (869ms)
+[initSession:beginframe] pollHfReady complete (876ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (915ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (940ms)
+[initSession:beginframe] applyVideoMetadataHints complete (986ms)
+[initSession:beginframe] applyVideoMetadataHints complete (1132ms)
+[initSession:beginframe] media + fonts + tailwind ready (1235ms)
+[initSession:beginframe] media + fonts + tailwind ready (1324ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (1446ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (1446ms)
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":0,"phase":"frame_capture","frameIndex":0,"browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":false,"gpuBackend":"unknown"}
+[INFO] [Render] Parallel capture worker phase {"renderJobId":"[REDACTED]","workerId":1,"phase":"frame_capture","frameIndex":1,"browserExecutable":"/home/runner/.cache/ms-playwright/[REDACTED]/[REDACTED]/chrome-headless-shell","browserVersion":"HeadlessChrome/149.0.7827.55","canvasDrawElement":false,"gpuBackend":"unknown"}
+◇  /tmp/reel-prova-a-secco-dZlZCT/qc-magenta.mp4
+   3.2 MB · 22.0s video · rendered in 1m 32.1s
+   beginframe capture · software gpu · compile 1.2s · extract 20.5s · audio 0.0s · probe 0.7s · setup 0.0s · capture 1m 10.3s · encode (during capture) 1m 10.3s · assemble 0.1s
+   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.dev/studio/download?os=linux
+⏱ render di controllo magenta: 94.5 s
+Controllo magenta: 0 fotogrammi con bordo vuoto su 660.
+Grafo del mix: [0:a]apad=whole_dur=21.967,aformat=channel_layouts=stereo,asplit=2[v][sc];[1:a][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=300:makeup=1[md];[2:a]adelay=7817|7817,volume=0.08,apad=whole_dur=21.967[w2];[3:a]adelay=15083|15083,volume=0.08,apad=whole_dur=21.967[w3];[v][md][w2][w3]amix=inputs=4:normalize=0:dropout_transition=0:duration=first,atrim=0:21.967[mix]
+mix-pre.wav: voce -18.92 dB, musica sotto la voce -32.09 dB, distacco 13.17 dB, -17.70 LUFS, picco -4.10 dBTP (k 0.706, spostamento 0 campioni)
+Grafo del mix: [0:a]apad=whole_dur=21.967,aformat=channel_layouts=stereo,asplit=2[v][sc];[1:a][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=300:makeup=1,volume=-0.29dB[md];[2:a]adelay=7817|7817,volume=0.08,apad=whole_dur=21.967[w2];[3:a]adelay=15083|15083,volume=0.08,apad=whole_dur=21.967[w3];[v][md][w2][w3]amix=inputs=4:normalize=0:dropout_transition=0:duration=first,atrim=0:21.967[mix]
+mix-pre.wav: voce -18.92 dB, musica sotto la voce -32.38 dB, distacco 13.46 dB, -17.70 LUFS, picco -4.13 dBTP (k 0.706, spostamento 0 campioni)
+mix-finale.wav: voce -15.82 dB, musica sotto la voce -29.27 dB, distacco 13.45 dB, -14.60 LUFS, picco -1.67 dBTP (k 1.009, spostamento 0 campioni)
+Mix col riferimento: musica -0.29 dB dopo il sidechain, guadagno finale +3.11 dB.
+⏱ mix: 7.0 s
+Mix: -14.6 LUFS, picco -1.67 dBTP, prova del ramo musica [{"guadagno":0.7071,"restoDb":-148.4},{"guadagno":0.7071,"restoDb":-148.4}].
+⏱ unione: 0.6 s
+finale.mp4: voce -15.82 dB, musica sotto la voce -29.28 dB, distacco 13.45 dB, -14.61 LUFS, picco -1.67 dBTP (k 1.009, spostamento 0 campioni)
+Audio contro il reel dell'allevatore: {"voce":-15.82,"musicaSottoVoce":-29.28,"distacco":13.45,"lufs":-14.61,"picco":-1.67} — tutto entro 0,5 dB.
+File finale: -14.61 LUFS, formato ok, 0 tratti neri, 0 tratti fermi.
+Prova a secco finita: /home/runner/work/_temp/prova-a-secco/reel-prova-a-secco.mp4
+Oggetti disegnati: «scheda del quaderno col profilo dell'ara chinata e le piume della nuca che si alzano una alla volta» su «china il capo e arruffa le piume della nuca» (5.26-7.9 s, 60,120 400x360, pezzi): Mostra il gesto esatto che la voce descrive: testa giù e piume della nuca che si drizzano, con l'etichetta NUCA sull'ultima parola. | «scheda dei due compagni sul ramo: uno col becco sulla nuca dell'altro e tre tratti di lisciatura» su «è il compagno a lisciarle lì» (8.71-11.7 s, 310,120 460x340, pezzi): Fa vedere in natura chi liscia le piume della nuca: il compagno, becco sulla nuca dell'altro, con i tratti che entrano a battito su lisciarle. | «scheda con tre piume senape e il dito che le segue con un tratteggio che si disegna» su «Gratto piano, seguendo le piume» (13.22-15.15 s, 60,120 420x360, pezzi): Senza audio si vede il dito che scorre lungo le piume nel loro verso, piano, e l'etichetta PIANO chiude il gesto..
+Effetti del piano: nessuno.
+Inquadrature: S1 clip 1 0-3.2 s taglio/fermo scala 1.095 x 0 y -76.1 | S2 clip 2 3.2-7.967 s taglio/apertura scala 1 x 0 y 0 | S3 clip 3 7.967-11.767 s frusta/deriva scala 1 x 0 y 0 | S4 clip 4 11.767-15.233 s taglio/apertura scala 1 x 0 y 0 | S5 clip 5 15.233-21.967 s maschera_cerchio/spinta scala 1 x 0 y 0.
+Correzione del piano: inquadratura 1: scala da 1.06 a 1.095 e alzata a y -76.1, la testa dell'ara usciva sui sottotitoli
+Correzione del piano: inquadratura 5: rallentatore non ammesso in questo reel, velocità riportata a 1
+Correzione del piano: inquadratura 5: velocità ridotte per stare nella clip 5
+Correzione del piano: effetto 2 (timbro): riportato dentro lo schermo (x da 300 a 340)
+Correzione del piano: oggetto 1 («scheda del quaderno col profilo dell'ara»): riportato dentro lo schermo
+Correzione del piano: oggetto 2 («scheda dei due compagni sul ramo: uno co»): riportato dentro lo schermo
+Correzione del piano: oggetto 3 («scheda con tre piume senape e il dito ch»): riportato dentro lo schermo
+Correzione del piano: S3: deriva ridotta a 1.0277 per restare entro 1.11
+Correzione del piano: oggetto «scheda del quaderno col profilo dell'ara chinata e le piume della nuca che si alzano una alla volta»: era sopra l'ara, rimpicciolito a 85% e spostato da 60,120 a 60,120
+Correzione del piano: oggetto «scheda dei due compagni sul ramo: uno col becco sulla nuca dell'altro e tre tratti di lisciatura»: era sopra l'ara, rimpicciolito a 75% e spostato da 310,120 a 310,120
+Correzione del piano: oggetto «scheda con tre piume senape e il dito che le segue con un tratteggio che si disegna»: era sopra l'ara, rimpicciolito a 75% e spostato da 60,120 a 60,120
+Correzione del piano: oggetto «puntini «cosa»»: non trova posto fuori dall'ara nemmeno rimpicciolito, tolto
+Correzione del piano: effetto puntini su «cosa»: sopra l'ara e nessun posto libero, tolto
+Correzione del piano: oggetto «timbro «bene»»: non trova posto fuori dall'ara nemmeno rimpicciolito, tolto
+Correzione del piano: effetto timbro su «bene»: sopra l'ara e nessun posto libero, tolto
+Tempi: battiti della musica 22.1 s, preparazione delle inquadrature 753.9 s, dove sta l'ara per gli oggetti (rembg) 43.4 s, dove sta l'ara per i segni (rembg) 28.8 s, controllo della timeline 1.5 s, render 204.4 s, render di controllo magenta 94.5 s, mix 7 s, unione 0.6 s
+Fogli dei fotogrammi: secondi-1.jpg, secondi-2.jpg, secondi-3.jpg, tagli.jpg, momenti-1.jpg.
