@@ -1,0 +1,375 @@
+{
+  "piano": {
+    "fuoriRegola": [],
+    "intensita": "calmo",
+    "perche": "La voce racconta piano un gesto di fiducia (chinare il capo per i grattini), la musica ha un battito netto ma il tono è di osservazione dolce: inquadrature lunghe e pochi segni che indicano dove guardare.",
+    "variante": "V1",
+    "look": "L4",
+    "apertura": "A2",
+    "scritte": "T3",
+    "D": 20.867,
+    "tP": 16.833,
+    "inquadrature": [
+      {
+        "id": "S1",
+        "clip": 1,
+        "inizio": 0,
+        "fine": 1.8,
+        "segmenti": [
+          [
+            1.8,
+            0,
+            1.8
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "fermo",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 560,
+        "testa0": 250,
+        "testa_y": 1210,
+        "respiro": 1,
+        "picco": 1
+      },
+      {
+        "id": "S2",
+        "clip": 2,
+        "inizio": 1.8,
+        "fine": 7.6,
+        "segmenti": [
+          [
+            2.9,
+            0,
+            2.501
+          ],
+          [
+            2.9,
+            2.501,
+            5.002
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "apertura",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 500,
+        "testa0": 140,
+        "testa_y": 1100,
+        "respiro": 1.06,
+        "picco": 1.08
+      },
+      {
+        "id": "S3",
+        "clip": 3,
+        "inizio": 7.6,
+        "fine": 11.133,
+        "segmenti": [
+          [
+            3.533,
+            0.8,
+            4.333
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "deriva",
+        "entrata": "frusta",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 400,
+        "testa0": -10,
+        "testa_y": 950,
+        "respiro": 1.0277,
+        "picco": 1.1099
+      },
+      {
+        "id": "S4",
+        "clip": 4,
+        "inizio": 11.133,
+        "fine": 14.567,
+        "segmenti": [
+          [
+            3.434,
+            0.8,
+            4.234
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "fermo",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 300,
+        "testa0": 110,
+        "testa_y": 1070,
+        "respiro": 1,
+        "picco": 1
+      },
+      {
+        "id": "S5",
+        "clip": 5,
+        "inizio": 14.567,
+        "fine": 20.867,
+        "segmenti": [
+          [
+            0.396,
+            0,
+            0.314
+          ],
+          [
+            5.904,
+            0.314,
+            5.002
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "spinta",
+        "entrata": "maschera_cerchio",
+        "punto": {
+          "x": 560,
+          "y": 540
+        },
+        "testa_x": 460,
+        "testa0": 50,
+        "testa_y": 1010,
+        "respiro": 1.06,
+        "picco": 1.06
+      }
+    ],
+    "effetti": [
+      {
+        "tipo": "puntini",
+        "parola": "vuole?",
+        "inizio": 2.233,
+        "fine": 3.9,
+        "x": 935,
+        "y": 560
+      },
+      {
+        "tipo": "desaturazione",
+        "parola": "natura",
+        "inizio": 7.633,
+        "fine": 8.8
+      }
+    ],
+    "oggetti": [
+      {
+        "nome": "tratteggio verticale che scende e finisce in un pallino, sopra la testa che si abbassa",
+        "frase": "Abbassa la testa",
+        "parola": "Abbassa",
+        "perche": "Il tratteggio si disegna dall'alto verso il basso accanto alla cresta e indica il verso del gesto: la testa che scende.",
+        "inizio": 0.06,
+        "fine": 1.6,
+        "x": 130,
+        "y": 120,
+        "larghezza": 140,
+        "altezza": 220,
+        "entrata": "disegna",
+        "parti": [],
+        "svg": "<path class=\"tratt\" d=\"M70 12 L70 168\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /><circle class=\"pallino\" cx=\"70\" cy=\"196\" r=\"12\" fill=\"#C4862E\" />"
+      },
+      {
+        "nome": "tre trattini che si alzano uno per battito sopra la nuca chinata",
+        "frase": "arruffa le piume della nuca",
+        "parola": "arruffa",
+        "perche": "I trattini spuntano uno per battito proprio sopra la nuca che si gonfia e dicono il ritmo delle piume che si alzano.",
+        "inizio": 5.9,
+        "fine": 7.4,
+        "x": 390,
+        "y": 394,
+        "larghezza": 300,
+        "altezza": 140,
+        "entrata": "pezzi",
+        "parti": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "svg": "<path class=\"p1\" d=\"M62 125 L30 42\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /><path class=\"p2\" d=\"M150 120 L150 22\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /><path class=\"p3\" d=\"M238 125 L270 42\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" />"
+      },
+      {
+        "nome": "tratteggio in discesa che finisce in un pallino sul punto della nuca tra i due becchi",
+        "frase": "a lisciarle lì, dove il becco non arriva",
+        "parola": "lì",
+        "perche": "La linea scende dal vuoto del cielo fino a un pallino fermo accanto al punto esatto in cui il becco del compagno liscia la nuca: senza audio si vede dov'è il lì.",
+        "inizio": 9.2,
+        "fine": 10.7,
+        "x": 140,
+        "y": 290,
+        "larghezza": 290,
+        "altezza": 290,
+        "entrata": "disegna",
+        "parti": [],
+        "svg": "<path class=\"tratt\" d=\"M30 20 L228 238\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /><circle class=\"pallino\" cx=\"242\" cy=\"262\" r=\"12\" fill=\"#C4862E\" />"
+      },
+      {
+        "nome": "tratteggio ad arco nel verso delle piume sopra la testa, accanto alla mano che gratta",
+        "frase": "Gratto piano, seguendo le piume",
+        "parola": "Gratto",
+        "perche": "Il tratteggio scorre dalla fronte verso la nuca, nello stesso verso in cui le dita seguono le piume, e si ferma in un pallino dove la mano gratta.",
+        "inizio": 12.5,
+        "fine": 14.35,
+        "x": 140,
+        "y": 280,
+        "larghezza": 430,
+        "altezza": 120,
+        "entrata": "disegna",
+        "parti": [],
+        "svg": "<path class=\"tratt\" d=\"M20 95 C 120 25, 240 20, 396 68\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /><circle class=\"pallino\" cx=\"412\" cy=\"74\" r=\"11\" fill=\"#C4862E\" />"
+      }
+    ]
+  },
+  "correzioni": [
+    "stacco 3 spostato da 10.8 a 11.133 s (pausa o battito)",
+    "inquadratura 2: rallentatore non ammesso in questo reel, velocità riportata a 1",
+    "inquadratura 2: velocità ridotte per stare nella clip 2",
+    "inquadratura 5: rallentatore non ammesso in questo reel, velocità riportata a 1",
+    "inquadratura 5: velocità ridotte per stare nella clip 5",
+    "effetto 1 (puntini): riportato dentro lo schermo (x da 990 a 935)",
+    "effetto 3 (timbro): spostato da 15.45 a 16.02 s, quando la voce dice «bene»",
+    "effetto 3 (timbro): riportato dentro lo schermo (x da 860 a 740)",
+    "oggetto 1 («tratteggio verticale che scende e finisc»): riportato dentro lo schermo",
+    "S3: deriva ridotta a 1.0277 per restare entro 1.11",
+    "effetto timbro su «bene»: resterebbe 0.7 s prima del taglio, troppo poco per vederlo, tolto",
+    "oggetto «tre trattini che si alzano uno per batti»: allungato a 7.4 s, per farsi vedere",
+    "oggetto «tratteggio in discesa che finisce in un »: allungato a 10.7 s, per farsi vedere",
+    "oggetto «tratteggio verticale che scende e finisce in un pallino, sopra la testa che si abbassa»: era sopra l'ara, spostato da 230,120 a 130,120",
+    "oggetto «tre trattini che si alzano uno per battito sopra la nuca chinata»: era sopra l'ara, spostato da 390,400 a 390,394",
+    "oggetto «tratteggio in discesa che finisce in un pallino sul punto della nuca tra i due becchi»: era sopra l'ara, spostato da 170,300 a 140,290",
+    "oggetto «tratteggio ad arco nel verso delle piume sopra la testa, accanto alla mano che gratta»: era sopra l'ara, spostato da 140,290 a 140,280"
+  ],
+  "rifatto": [
+    "2 effetti in un reel \"calmo\" (contando gli oggetti oltre 2): ne servono almeno 3, ognuno sulla parola della voce che fa capire"
+  ],
+  "D": 20.867,
+  "tP": 16.833,
+  "attacco": 52.9,
+  "bpm": 152,
+  "lufs": -14.59,
+  "ramo": [
+    {
+      "guadagno": 0.7071,
+      "restoDb": -148.5
+    },
+    {
+      "guadagno": 0.7071,
+      "restoDb": -148.4
+    }
+  ],
+  "magenta": 0,
+  "tipi": {
+    "segni": [
+      "puntini"
+    ],
+    "stacchi": [
+      "frusta",
+      "maschera"
+    ],
+    "effetti": [
+      "desaturazione"
+    ]
+  },
+  "tempi": [
+    {
+      "nome": "battiti della musica",
+      "secondi": 25.8
+    },
+    {
+      "nome": "dove sta l'ara nelle clip (rembg)",
+      "secondi": 64.2
+    },
+    {
+      "nome": "piano di montaggio (Fable)",
+      "secondi": 239.8
+    },
+    {
+      "nome": "piano di montaggio rifatto (Fable)",
+      "secondi": 299.6
+    },
+    {
+      "nome": "preparazione delle inquadrature",
+      "secondi": 777.1
+    },
+    {
+      "nome": "dove sta l'ara per gli oggetti (rembg)",
+      "secondi": 61
+    },
+    {
+      "nome": "dove sta l'ara per i segni (rembg)",
+      "secondi": 13.8
+    },
+    {
+      "nome": "controllo della timeline",
+      "secondi": 2.3
+    },
+    {
+      "nome": "render",
+      "secondi": 211.2
+    },
+    {
+      "nome": "render di controllo magenta",
+      "secondi": 94.1
+    },
+    {
+      "nome": "mix",
+      "secondi": 7.2
+    },
+    {
+      "nome": "unione",
+      "secondi": 0.6
+    }
+  ],
+  "audio": {
+    "misure": {
+      "voce": -15.83,
+      "musicaSottoVoce": -29.28,
+      "distacco": 13.44,
+      "lufs": -14.59,
+      "picco": -1.63
+    },
+    "scarti": [],
+    "riferimento": {
+      "voce": -15.81,
+      "musicaSottoVoce": -29.27,
+      "distacco": 13.46,
+      "lufs": -14.27,
+      "picco": -1.48
+    },
+    "musicaDb": 0.83,
+    "guadagnoFinale": 2.99
+  },
+  "pianoDaFable": true,
+  "velocitaVoce": {
+    "misurata": 3.277,
+    "nota": "voce approvata del 27/10, invariata"
+  },
+  "spesaFableUsd": 2.3571,
+  "registro": {
+    "data": "13/11 (prova a secco)",
+    "reel": "storytelling-ara-china-la-testa (prova a secco)",
+    "segni": "puntini di sospensione (2,23); tratteggio verticale che scende e finisce in un pallino, sopra la testa che si abbassa (0,06); tre trattini che si alzano uno per battito sopra la nuca chinata (5,9); tratteggio in discesa che finisce in un pallino sul punto della nuca tra i due becchi (9,2); tratteggio ad arco nel verso delle piume sopra la testa, accanto alla mano che gratta (12,5)",
+    "tagli": "tagli puliti sul respiro (1,8 / 11,13)",
+    "transizioni": "frusta orizzontale con sfocatura (7,6); maschera circolare dall'occhio (14,57); invito sopra l'ultima ripresa, velo blu dal fondo",
+    "altri": "desaturazione (7,63), fermo / apertura / deriva / spinta"
+  }
+}

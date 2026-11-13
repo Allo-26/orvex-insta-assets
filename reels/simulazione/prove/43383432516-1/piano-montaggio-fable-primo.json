@@ -1,0 +1,185 @@
+{
+  "intensita": "calmo",
+  "perche": "La voce racconta piano un gesto di fiducia (china il capo, chiede i grattini, occhi socchiusi) e l'argomento è di osservazione tenera, quindi anche con il battito netto scelgo inquadrature lunghe, movimenti lenti e pochi segni che indicano il punto preciso.",
+  "variante": "V1",
+  "look": "L4",
+  "apertura": "A2",
+  "scritte": "T3",
+  "inquadrature": [
+    {
+      "clip": 1,
+      "fine": 3.01,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 3.01,
+          "velocita": 1
+        }
+      ],
+      "scala": 1.04,
+      "x": 0,
+      "y": -50,
+      "movimento": "apertura",
+      "entrata": "taglio",
+      "testa_y": 1165,
+      "testa_x": 560
+    },
+    {
+      "clip": 2,
+      "fine": 7.61,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 4.6,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "apertura",
+      "entrata": "taglio",
+      "testa_y": 1085,
+      "testa_x": 490
+    },
+    {
+      "clip": 3,
+      "fine": 10.95,
+      "da": 0.3,
+      "tratti": [
+        {
+          "durata": 3.34,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "deriva",
+      "entrata": "frusta",
+      "testa_y": 965,
+      "testa_x": 400
+    },
+    {
+      "clip": 4,
+      "fine": 14.55,
+      "da": 0.2,
+      "tratti": [
+        {
+          "durata": 3.6,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "fermo",
+      "entrata": "taglio",
+      "testa_y": 1050,
+      "testa_x": 320
+    },
+    {
+      "clip": 5,
+      "fine": 20.867,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 1.2,
+          "velocita": 1.5
+        },
+        {
+          "durata": 5.117,
+          "velocita": 0.6
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "spinta",
+      "entrata": "maschera_cerchio",
+      "punto": {
+        "x": 560,
+        "y": 530
+      },
+      "testa_y": 985,
+      "testa_x": 460
+    }
+  ],
+  "effetti": [
+    {
+      "tipo": "puntini",
+      "parola": "vuole?",
+      "inizio": 2.24,
+      "fine": 2.95,
+      "x": 900,
+      "y": 170
+    },
+    {
+      "tipo": "timbro",
+      "parola": "bene",
+      "inizio": 16.02,
+      "fine": 16.8,
+      "x": 540,
+      "y": 140,
+      "testo": "VA BENE"
+    }
+  ],
+  "oggetti": [
+    {
+      "nome": "tratteggio in discesa con pallino sopra la testa",
+      "frase": "Abbassa la testa e gonfia il collo.",
+      "parola": "Abbassa",
+      "perche": "Un tratteggio che scende e finisce in un pallino, giusto sopra la cresta, dà la direzione del gesto: la testa che va giù.",
+      "inizio": 0.06,
+      "fine": 1.8,
+      "x": 460,
+      "y": 40,
+      "larghezza": 180,
+      "altezza": 140,
+      "entrata": "disegna",
+      "svg": "<circle class=\"pallino\" cx=\"90\" cy=\"18\" r=\"10\" /><path class=\"tratt\" d=\"M90 18 C 72 48, 108 80, 90 112\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /><circle class=\"pallino\" cx=\"90\" cy=\"120\" r=\"12\" />"
+    },
+    {
+      "nome": "tre onde che si alzano sopra la nuca",
+      "frase": "e arruffa le piume della nuca.",
+      "parola": "arruffa",
+      "perche": "Tre piccole onde che salgono una per battito sopra la nuca chinata rendono il fremito delle piume che si gonfiano proprio lì.",
+      "inizio": 5.94,
+      "fine": 7.45,
+      "x": 370,
+      "y": 280,
+      "larghezza": 280,
+      "altezza": 100,
+      "entrata": "pezzi",
+      "svg": "<path class=\"p1\" d=\"M50 90 C 30 70, 70 50, 50 20\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /><path class=\"p2\" d=\"M140 92 C 120 70, 160 48, 140 14\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /><path class=\"p3\" d=\"M230 90 C 210 70, 250 50, 230 20\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" />"
+    },
+    {
+      "nome": "linea tratteggiata verticale col pallino sulla nuca",
+      "frase": "il compagno a lisciarle lì, dove il becco non arriva.",
+      "parola": "lisciarle",
+      "perche": "La linea scende dal vuoto e il pallino si ferma sopra la nuca dell'ara lisciata: segna il punto preciso di cui parla la voce, quello che il suo becco non raggiunge.",
+      "inizio": 8.8,
+      "fine": 10.78,
+      "x": 280,
+      "y": 330,
+      "larghezza": 180,
+      "altezza": 190,
+      "entrata": "disegna",
+      "svg": "<circle class=\"pallino\" cx=\"90\" cy=\"16\" r=\"9\" /><path class=\"tratt\" d=\"M90 16 L90 158\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /><circle class=\"pallino\" cx=\"90\" cy=\"172\" r=\"14\" />"
+    },
+    {
+      "nome": "tre tratteggi nel verso delle piume sopra la testa",
+      "frase": "Gratto piano, seguendo le piume.",
+      "parola": "Gratto",
+      "perche": "Tre tratteggi che si disegnano uno per battito dalla fronte verso la nuca, sopra la testa accanto alla mano, mostrano il verso in cui vanno le dita: seguono le piume.",
+      "inizio": 12.51,
+      "fine": 14.38,
+      "x": 160,
+      "y": 320,
+      "larghezza": 420,
+      "altezza": 100,
+      "entrata": "pezzi",
+      "svg": "<path class=\"tratt p1\" d=\"M20 40 C 60 20, 100 20, 140 42\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /><path class=\"tratt p2\" d=\"M160 36 C 200 16, 240 18, 280 40\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /><path class=\"tratt p3\" d=\"M300 46 C 335 26, 370 30, 405 62\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" />"
+    }
+  ]
+}
