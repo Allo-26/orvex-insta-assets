@@ -1,0 +1,169 @@
+
+[initSession:beginframe] applyVideoMetadataHints complete (1228ms)
+[initSession:beginframe] media + fonts + tailwind ready (1363ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (1463ms)
+◇  /tmp/reel-prova-a-secco-UMslIB/render.mp4
+   24.6 MB · 20.9s video · rendered in 3m 0.1s
+   beginframe capture · software gpu · compile 1.1s · extract 18.4s · audio 0.0s · probe 0.6s · setup 0.0s · capture 2m 40.3s · encode (during capture) 2m 40.3s · assemble 0.1s
+   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.dev/studio/download?os=linux
+⏱ render: 182.4 s
+◆  Rendering reel-qc → /tmp/reel-prova-a-secco-UMslIB/qc-magenta.mp4
+   30fps · draft · 2 workers
+[?25l│
+◒  Checking browser...
+[1G[J◇  Browser: env
+[?25h
+  Lint: 1 error(s), 14 warning(s) — run with --lint-verbose for full output.
+  Continuing render despite lint issues. Use --strict to block errors.
+[WARN] [Compiler] WARNING: Video "S5" has sparse keyframes (max interval: 6.53s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S5.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S2" has sparse keyframes (max interval: 6.03s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S2.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S4" has sparse keyframes (max interval: 3.9s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S4.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S3" has sparse keyframes (max interval: 3.87s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S3.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (0ms)
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (1ms)
+[initSession:beginframe] page.goto complete (244ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] page.goto complete (323ms)
+[initSession:beginframe] GSAP proxy flush complete (394ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] GSAP proxy flush complete (705ms)
+[initSession:beginframe] pollHfReady complete (907ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (1138ms)
+[initSession:beginframe] applyVideoMetadataHints complete (1193ms)
+[initSession:beginframe] pollHfReady complete (1064ms)
+[initSession:beginframe] media + fonts + tailwind ready (1212ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (1237ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (1475ms)
+[initSession:beginframe] applyVideoMetadataHints complete (1479ms)
+[initSession:beginframe] media + fonts + tailwind ready (1485ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (1493ms)
+◇  /tmp/reel-prova-a-secco-UMslIB/qc-magenta.mp4
+   3.0 MB · 20.9s video · rendered in 1m 9.6s
+   beginframe capture · software gpu · compile 1.0s · extract 18.2s · audio 0.0s · probe 0.6s · setup 0.0s · capture 50.3s · encode (during capture) 50.3s · assemble 0.0s
+   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.dev/studio/download?os=linux
+⏱ render di controllo magenta: 71.7 s
+Controllo magenta: 0 fotogrammi con bordo vuoto su 627.
+⏱ fotogrammi per la revisione (giro 1): 13.7 s
+Revisione dei fotogrammi (giro 1): claude-fable-5-1, fine end_turn, effort medium, 25 fotogrammi, token letti 22864, scritti 9350, costo 0.696 $ (revisioni in tutto 0.696 $).
+⏱ revisione dei fotogrammi (giro 1): 134.1 s
+Revisione dei fotogrammi, giro 1: non passa. I segni ci sono ma sono piccoli, staccati dall'ara o messi nel cielo, e dopo 'Gratto' il reel resta senza segni per due secondi e mezzo: non è al livello del Mac.
+  o0 a 0.5 s: Il tratteggio è in alto a sinistra a più di 300 px dalla testa, corto e sottile: sembra messo lì a caso.
+  e0 a 3.23 s: I puntini stanno sul bordo destro dello schermo e non indicano niente dell'ara.
+  o1 a 6.8 s: I trattini sopra la nuca sono corti e sottili, sul telefono quasi non si vedono (uno dei tre nemmeno si nota).
+  o2 a 10.1 s: La linea parte lontano nel cielo e il pallino finisce sopra la testa dell'ara di sinistra, non sul punto tra i due becchi dove il compagno liscia.
+  o3 a 13.6 s: L'arco è a 150 px sopra la testa e il pallino è lontano dalla mano che gratta: non si capisce che segue le piume.
+  vuoto a 15.5 s: Da 14,35 a 16,83 s la voce dice 'Occhi socchiusi: va bene così' senza nessun segno.
+⏱ dove sta l'ara per gli oggetti (rembg) (revisione 1): 51.8 s
+Correzione del piano: oggetto «tratteggio verticale che scende in un pallino sopra la testa che si abbassa»: era sopra l'ara, rimpicciolito a 75% e spostato da 470,120 a 320,120
+Correzione del piano: oggetto «tre trattini a raggiera accanto alla testa ferma che fissa»: era sopra l'ara, spostato da 740,440 a 750,440
+Correzione del piano: oggetto «tre trattini spessi che si alzano uno per battito sopra la nuca chinata»: era sopra l'ara, spostato da 360,380 a 360,350
+Correzione del piano: oggetto «tratteggio in discesa che finisce in un pallino accanto al punto della nuca tra i due becchi»: era sopra l'ara, spostato da 180,260 a 170,240
+Correzione del piano: oggetto «tratteggio ad arco a ridosso della testa, dalla fronte alla mano che gratta»: era sopra l'ara, rimpicciolito a 75% e spostato da 140,420 a 140,264
+Correzione della revisione: revisione: segno puntini su «vuole?» tolto
+Correzione della revisione: oggetto 1 («tratteggio verticale che scende in un pa»): riportato dentro lo schermo
+Correzione della revisione: oggetto 6 («tratteggio verticale che scende dall'alt»): oltre 5 oggetti per reel, tolto
+Correzione della revisione: oggetto «tre trattini spessi che si alzano uno pe»: allungato a 7.44 s, per farsi vedere
+Correzione della revisione: oggetto «tratteggio verticale che scende in un pallino sopra la testa che si abbassa»: era sopra l'ara, rimpicciolito a 75% e spostato da 470,120 a 320,120
+Correzione della revisione: oggetto «tre trattini a raggiera accanto alla testa ferma che fissa»: era sopra l'ara, spostato da 740,440 a 750,440
+Correzione della revisione: oggetto «tre trattini spessi che si alzano uno per battito sopra la nuca chinata»: era sopra l'ara, spostato da 360,380 a 360,350
+Correzione della revisione: oggetto «tratteggio in discesa che finisce in un pallino accanto al punto della nuca tra i due becchi»: era sopra l'ara, spostato da 180,260 a 170,240
+Correzione della revisione: oggetto «tratteggio ad arco a ridosso della testa, dalla fronte alla mano che gratta»: era sopra l'ara, rimpicciolito a 75% e spostato da 140,420 a 140,264
+⏱ controllo della timeline (revisione 1): 0.5 s
+◆  Rendering reel → /tmp/reel-prova-a-secco-UMslIB/render.mp4
+   30fps · high · 2 workers
+[?25l│
+◒  Checking browser...
+[1G[J◇  Browser: env
+[?25h
+  Lint: 0 error(s), 14 warning(s) — run with --lint-verbose for full output.
+  Continuing render despite lint issues. Use --strict to block errors.
+[WARN] [Compiler] WARNING: Video "S4" has sparse keyframes (max interval: 3.9s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S4.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S2" has sparse keyframes (max interval: 6.03s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S2.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S3" has sparse keyframes (max interval: 3.87s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S3.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S5" has sparse keyframes (max interval: 6.53s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S5.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (0ms)
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (2ms)
+[initSession:beginframe] page.goto complete (218ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] page.goto complete (240ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] GSAP proxy flush complete (519ms)
+[initSession:beginframe] GSAP proxy flush complete (502ms)
+[initSession:beginframe] pollHfReady complete (620ms)
+[initSession:beginframe] pollHfReady complete (543ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (633ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (566ms)
+[initSession:beginframe] applyVideoMetadataHints complete (668ms)
+[initSession:beginframe] applyVideoMetadataHints complete (598ms)
+[initSession:beginframe] media + fonts + tailwind ready (691ms)
+[initSession:beginframe] media + fonts + tailwind ready (654ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (758ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (802ms)
+◇  /tmp/reel-prova-a-secco-UMslIB/render.mp4
+   24.6 MB · 20.9s video · rendered in 2m 43.6s
+   beginframe capture · software gpu · compile 1.1s · extract 0.0s · audio 0.0s · probe 0.6s · setup 0.0s · capture 2m 42.2s · encode (during capture) 2m 42.2s · assemble 0.1s
+   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.dev/studio/download?os=linux
+⏱ render (revisione 1): 165.7 s
+⏱ fotogrammi per la revisione (giro 2): 14.0 s
+Revisione dei fotogrammi (giro 2): claude-fable-5-1, fine end_turn, effort medium, 25 fotogrammi, token letti 23170, scritti 6660, costo 0.565 $ (revisioni in tutto 1.261 $).
+⏱ revisione dei fotogrammi (giro 2): 91.9 s
+Revisione dei fotogrammi, giro 2: non passa. I segni sono tutti troppo staccati dall'ara (o0, o2, o4 fluttuano 110-160 px sopra la testa, o3 punta al cielo sopra la nuca) e la voce resta senza segni da 14,4 s fino all'invito finale. Rispetto al Mac sono piccoli e messi lontani: riscritti tutti e aggiunto il segno su «socchiusi».
+  o0 a 1 s: Il tratteggio sta a 110-150 px sopra la cresta e la segue da lontano: va abbassato a 30-80 px dalla testa e allungato.
+  o1 a 3.23 s: I tre trattini stanno a circa 90 px dalla testa, un po' staccati: da avvicinare.
+  o2 a 6.5 s: I trattini stanno 120 px sopra la nuca chinata e il terzo è un puntino: lontani e troppo corti.
+  o3 a 10.23 s: La linea e il pallino finiscono nel cielo 120 px sopra la testa, non a ridosso del punto in cui il becco tocca la nuca.
+  o4 a 13.6 s: L'arco fluttua 160 px sopra la cresta e il pallino non arriva alla mano.
+  vuoto a 15.5 s: Da 14,4 s a 16,83 s nessun segno: l'ultimo deve arrivare almeno a 15,33 s, su «socchiusi».
+Revisione: dopo 2 giri il reel non passa (prova a secco: il video esce lo stesso).
+Grafo del mix: [0:a]apad=whole_dur=20.867,aformat=channel_layouts=stereo,asplit=2[v][sc];[1:a][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=300:makeup=1[md];[2:a]adelay=7450|7450,volume=0.08,apad=whole_dur=20.867[w2];[3:a]adelay=14417|14417,volume=0.08,apad=whole_dur=20.867[w3];[v][md][w2][w3]amix=inputs=4:normalize=0:dropout_transition=0:duration=first,atrim=0:20.867[mix]
+mix-pre.wav: voce -18.80 dB, musica sotto la voce -33.09 dB, distacco 14.29 dB, -17.63 LUFS, picco -4.11 dBTP (k 0.707, spostamento 0 campioni)
+Grafo del mix: [0:a]apad=whole_dur=20.867,aformat=channel_layouts=stereo,asplit=2[v][sc];[1:a][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=300:makeup=1,volume=0.83dB[md];[2:a]adelay=7450|7450,volume=0.08,apad=whole_dur=20.867[w2];[3:a]adelay=14417|14417,volume=0.08,apad=whole_dur=20.867[w3];[v][md][w2][w3]amix=inputs=4:normalize=0:dropout_transition=0:duration=first,atrim=0:20.867[mix]
+mix-pre.wav: voce -18.80 dB, musica sotto la voce -32.26 dB, distacco 13.46 dB, -17.56 LUFS, picco -4.02 dBTP (k 0.707, spostamento 0 campioni)
+mix-finale.wav: voce -15.82 dB, musica sotto la voce -29.27 dB, distacco 13.45 dB, -14.58 LUFS, picco -1.68 dBTP (k 0.995, spostamento 0 campioni)
+Mix col riferimento: musica +0.83 dB dopo il sidechain, guadagno finale +2.99 dB.
+⏱ mix: 5.4 s
+Mix: -14.58 LUFS, picco -1.68 dBTP, prova del ramo musica [{"guadagno":0.7071,"restoDb":-148.5},{"guadagno":0.7071,"restoDb":-148.4}].
+⏱ unione: 0.5 s
+finale.mp4: voce -15.83 dB, musica sotto la voce -29.28 dB, distacco 13.44 dB, -14.59 LUFS, picco -1.63 dBTP (k 0.994, spostamento 0 campioni)
+Audio contro il reel dell'allevatore: {"voce":-15.83,"musicaSottoVoce":-29.28,"distacco":13.44,"lufs":-14.59,"picco":-1.63} — tutto entro 0,5 dB.
+File finale: -14.59 LUFS, formato ok, 0 tratti neri, 0 tratti fermi.
+Prova a secco finita: /home/runner/work/_temp/prova-a-secco/reel-prova-a-secco.mp4
+Oggetti disegnati: «tratteggio verticale che scende in un pallino sopra la testa che si abbassa» su «Abbassa la testa» (0.06-1.6 s, 320,120 140x220, disegna): Il tratteggio si disegna dall'alto verso il basso proprio sopra la cresta e mostra il verso del gesto: la testa che scende. | «tre trattini a raggiera accanto alla testa ferma che fissa» su «Che cosa vuole?» (2.24-3.9 s, 750,440 200x240, pezzi): I tre trattini spuntano uno per battito a destra della testa dritta e ferma, come un richiamo: l'ara sta chiedendo qualcosa. | «tre trattini spessi che si alzano uno per battito sopra la nuca chinata» su «arruffa le piume della nuca» (5.94-7.44 s, 360,350 360x180, pezzi): I trattini spuntano uno per battito subito sopra la nuca che si gonfia e danno il ritmo delle piume che si alzano. | «tratteggio in discesa che finisce in un pallino accanto al punto della nuca tra i due becchi» su «a lisciarle lì, dove il becco non arriva» (9.24-10.9 s, 170,240 280x340, disegna): La linea scende e si ferma in un pallino a ridosso del punto in cui il becco del compagno tocca la nuca: senza audio si vede dov'è il lì. | «tratteggio ad arco a ridosso della testa, dalla fronte alla mano che gratta» su «Gratto piano, seguendo le piume» (12.51-14.4 s, 140,264 480x180, disegna): Il tratteggio scorre a filo della cresta dalla fronte verso la nuca, nello stesso verso delle dita, e si ferma in un pallino dove la mano gratta..
+Effetti del piano: desaturazione su «natura» (7.633 s).
+Inquadrature: S1 clip 1 0-1.8 s taglio/fermo scala 1 x 0 y 0 | S2 clip 2 1.8-7.6 s taglio/apertura scala 1 x 0 y 0 | S3 clip 3 7.6-11.133 s frusta/deriva scala 1 x 0 y 0 | S4 clip 4 11.133-14.567 s taglio/fermo scala 1 x 0 y 0 | S5 clip 5 14.567-20.867 s maschera_cerchio/spinta scala 1 x 0 y 0.
+Correzione del piano: stacco 3 spostato da 10.8 a 11.133 s (pausa o battito)
+Correzione del piano: inquadratura 2: rallentatore non ammesso in questo reel, velocità riportata a 1
+Correzione del piano: inquadratura 2: velocità ridotte per stare nella clip 2
+Correzione del piano: inquadratura 5: rallentatore non ammesso in questo reel, velocità riportata a 1
+Correzione del piano: inquadratura 5: velocità ridotte per stare nella clip 5
+Correzione del piano: effetto 1 (puntini): riportato dentro lo schermo (x da 990 a 935)
+Correzione del piano: effetto 3 (timbro): spostato da 15.45 a 16.02 s, quando la voce dice «bene»
+Correzione del piano: effetto 3 (timbro): riportato dentro lo schermo (x da 860 a 740)
+Correzione del piano: oggetto 1 («tratteggio verticale che scende e finisc»): riportato dentro lo schermo
+Correzione del piano: S3: deriva ridotta a 1.0277 per restare entro 1.11
+Correzione del piano: effetto timbro su «bene»: resterebbe 0.7 s prima del taglio, troppo poco per vederlo, tolto
+Correzione del piano: oggetto «tre trattini che si alzano uno per batti»: allungato a 7.4 s, per farsi vedere
+Correzione del piano: oggetto «tratteggio in discesa che finisce in un »: allungato a 10.7 s, per farsi vedere
+Correzione del piano: oggetto «tratteggio verticale che scende e finisce in un pallino, sopra la testa che si abbassa»: era sopra l'ara, spostato da 230,120 a 130,120
+Correzione del piano: oggetto «tre trattini che si alzano uno per battito sopra la nuca chinata»: era sopra l'ara, spostato da 390,400 a 390,394
+Correzione del piano: oggetto «tratteggio in discesa che finisce in un pallino sul punto della nuca tra i due becchi»: era sopra l'ara, spostato da 170,300 a 140,290
+Correzione del piano: oggetto «tratteggio ad arco nel verso delle piume sopra la testa, accanto alla mano che gratta»: era sopra l'ara, spostato da 140,290 a 140,280
+Correzione del piano: revisione: segno puntini su «vuole?» tolto
+Correzione del piano: oggetto 1 («tratteggio verticale che scende in un pa»): riportato dentro lo schermo
+Correzione del piano: oggetto 6 («tratteggio verticale che scende dall'alt»): oltre 5 oggetti per reel, tolto
+Correzione del piano: oggetto «tre trattini spessi che si alzano uno pe»: allungato a 7.44 s, per farsi vedere
+Correzione del piano: oggetto «tratteggio verticale che scende in un pallino sopra la testa che si abbassa»: era sopra l'ara, rimpicciolito a 75% e spostato da 470,120 a 320,120
+Correzione del piano: oggetto «tre trattini a raggiera accanto alla testa ferma che fissa»: era sopra l'ara, spostato da 740,440 a 750,440
+Correzione del piano: oggetto «tre trattini spessi che si alzano uno per battito sopra la nuca chinata»: era sopra l'ara, spostato da 360,380 a 360,350
+Correzione del piano: oggetto «tratteggio in discesa che finisce in un pallino accanto al punto della nuca tra i due becchi»: era sopra l'ara, spostato da 180,260 a 170,240
+Correzione del piano: oggetto «tratteggio ad arco a ridosso della testa, dalla fronte alla mano che gratta»: era sopra l'ara, rimpicciolito a 75% e spostato da 140,420 a 140,264
+Tempi: battiti della musica 18 s, preparazione delle inquadrature 438.8 s, dove sta l'ara per gli oggetti (rembg) 42.8 s, dove sta l'ara per i segni (rembg) 9.4 s, controllo della timeline 3.6 s, render 182.4 s, render di controllo magenta 71.7 s, fotogrammi per la revisione (giro 1) 13.7 s, revisione dei fotogrammi (giro 1) 134.1 s, dove sta l'ara per gli oggetti (rembg) (revisione 1) 51.8 s, controllo della timeline (revisione 1) 0.5 s, render (revisione 1) 165.7 s, fotogrammi per la revisione (giro 2) 14 s, revisione dei fotogrammi (giro 2) 91.9 s, mix 5.4 s, unione 0.5 s
+Fogli dei fotogrammi: secondi-1.jpg, secondi-2.jpg, secondi-3.jpg, revisione-1-1.jpg, revisione-1-2.jpg, revisione-1-3.jpg, revisione-1-4.jpg, revisione-2-1.jpg, revisione-2-2.jpg, revisione-2-3.jpg, revisione-2-4.jpg, tagli.jpg, momenti-1.jpg.
