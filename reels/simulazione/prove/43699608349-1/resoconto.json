@@ -1,0 +1,587 @@
+{
+  "piano": {
+    "fuoriRegola": [],
+    "intensita": "calmo",
+    "perche": "La voce racconta piano un gesto di fiducia (chinare il capo per i grattini), la musica ha un battito netto ma il tono è di osservazione dolce: inquadrature lunghe e pochi segni che indicano dove guardare.",
+    "variante": "V1",
+    "look": "L4",
+    "apertura": "A2",
+    "scritte": "T3",
+    "D": 20.867,
+    "tP": 16.833,
+    "inquadrature": [
+      {
+        "id": "S1",
+        "clip": 1,
+        "inizio": 0,
+        "fine": 1.8,
+        "segmenti": [
+          [
+            1.8,
+            0,
+            1.8
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "fermo",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 560,
+        "testa0": 250,
+        "testa_y": 1210,
+        "respiro": 1,
+        "picco": 1
+      },
+      {
+        "id": "S2",
+        "clip": 2,
+        "inizio": 1.8,
+        "fine": 7.6,
+        "segmenti": [
+          [
+            2.9,
+            0,
+            2.501
+          ],
+          [
+            2.9,
+            2.501,
+            5.002
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "apertura",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 500,
+        "testa0": 140,
+        "testa_y": 1100,
+        "respiro": 1.06,
+        "picco": 1.08
+      },
+      {
+        "id": "S3",
+        "clip": 3,
+        "inizio": 7.6,
+        "fine": 11.133,
+        "segmenti": [
+          [
+            3.533,
+            0.8,
+            4.333
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "deriva",
+        "entrata": "frusta",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 400,
+        "testa0": -10,
+        "testa_y": 950,
+        "respiro": 1.0277,
+        "picco": 1.1099
+      },
+      {
+        "id": "S4",
+        "clip": 4,
+        "inizio": 11.133,
+        "fine": 14.567,
+        "segmenti": [
+          [
+            3.434,
+            0.8,
+            4.234
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "fermo",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 300,
+        "testa0": 110,
+        "testa_y": 1070,
+        "respiro": 1,
+        "picco": 1
+      },
+      {
+        "id": "S5",
+        "clip": 5,
+        "inizio": 14.567,
+        "fine": 20.867,
+        "segmenti": [
+          [
+            0.396,
+            0,
+            0.314
+          ],
+          [
+            5.904,
+            0.314,
+            5.002
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "spinta",
+        "entrata": "maschera_cerchio",
+        "punto": {
+          "x": 560,
+          "y": 540
+        },
+        "testa_x": 460,
+        "testa0": 50,
+        "testa_y": 1010,
+        "respiro": 1.06,
+        "picco": 1.06
+      }
+    ],
+    "effetti": [
+      {
+        "tipo": "desaturazione",
+        "parola": "natura",
+        "inizio": 7.633,
+        "fine": 8.8
+      }
+    ],
+    "oggetti": [
+      {
+        "nome": "tratteggio dello sguardo che parte da un pallino accanto all'occhio e corre verso destra",
+        "frase": "Che cosa vuole?",
+        "parola": "vuole?",
+        "perche": "L'ara ferma sul trespolo fissa chi guarda: il tratteggio esce dall'occhio e dice che è lei a chiedere qualcosa.",
+        "inizio": 2.24,
+        "fine": 4.8,
+        "x": 710,
+        "y": 530,
+        "larghezza": 220,
+        "altezza": 80,
+        "punta_a": {
+          "x": 620,
+          "y": 580,
+          "sull_ara": true,
+          "cosa": "occhio destro dell'ara"
+        },
+        "entrata": "disegna",
+        "parti": [],
+        "svg": "<circle class=\"pallino\" cx=\"14\" cy=\"40\" r=\"12\" fill=\"#C4862E\" /><path class=\"tratt\" d=\"M34 40 L206 40\" stroke=\"#C4862E\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" />"
+      },
+      {
+        "nome": "tre trattini che si alzano uno per battito sopra la nuca chinata",
+        "frase": "arruffa le piume della nuca",
+        "parola": "arruffa",
+        "perche": "I trattini spuntano uno per battito proprio sopra la nuca che si gonfia e dicono il ritmo delle piume che si alzano.",
+        "inizio": 5.94,
+        "fine": 7.44,
+        "x": 390,
+        "y": 430,
+        "larghezza": 300,
+        "altezza": 140,
+        "punta_a": {
+          "x": 540,
+          "y": 615,
+          "sull_ara": true,
+          "cosa": "piume della nuca arruffate"
+        },
+        "entrata": "pezzi",
+        "parti": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "svg": "<path class=\"p1\" d=\"M62 125 L30 42\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" fill=\"none\" /><path class=\"p2\" d=\"M150 120 L150 22\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" fill=\"none\" /><path class=\"p3\" d=\"M238 125 L270 42\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" fill=\"none\" />"
+      },
+      {
+        "nome": "tratteggio in discesa che finisce in un pallino accanto al punto della nuca tra i due becchi",
+        "frase": "a lisciarle lì, dove il becco non arriva",
+        "parola": "lì,",
+        "perche": "La linea scende dal vuoto fino a un pallino fermo accanto al punto esatto in cui il becco del compagno liscia la nuca: senza audio si vede dov'è il lì.",
+        "inizio": 9.24,
+        "fine": 10.74,
+        "x": 270,
+        "y": 350,
+        "larghezza": 160,
+        "altezza": 250,
+        "punta_a": {
+          "x": 485,
+          "y": 650,
+          "sull_ara": true,
+          "cosa": "nuca dell'ara a sinistra dove tocca il becco del compagno"
+        },
+        "entrata": "disegna",
+        "parti": [],
+        "svg": "<path class=\"tratt\" d=\"M20 20 L120 205\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" fill=\"none\" /><circle class=\"pallino\" cx=\"135\" cy=\"225\" r=\"12\" fill=\"#C4862E\" />"
+      },
+      {
+        "nome": "tratteggio ad arco sopra la testa nel verso delle piume, finisce in un pallino verso la mano",
+        "frase": "Gratto piano, seguendo le piume",
+        "parola": "Gratto",
+        "perche": "Il tratteggio scorre dalla fronte verso la nuca, nello stesso verso in cui le dita seguono le piume, e si ferma in un pallino dal lato della mano.",
+        "inizio": 12.51,
+        "fine": 14.35,
+        "x": 280,
+        "y": 400,
+        "larghezza": 460,
+        "altezza": 90,
+        "punta_a": {
+          "x": 380,
+          "y": 545,
+          "sull_ara": true,
+          "cosa": "cresta sopra la fronte, dove partono le piume grattate"
+        },
+        "entrata": "disegna",
+        "parti": [],
+        "svg": "<path class=\"tratt\" d=\"M20 60 C 140 20, 300 15, 420 45\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" fill=\"none\" /><circle class=\"pallino\" cx=\"440\" cy=\"52\" r=\"12\" fill=\"#C4862E\" />"
+      },
+      {
+        "nome": "onda tratteggiata piatta sopra la cresta che finisce in un pallino",
+        "frase": "Occhi socchiusi: va bene così",
+        "parola": "Occhi",
+        "perche": "L'onda bassa e lenta sopra la cresta dice la calma dell'ara con gli occhi socchiusi: va bene così.",
+        "inizio": 14.67,
+        "fine": 16.6,
+        "x": 380,
+        "y": 135,
+        "larghezza": 420,
+        "altezza": 80,
+        "punta_a": {
+          "x": 560,
+          "y": 320,
+          "sull_ara": true,
+          "cosa": "cima della cresta sopra l'occhio"
+        },
+        "entrata": "disegna",
+        "parti": [],
+        "svg": "<path class=\"tratt\" d=\"M20 45 C 70 15, 120 75, 170 45 C 220 15, 270 75, 320 45 C 345 30, 360 30, 380 45\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" fill=\"none\" /><circle class=\"pallino\" cx=\"400\" cy=\"45\" r=\"12\" fill=\"#C4862E\" />"
+      }
+    ]
+  },
+  "correzioni": [
+    "stacco 3 spostato da 10.8 a 11.133 s (pausa o battito)",
+    "inquadratura 2: rallentatore non ammesso in questo reel, velocità riportata a 1",
+    "inquadratura 2: velocità ridotte per stare nella clip 2",
+    "inquadratura 5: rallentatore non ammesso in questo reel, velocità riportata a 1",
+    "inquadratura 5: velocità ridotte per stare nella clip 5",
+    "effetto 1 (puntini): riportato dentro lo schermo (x da 990 a 935)",
+    "effetto 3 (timbro): spostato da 15.45 a 16.02 s, quando la voce dice «bene»",
+    "effetto 3 (timbro): riportato dentro lo schermo (x da 860 a 740)",
+    "S3: deriva ridotta a 1.0277 per restare entro 1.11",
+    "effetto timbro su «bene»: resterebbe 0.7 s prima del taglio, troppo poco per vederlo, tolto",
+    "oggetto «tre trattini che si alzano uno per batti»: allungato a 7.4 s, per farsi vedere",
+    "oggetto «tratteggio in discesa che finisce in un »: allungato a 10.7 s, per farsi vedere",
+    "revisione: segno puntini su «vuole?» tolto",
+    "oggetto «tre trattini che si alzano uno per batti»: allungato a 7.44 s, per farsi vedere",
+    "oggetto «tratteggio in discesa che finisce in un »: allungato a 10.74 s, per farsi vedere"
+  ],
+  "rifatto": null,
+  "revisioni": [
+    {
+      "giro": 1,
+      "passa": false,
+      "passaFable": false,
+      "giudizio": "I segni sono senza punto di riferimento, il tratteggio iniziale esce dal bordo in alto, i puntini stanno sul bordo destro e il finale resta vuoto per 2,5 s: riscrivo tutto accostando ogni segno alla cosa che indica.",
+      "problemi": [
+        {
+          "segno": "o0",
+          "secondo": 0.83,
+          "cosa": "Il tratteggio sale fino a y 47, fuori dalla zona visibile, e sta lontano dalla cresta che dovrebbe indicare; manca punta_a."
+        },
+        {
+          "segno": "e0",
+          "secondo": 2.23,
+          "cosa": "I puntini del catalogo stanno attaccati al bordo destro (x 1055) e non indicano niente."
+        },
+        {
+          "segno": "vuoto",
+          "secondo": 3.5,
+          "cosa": "Da 1,6 a 5,9 s nessun oggetto accanto all'ara che fissa."
+        },
+        {
+          "segno": "o1",
+          "secondo": 6.65,
+          "cosa": "Manca punta_a sulla nuca arruffata."
+        },
+        {
+          "segno": "o2",
+          "secondo": 9.95,
+          "cosa": "Il pallino finisce a 140 px dal punto in cui il becco del compagno tocca la nuca, troppo lontano; manca punta_a."
+        },
+        {
+          "segno": "o3",
+          "secondo": 13.43,
+          "cosa": "L'arco sta oltre 110 px sopra la cresta, staccato dalla testa e dalla mano; manca punta_a."
+        },
+        {
+          "segno": "vuoto",
+          "secondo": 15.59,
+          "cosa": "Da 14,35 a 16,83 s nessun segno: l'ultimo deve arrivare almeno a 15,33 s."
+        }
+      ],
+      "problemiCodice": [
+        {
+          "segno": "o0",
+          "secondo": 0.83,
+          "cosa": "esce dalla zona visibile in alto (y 47, minimo 120); tratto da x 287 a 314, y da 47 a 250."
+        },
+        {
+          "segno": "o0",
+          "secondo": 0.83,
+          "cosa": "manca \"punta_a\", il punto della ripresa che il segno indica."
+        },
+        {
+          "segno": "o1",
+          "secondo": 6.65,
+          "cosa": "manca \"punta_a\", il punto della ripresa che il segno indica."
+        },
+        {
+          "segno": "o2",
+          "secondo": 9.95,
+          "cosa": "manca \"punta_a\", il punto della ripresa che il segno indica."
+        },
+        {
+          "segno": "o3",
+          "secondo": 13.43,
+          "cosa": "manca \"punta_a\", il punto della ripresa che il segno indica."
+        },
+        {
+          "segno": "e0",
+          "secondo": 2.23,
+          "cosa": "segno del catalogo puntini sul bordo dello schermo (a destra (x 1055, massimo 1040)): toglilo o sostituiscilo."
+        },
+        {
+          "segno": "vuoto",
+          "secondo": 15.59,
+          "cosa": "da 14,35 a 16,83 s nessun segno: l'ultimo segno deve arrivare almeno a 15,33 s (l'invito parte a 16,83 s)."
+        }
+      ],
+      "togli": [
+        "e0"
+      ],
+      "oggetti": 5
+    },
+    {
+      "giro": 2,
+      "passa": false,
+      "passaFable": false,
+      "giudizio": "I quattro segni della prima metà sono a posto e attaccati alla cosa che indicano; l'onda su «Occhi» però scende ancora sulla cresta dell'ara (il codice trova 15 punti sulla sagoma): la rialzo e la faccio più piatta, così resta accanto alla cresta senza toccarla.",
+      "problemi": [
+        {
+          "segno": "o4",
+          "secondo": 15.64,
+          "cosa": "La valle dell'onda arriva a y 265 e cade sulla cresta misurata dell'ara: va rialzata e fatta più piatta."
+        }
+      ],
+      "problemiCodice": [
+        {
+          "segno": "o4",
+          "secondo": 15.64,
+          "cosa": "sta sopra l'ara: 15 punti del tratto cadono sulla sagoma misurata col ritaglio. Il segno va accanto, mai sopra né dentro."
+        }
+      ],
+      "togli": [],
+      "oggetti": 5
+    },
+    {
+      "giro": 3,
+      "passa": false,
+      "passaFable": false,
+      "giudizio": "I primi quattro segni sono a posto e attaccati a quello che indicano; l'onda su «Occhi socchiusi» resta ancora troppo alta sopra la cresta (130 px) e va abbassata.",
+      "problemi": [
+        {
+          "segno": "o4",
+          "secondo": 15.64,
+          "cosa": "L'onda tratteggiata sta a 130 px dalla cima della cresta: troppo staccata, va abbassata di circa 40 px restando fuori dalla testa."
+        }
+      ],
+      "problemiCodice": [
+        {
+          "segno": "o4",
+          "secondo": 15.64,
+          "cosa": "staccato da quello che indica: il tratto più vicino è a 130 px da «cima della cresta sopra l'occhio» (560,320), al massimo 120."
+        }
+      ],
+      "togli": [],
+      "oggetti": 5
+    }
+  ],
+  "problemiSegni": [
+    {
+      "segno": "o4",
+      "secondo": 15.64,
+      "cosa": "staccato da quello che indica: il tratto più vicino è a 130 px da «cima della cresta sopra l'occhio» (560,320), al massimo 120."
+    }
+  ],
+  "D": 20.867,
+  "tP": 16.833,
+  "attacco": 52.9,
+  "bpm": 152,
+  "lufs": -14.59,
+  "ramo": [
+    {
+      "guadagno": 0.7071,
+      "restoDb": -148.5
+    },
+    {
+      "guadagno": 0.7071,
+      "restoDb": -148.4
+    }
+  ],
+  "magenta": 0,
+  "tipi": {
+    "segni": [],
+    "stacchi": [
+      "frusta",
+      "maschera"
+    ],
+    "effetti": [
+      "desaturazione"
+    ]
+  },
+  "tempi": [
+    {
+      "nome": "battiti della musica",
+      "secondi": 23.3
+    },
+    {
+      "nome": "preparazione delle inquadrature",
+      "secondi": 567.5
+    },
+    {
+      "nome": "dove sta l'ara per gli oggetti (rembg)",
+      "secondi": 53
+    },
+    {
+      "nome": "dove sta l'ara per i segni (rembg)",
+      "secondi": 11.5
+    },
+    {
+      "nome": "controllo della timeline",
+      "secondi": 0.9
+    },
+    {
+      "nome": "render",
+      "secondi": 253.4
+    },
+    {
+      "nome": "render di controllo magenta",
+      "secondi": 121.8
+    },
+    {
+      "nome": "fotogrammi per la revisione (sguardo 1)",
+      "secondi": 18.9
+    },
+    {
+      "nome": "revisione dei fotogrammi (sguardo 1)",
+      "secondi": 131.7
+    },
+    {
+      "nome": "dove sta l'ara per gli oggetti (rembg) (correzione 1)",
+      "secondi": 64.3
+    },
+    {
+      "nome": "controllo della timeline (correzione 1)",
+      "secondi": 0.6
+    },
+    {
+      "nome": "render (correzione 1)",
+      "secondi": 230.7
+    },
+    {
+      "nome": "fotogrammi per la revisione (sguardo 2)",
+      "secondi": 20
+    },
+    {
+      "nome": "revisione dei fotogrammi (sguardo 2)",
+      "secondi": 46
+    },
+    {
+      "nome": "dove sta l'ara per gli oggetti (rembg) (correzione 2)",
+      "secondi": 64.1
+    },
+    {
+      "nome": "controllo della timeline (correzione 2)",
+      "secondi": 0.4
+    },
+    {
+      "nome": "render (correzione 2)",
+      "secondi": 224.4
+    },
+    {
+      "nome": "fotogrammi per la revisione (sguardo 3)",
+      "secondi": 19.7
+    },
+    {
+      "nome": "revisione dei fotogrammi (sguardo 3)",
+      "secondi": 53.9
+    },
+    {
+      "nome": "mix",
+      "secondi": 7.3
+    },
+    {
+      "nome": "unione",
+      "secondi": 0.7
+    }
+  ],
+  "audio": {
+    "misure": {
+      "voce": -15.83,
+      "musicaSottoVoce": -29.28,
+      "distacco": 13.44,
+      "lufs": -14.59,
+      "picco": -1.66
+    },
+    "scarti": [],
+    "riferimento": {
+      "voce": -15.81,
+      "musicaSottoVoce": -29.27,
+      "distacco": 13.46,
+      "lufs": -14.27,
+      "picco": -1.48
+    },
+    "musicaDb": 0.83,
+    "guadagnoFinale": 2.99
+  },
+  "pianoDaFable": true,
+  "velocitaVoce": {
+    "misurata": 3.277,
+    "nota": "voce approvata del 27/10, invariata"
+  },
+  "spesaRevisioniUsd": 1.589,
+  "problemiSegniFinali": [
+    {
+      "segno": "o4",
+      "secondo": 15.64,
+      "cosa": "staccato da quello che indica: il tratto più vicino è a 130 px da «cima della cresta sopra l'occhio» (560,320), al massimo 120."
+    }
+  ],
+  "pianoDelRun": "43383432516",
+  "registro": {
+    "data": "15/11 (prova a secco)",
+    "reel": "storytelling-ara-china-la-testa (prova a secco)",
+    "segni": "tratteggio dello sguardo che parte da un pallino accanto all'occhio e corre verso destra (2,24); tre trattini che si alzano uno per battito sopra la nuca chinata (5,94); tratteggio in discesa che finisce in un pallino accanto al punto della nuca tra i due becchi (9,24); tratteggio ad arco sopra la testa nel verso delle piume, finisce in un pallino verso la mano (12,51); onda tratteggiata piatta sopra la cresta che finisce in un pallino (14,67)",
+    "tagli": "tagli puliti sul respiro (1,8 / 11,13)",
+    "transizioni": "frusta orizzontale con sfocatura (7,6); maschera circolare dall'occhio (14,57); invito sopra l'ultima ripresa, velo blu dal fondo",
+    "altri": "desaturazione (7,63), fermo / apertura / deriva / spinta"
+  }
+}
