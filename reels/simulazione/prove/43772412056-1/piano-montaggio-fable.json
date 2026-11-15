@@ -1,0 +1,221 @@
+{
+  "intensita": "calmo",
+  "perche": "La voce racconta un gesto dolce di osservazione (china il capo, chiede i grattini, occhi socchiusi) e il battito netto serve solo a far entrare i segni a tempo, non a tagliare di più.",
+  "variante": "V1",
+  "look": "L4",
+  "apertura": "A2",
+  "scritte": "T3",
+  "inquadrature": [
+    {
+      "clip": 1,
+      "fine": 2.6,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 2.6,
+          "velocita": 1
+        }
+      ],
+      "scala": 1.08,
+      "x": 0,
+      "y": -75,
+      "movimento": "fermo",
+      "entrata": "taglio",
+      "testa_y": 1340,
+      "testa_x": 450
+    },
+    {
+      "clip": 2,
+      "fine": 7.61,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 5.01,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "apertura",
+      "entrata": "taglio",
+      "testa_y": 1090,
+      "testa_x": 480
+    },
+    {
+      "clip": 3,
+      "fine": 11.14,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 3.53,
+          "velocita": 1
+        }
+      ],
+      "scala": 1.03,
+      "x": 0,
+      "y": 0,
+      "movimento": "deriva",
+      "entrata": "frusta",
+      "testa_y": 950,
+      "testa_x": 400
+    },
+    {
+      "clip": 4,
+      "fine": 14.55,
+      "da": 0.8,
+      "tratti": [
+        {
+          "durata": 3.41,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "spinta",
+      "entrata": "taglio",
+      "testa_y": 1060,
+      "testa_x": 320
+    },
+    {
+      "clip": 5,
+      "fine": 20.867,
+      "da": 1,
+      "tratti": [
+        {
+          "durata": 1.4,
+          "velocita": 1
+        },
+        {
+          "durata": 4.917,
+          "velocita": 0.5
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "fermo",
+      "entrata": "taglio",
+      "testa_y": 1010,
+      "testa_x": 500
+    }
+  ],
+  "effetti": [
+    {
+      "tipo": "puntini",
+      "parola": "fissa",
+      "inizio": 4.1,
+      "fine": 5.3,
+      "x": 820,
+      "y": 540
+    }
+  ],
+  "oggetti": [
+    {
+      "nome": "tratteggio che scende lungo il lato della testa",
+      "frase": "Abbassa la testa",
+      "parola": "Abbassa",
+      "perche": "La linea tratteggiata si disegna verso il basso accanto alla guancia sinistra, nello stesso verso in cui la testa dell'ara sta scendendo.",
+      "inizio": 0.06,
+      "fine": 1.7,
+      "x": 50,
+      "y": 130,
+      "larghezza": 150,
+      "altezza": 330,
+      "entrata": "disegna",
+      "tipo": "tratteggio",
+      "punta_a": {
+        "x": 215,
+        "y": 430,
+        "sull_ara": true,
+        "cosa": "guancia sinistra della testa che si abbassa"
+      },
+      "svg": "<path class=\"tratt\" stroke-width=\"11\" d=\"M110 20 C 128 120, 66 190, 80 305\" />"
+    },
+    {
+      "nome": "tre trattini sopra la nuca",
+      "frase": "arruffa le piume della nuca",
+      "parola": "arruffa",
+      "perche": "Tre trattini che si alzano uno per battito sopra la nuca dicono le piume che si arruffano, proprio nel punto che l'ara offre.",
+      "inizio": 5.94,
+      "fine": 7.46,
+      "x": 330,
+      "y": 380,
+      "larghezza": 300,
+      "altezza": 160,
+      "entrata": "pezzi",
+      "tipo": "trattini",
+      "punta_a": {
+        "x": 470,
+        "y": 600,
+        "sull_ara": true,
+        "cosa": "piume della nuca arruffate"
+      },
+      "svg": "<path class=\"p1\" d=\"M70 150 L25 55\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" fill=\"none\" /><path class=\"p2\" d=\"M150 145 L150 30\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" fill=\"none\" /><path class=\"p3\" d=\"M230 150 L275 55\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" fill=\"none\" />"
+    },
+    {
+      "nome": "due onde dal becco del compagno",
+      "frase": "a lisciarle lì",
+      "parola": "lisciarle",
+      "perche": "Due onde corte accanto al punto in cui il becco del compagno tocca la nuca dell'altra ara dicono il tocco del lisciare.",
+      "inizio": 8.8,
+      "fine": 10.4,
+      "x": 290,
+      "y": 420,
+      "larghezza": 180,
+      "altezza": 130,
+      "entrata": "disegna",
+      "tipo": "onde",
+      "punta_a": {
+        "x": 505,
+        "y": 625,
+        "sull_ara": true,
+        "cosa": "becco del compagno sulla nuca"
+      },
+      "svg": "<path d=\"M55 22 Q 95 66 55 110\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" fill=\"none\" /><path d=\"M115 6 Q 175 66 115 126\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" fill=\"none\" />"
+    },
+    {
+      "nome": "cuore che sale sopra la mano",
+      "frase": "Gratto piano",
+      "parola": "Gratto",
+      "perche": "Un cuore pieno che sale dal dorso della mano che gratta la nuca dice l'affetto del gesto, senza ripetere quello che si vede.",
+      "inizio": 12.51,
+      "fine": 14.1,
+      "x": 600,
+      "y": 430,
+      "larghezza": 130,
+      "altezza": 120,
+      "entrata": "sale",
+      "tipo": "cuore",
+      "punta_a": {
+        "x": 670,
+        "y": 650,
+        "sull_ara": false,
+        "cosa": "dorso della mano che gratta la nuca"
+      },
+      "svg": "<path d=\"M65 115 C 12 82, 2 38, 30 20 C 48 9, 63 20, 65 36 C 67 20, 82 9, 100 20 C 128 38, 118 82, 65 115 Z\" fill=\"#C4862E\" stroke=\"#F7F1E1\" stroke-width=\"3\" />"
+    },
+    {
+      "nome": "tre scintille sopra la cresta",
+      "frase": "Occhi socchiusi",
+      "parola": "socchiusi",
+      "perche": "Tre scintille che compaiono una per battito sopra la cresta dicono il piacere dell'ara che socchiude gli occhi sotto i grattini.",
+      "inizio": 14.92,
+      "fine": 16.6,
+      "x": 400,
+      "y": 120,
+      "larghezza": 300,
+      "altezza": 130,
+      "entrata": "pezzi",
+      "tipo": "scintille",
+      "punta_a": {
+        "x": 540,
+        "y": 290,
+        "sull_ara": true,
+        "cosa": "cima della testa, cresta"
+      },
+      "svg": "<polygon class=\"p1\" points=\"60,25 72,58 105,70 72,82 60,115 48,82 15,70 48,58\" fill=\"#C4862E\" stroke=\"#F7F1E1\" stroke-width=\"3\" /><polygon class=\"p2\" points=\"150,5 163,42 200,55 163,68 150,105 137,68 100,55 137,42\" fill=\"#C4862E\" stroke=\"#F7F1E1\" stroke-width=\"3\" /><polygon class=\"p3\" points=\"240,27 252,60 285,72 252,84 240,117 228,84 195,72 228,60\" fill=\"#C4862E\" stroke=\"#F7F1E1\" stroke-width=\"3\" />"
+    }
+  ]
+}
