@@ -1,0 +1,147 @@
+0.921 $).
+⏱ revisione dei fotogrammi (sguardo 1): 193.8 s
+Revisione dei fotogrammi, sguardo 1: non passa. I segni sono fini e spesso lontani dall'ara: il tratteggio iniziale esce dal bordo alto, i puntini stanno sul bordo destro, nessun segno ha il punto indicato, c'è un buco di oltre 4 s tra la testa che si abbassa e l'arruffarsi della nuca e un altro buco alla fine su «Occhi socchiusi». Riscritti i cinque segni accanto alla cosa che indicano.
+  o0 a 0.83 s: Il tratteggio esce dalla zona visibile in alto (y 47) e non ha il punto della ripresa che indica.
+  vuoto a 3.5 s: Da 1,6 a 5,9 s nessun segno (4,3 s): i puntini e0 stanno sul bordo destro e non contano.
+  e0 a 3.23 s: Puntini del catalogo sul bordo destro dello schermo (x 1055), lontani dall'ara: via.
+  o1 a 6.65 s: Trattini senza punto indicato, un po' staccati dalla nuca e con un vuoto lungo prima.
+  o2 a 9.95 s: Manca il punto indicato (la nuca sotto il becco del compagno).
+  o3 a 13.43 s: L'arco e il pallino stanno a oltre 170 px dalla testa e manca il punto indicato.
+  vuoto a 15.59 s: Da 14,35 a 16,83 s nessun segno: l'ultimo deve arrivare almeno a 15,33 s.
+Correzione della revisione: revisione: segno puntini su «vuole?» tolto
+[0;93m2026-11-15 10:52:36.322151498 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-15 10:52:49.435279265 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-15 10:53:04.646715451 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-15 10:53:19.514000334 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-15 10:53:33.779258266 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+⏱ dove sta l'ara per gli oggetti (rembg) (correzione 1): 71.1 s
+Controllo dei segni (correzione 1): 1 problemi.
+  o4 a 15.73 s: sta sopra l'ara: 37 punti del tratto cadono sulla sagoma misurata col ritaglio. Il segno va accanto, mai sopra né dentro.
+⏱ controllo della timeline (correzione 1): 0.5 s
+◆  Rendering reel → /tmp/[REDACTED]/render.mp4
+   30fps · high · 2 workers
+[?25l│
+◒  Checking browser...
+[1G[J◇  Browser: env
+[?25h
+  Lint: 0 error(s), 14 warning(s) — run with --lint-verbose for full output.
+  Continuing render despite lint issues. Use --strict to block errors.
+[WARN] [Compiler] WARNING: Video "S3" has sparse keyframes (max interval: 3.87s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S3.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S2" has sparse keyframes (max interval: 6.03s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S2.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S4" has sparse keyframes (max interval: 3.9s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S4.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S5" has sparse keyframes (max interval: 6.53s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S5.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[initSession:beginframe] warmup loop started (1ms)
+[initSession:beginframe] page.goto start (1ms)
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (0ms)
+[initSession:beginframe] page.goto complete (406ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] page.goto complete (462ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] GSAP proxy flush complete (689ms)
+[initSession:beginframe] GSAP proxy flush complete (813ms)
+[initSession:beginframe] pollHfReady complete (848ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (881ms)
+[initSession:beginframe] pollHfReady complete (1003ms)
+[initSession:beginframe] applyVideoMetadataHints complete (941ms)
+[initSession:beginframe] media + fonts + tailwind ready (1026ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (1124ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (1524ms)
+[initSession:beginframe] applyVideoMetadataHints complete (1536ms)
+[initSession:beginframe] media + fonts + tailwind ready (1576ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (1668ms)
+◇  /tmp/[REDACTED]/render.mp4
+   24.6 MB · 20.9s video · rendered in 2m 59.5s
+   beginframe capture · software gpu · compile 1.2s · extract 0.0s · audio 0.0s · probe 0.7s · setup 0.0s · capture 2m 57.8s · encode (during capture) 2m 57.8s · assemble 0.1s
+   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.dev/studio/download?os=linux
+⏱ render (correzione 1): 182.0 s
+⏱ fotogrammi per la revisione (sguardo 2): 15.3 s
+Revisione dei fotogrammi (giro 2): claude-fable-5-1, fine end_turn, effort medium, 25 fotogrammi, token letti 24674, scritti 4993, costo 0.496 $ (revisioni in tutto 1.417 $).
+⏱ revisione dei fotogrammi (sguardo 2): 67.6 s
+Revisione dei fotogrammi, sguardo 2: non passa. I quattro segni precedenti funzionano, ma il tratteggio su «Occhi socchiusi» è troppo basso e tocca la cresta; lo alzo e sposto l'inizio del tratteggio su «lì» fuori dal quadrato d'angolo.
+  o4 a 15.77 s: L'arco corre a ridosso della cresta e il tratto cade sulla sagoma dell'ara: va alzato di circa 60 px.
+  o2 a 9.5 s: Il tratteggio parte a (180,290), dentro il quadrato dell'angolo in alto a sinistra: va accorciato e spostato verso il centro.
+[0;93m2026-11-15 10:58:12.844363757 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-15 10:58:25.799207582 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-15 10:58:40.942516067 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-15 10:58:55.640965471 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-15 10:59:09.886531493 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+⏱ dove sta l'ara per gli oggetti (rembg) (correzione 2): 70.5 s
+Controllo dei segni (correzione 2): nessun problema.
+⏱ controllo della timeline (correzione 2): 0.4 s
+◆  Rendering reel → /tmp/[REDACTED]/render.mp4
+   30fps · high · 2 workers
+[?25l│
+◒  Checking browser...
+[1G[J◇  Browser: env
+[?25h
+  Lint: 0 error(s), 14 warning(s) — run with --lint-verbose for full output.
+  Continuing render despite lint issues. Use --strict to block errors.
+[WARN] [Compiler] WARNING: Video "S2" has sparse keyframes (max interval: 6.03s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S2.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S3" has sparse keyframes (max interval: 3.87s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S3.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S4" has sparse keyframes (max interval: 3.9s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S4.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S5" has sparse keyframes (max interval: 6.53s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S5.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (0ms)
+[initSession:beginframe] warmup loop started (1ms)
+[initSession:beginframe] page.goto start (1ms)
+[initSession:beginframe] page.goto complete (332ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] page.goto complete (462ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] GSAP proxy flush complete (690ms)
+[initSession:beginframe] pollHfReady complete (786ms)
+[initSession:beginframe] GSAP proxy flush complete (682ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (802ms)
+[initSession:beginframe] applyVideoMetadataHints complete (834ms)
+[initSession:beginframe] media + fonts + tailwind ready (863ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (887ms)
+[initSession:beginframe] pollHfReady complete (835ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (912ms)
+[initSession:beginframe] applyVideoMetadataHints complete (918ms)
+[initSession:beginframe] media + fonts + tailwind ready (933ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (964ms)
+◇  /tmp/[REDACTED]/render.mp4
+   24.6 MB · 20.9s video · rendered in 3m 0.9s
+   beginframe capture · software gpu · compile 1.2s · extract 0.0s · audio 0.0s · probe 0.7s · setup 0.0s · capture 2m 59.1s · encode (during capture) 2m 59.1s · assemble 0.1s
+   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.dev/studio/download?os=linux
+⏱ render (correzione 2): 183.4 s
+⏱ fotogrammi per la revisione (sguardo 3): 16.2 s
+Revisione dei fotogrammi (giro 3): claude-fable-5-1, fine end_turn, effort medium, 25 fotogrammi, token letti 24531, scritti 1737, costo 0.332 $ (revisioni in tutto 1.749 $).
+⏱ revisione dei fotogrammi (sguardo 3): 28.9 s
+Revisione dei fotogrammi, sguardo 3: passa. I cinque tratteggi stanno accanto alla cresta, al capo che si china, alla nuca sotto il becco, alle piume sotto le dita e alla cresta rilassata, a 40-90 px dall'ara senza mai coprirla; nessun vuoto sopra i 3 s, tutti finiscono prima dei tagli e l'ultimo arriva a 16,8 s. Il codice non trova problemi: è al livello del Mac.
+Grafo del mix: [0:a]apad=whole_dur=20.867,aformat=channel_layouts=stereo,asplit=2[v][sc];[1:a][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=300:makeup=1[md];[2:a]adelay=7450|7450,volume=0.08,apad=whole_dur=20.867[w2];[3:a]adelay=14417|14417,volume=0.08,apad=whole_dur=20.867[w3];[v][md][w2][w3]amix=inputs=4:normalize=0:dropout_transition=0:duration=first,atrim=0:20.867[mix]
+mix-pre.wav: voce -18.80 dB, musica sotto la voce -33.09 dB, distacco 14.29 dB, -17.63 LUFS, picco -4.11 dBTP (k 0.707, spostamento 0 campioni)
+Grafo del mix: [0:a]apad=whole_dur=20.867,aformat=channel_layouts=stereo,asplit=2[v][sc];[1:a][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=300:makeup=1,volume=0.83dB[md];[2:a]adelay=7450|7450,volume=0.08,apad=whole_dur=20.867[w2];[3:a]adelay=14417|14417,volume=0.08,apad=whole_dur=20.867[w3];[v][md][w2][w3]amix=inputs=4:normalize=0:dropout_transition=0:duration=first,atrim=0:20.867[mix]
+mix-pre.wav: voce -18.80 dB, musica sotto la voce -32.26 dB, distacco 13.46 dB, -17.56 LUFS, picco -4.02 dBTP (k 0.707, spostamento 0 campioni)
+mix-finale.wav: voce -15.82 dB, musica sotto la voce -29.27 dB, distacco 13.45 dB, -14.58 LUFS, picco -1.68 dBTP (k 0.995, spostamento 0 campioni)
+Mix col riferimento: musica +0.83 dB dopo il sidechain, guadagno finale +2.99 dB.
+⏱ mix: 7.0 s
+Mix: -14.58 LUFS, picco -1.68 dBTP, prova del ramo musica [{"guadagno":0.7071,"restoDb":-148.5},{"guadagno":0.7071,"restoDb":-148.4}].
+⏱ unione: 0.6 s
+finale.mp4: voce -15.83 dB, musica sotto la voce -29.28 dB, distacco 13.45 dB, -14.59 LUFS, picco -1.66 dBTP (k 0.994, spostamento 0 campioni)
+Audio contro il reel dell'allevatore: {"voce":-15.83,"musicaSottoVoce":-29.28,"distacco":13.45,"lufs":-14.59,"picco":-1.66} — tutto entro 0,5 dB.
+File finale: -14.59 LUFS, formato ok, 0 tratti neri, 0 tratti fermi.
+Prova a secco finita: /home/runner/work/_temp/prova-a-secco/reel-prova-a-secco.mp4
+Oggetti disegnati: «tratteggio verticale che scende e finisce in un pallino sopra la cresta» su «Abbassa la testa» (0.06-1.6 s, 460,125 140x200, disegna): Si disegna dall'alto verso il basso e si ferma in un pallino a circa 70 px dalla cresta: dice il verso del gesto, la testa che scende. | «tratteggio verticale in discesa accanto al capo che si china, con pallino all'altezza della nuca» su «mi fissa, poi china il capo e arruffa le piume della nuca» (4.1-7.4 s, 240,400 120x230, disegna): Parte quando l'ara ci fissa e scende lungo il lato della testa mentre lei china il capo, fermandosi in un pallino accanto alla nuca che arruffa. | «tratteggio in discesa che finisce in un pallino accanto alla nuca sotto il becco del compagno» su «a lisciarle lì, dove il becco non arriva» (9.24-10.9 s, 270,300 210x290, disegna): La linea scende dal verde libero sopra le due are e si ferma in un pallino a circa 60 px dal punto in cui il becco del compagno liscia la nuca: senza audio si vede dov'è il «lì». | «tratteggio ad arco nel verso delle piume sopra la testa, che si ferma in un pallino verso le dita» su «Gratto piano, seguendo le piume» (12.51-14.4 s, 210,380 340x100, disegna): L'arco corre dalla fronte alla nuca a ridosso della cresta, nello stesso verso delle dita, e si ferma in un pallino accanto a dove la mano gratta. | «tratteggio ad arco che segue la curva della testa rilassata e si posa in un pallino sopra la cresta» su «Occhi socchiusi: va bene così» (14.67-16.8 s, 340,130 320x120, disegna): L'occhio è nel pieno del muso e non si può segnare senza coprire l'ara: l'arco corre sopra la cresta a 80-100 px dalle piume, calmo, e si posa in un pallino quando la voce dice che va bene così..
+Effetti del piano: desaturazione su «natura» (7.633 s).
+Inquadrature: S1 clip 1 0-1.8 s taglio/fermo scala 1 x 0 y 0 | S2 clip 2 1.8-7.6 s taglio/apertura scala 1 x 0 y 0 | S3 clip 3 7.6-11.133 s frusta/deriva scala 1 x 0 y 0 | S4 clip 4 11.133-14.567 s taglio/fermo scala 1 x 0 y 0 | S5 clip 5 14.567-20.867 s maschera_cerchio/spinta scala 1 x 0 y 0.
+Correzione del piano: stacco 3 spostato da 10.8 a 11.133 s (pausa o battito)
+Correzione del piano: inquadratura 2: rallentatore non ammesso in questo reel, velocità riportata a 1
+Correzione del piano: inquadratura 2: velocità ridotte per stare nella clip 2
+Correzione del piano: inquadratura 5: rallentatore non ammesso in questo reel, velocità riportata a 1
+Correzione del piano: inquadratura 5: velocità ridotte per stare nella clip 5
+Correzione del piano: effetto 1 (puntini): riportato dentro lo schermo (x da 990 a 935)
+Correzione del piano: effetto 3 (timbro): spostato da 15.45 a 16.02 s, quando la voce dice «bene»
+Correzione del piano: effetto 3 (timbro): riportato dentro lo schermo (x da 860 a 740)
+Correzione del piano: S3: deriva ridotta a 1.0277 per restare entro 1.11
+Correzione del piano: effetto timbro su «bene»: resterebbe 0.7 s prima del taglio, troppo poco per vederlo, tolto
+Correzione del piano: oggetto «tre trattini che si alzano uno per batti»: allungato a 7.4 s, per farsi vedere
+Correzione del piano: oggetto «tratteggio in discesa che finisce in un »: allungato a 10.7 s, per farsi vedere
+Correzione del piano: revisione: segno puntini su «vuole?» tolto
+Tempi: battiti della musica 22.1 s, preparazione delle inquadrature 525.5 s, dove sta l'ara per gli oggetti (rembg) 57.4 s, dove sta l'ara per i segni (rembg) 13 s, controllo della timeline 1.1 s, render 198.1 s, render di controllo magenta 91 s, fotogrammi per la revisione (sguardo 1) 14.7 s, revisione dei fotogrammi (sguardo 1) 193.8 s, dove sta l'ara per gli oggetti (rembg) (correzione 1) 71.1 s, controllo della timeline (correzione 1) 0.5 s, render (correzione 1) 182 s, fotogrammi per la revisione (sguardo 2) 15.3 s, revisione dei fotogrammi (sguardo 2) 67.6 s, dove sta l'ara per gli oggetti (rembg) (correzione 2) 70.5 s, controllo della timeline (correzione 2) 0.4 s, render (correzione 2) 183.4 s, fotogrammi per la revisione (sguardo 3) 16.2 s, revisione dei fotogrammi (sguardo 3) 28.9 s, mix 7 s, unione 0.6 s
+Fogli dei fotogrammi: secondi-1.jpg, secondi-2.jpg, secondi-3.jpg, revisione-1-1.jpg, revisione-1-2.jpg, revisione-1-3.jpg, revisione-1-4.jpg, revisione-2-1.jpg, revisione-2-2.jpg, revisione-2-3.jpg, revisione-2-4.jpg, revisione-3-1.jpg, revisione-3-2.jpg, revisione-3-3.jpg, revisione-3-4.jpg, tagli.jpg, momenti-1.jpg.
