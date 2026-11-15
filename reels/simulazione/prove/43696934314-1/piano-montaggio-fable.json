@@ -1,0 +1,208 @@
+{
+  "intensita": "calmo",
+  "perche": "La voce è lenta, con pause lunghe, e racconta un gesto tenero da osservare: il battito netto della musica serve solo ad agganciare i tagli e i pallini, non a scuotere il quadro.",
+  "variante": "V1",
+  "look": "L4",
+  "apertura": "A4",
+  "scritte": "T3",
+  "inquadrature": [
+    {
+      "clip": 1,
+      "fine": 1.81,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 1.81,
+          "velocita": 1
+        }
+      ],
+      "scala": 1.11,
+      "x": 0,
+      "y": -105,
+      "movimento": "fermo",
+      "entrata": "taglio",
+      "testa_y": 1240,
+      "testa_x": 580
+    },
+    {
+      "clip": 2,
+      "fine": 7.61,
+      "da": 0.05,
+      "tratti": [
+        {
+          "durata": 3.1,
+          "velocita": 1
+        },
+        {
+          "durata": 1.8,
+          "velocita": 0.5
+        },
+        {
+          "durata": 0.9,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "apertura",
+      "entrata": "taglio",
+      "testa_y": 1085,
+      "testa_x": 480
+    },
+    {
+      "clip": 3,
+      "fine": 11.14,
+      "da": 0.5,
+      "tratti": [
+        {
+          "durata": 3.53,
+          "velocita": 1
+        }
+      ],
+      "scala": 1.03,
+      "x": 0,
+      "y": 0,
+      "movimento": "deriva",
+      "entrata": "frusta",
+      "testa_y": 960,
+      "testa_x": 380
+    },
+    {
+      "clip": 4,
+      "fine": 14.55,
+      "da": 0.6,
+      "tratti": [
+        {
+          "durata": 3.41,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "spinta",
+      "entrata": "taglio",
+      "testa_y": 1045,
+      "testa_x": 245
+    },
+    {
+      "clip": 5,
+      "fine": 20.867,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 3,
+          "velocita": 0.5
+        },
+        {
+          "durata": 3.317,
+          "velocita": 1
+        }
+      ],
+      "scala": 1.03,
+      "x": 0,
+      "y": 0,
+      "movimento": "deriva",
+      "entrata": "maschera_cerchio",
+      "punto": {
+        "x": 550,
+        "y": 527
+      },
+      "testa_y": 1001,
+      "testa_x": 440
+    }
+  ],
+  "effetti": [
+    {
+      "tipo": "puntini",
+      "parola": "vuole",
+      "inizio": 1.95,
+      "fine": 3.6,
+      "x": 800,
+      "y": 480
+    }
+  ],
+  "oggetti": [
+    {
+      "nome": "zigzag arruffato sopra la nuca",
+      "frase": "arruffa le piume della nuca",
+      "parola": "arruffa",
+      "perche": "Il tratto spezzato che si disegna sopra la nuca abbassata mostra le piume che si sollevano arruffate proprio lì, dove l'ara le offre.",
+      "inizio": 5.94,
+      "fine": 7.46,
+      "x": 400,
+      "y": 380,
+      "larghezza": 260,
+      "altezza": 110,
+      "entrata": "disegna",
+      "punta_a": {
+        "x": 520,
+        "y": 580,
+        "sull_ara": true,
+        "cosa": "piume della nuca che si arruffano"
+      },
+      "svg": "<path d=\"M14 90 L48 28 L82 90 L116 28 L150 90 L184 28 L218 90 L246 44\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\" />"
+    },
+    {
+      "nome": "tratteggio in diagonale fino a un pallino sul punto della lisciata",
+      "frase": "è il compagno a lisciarle lì",
+      "parola": "lisciarle",
+      "perche": "Il tratteggio scende dal vuoto sopra la compagna e si ferma in un pallino accanto al punto della nuca dove il becco dell'altro liscia: fa vedere il lì della voce.",
+      "inizio": 8.8,
+      "fine": 10.5,
+      "x": 195,
+      "y": 385,
+      "larghezza": 240,
+      "altezza": 205,
+      "entrata": "disegna",
+      "punta_a": {
+        "x": 470,
+        "y": 660,
+        "sull_ara": true,
+        "cosa": "nuca della compagna sotto il becco dell'altro"
+      },
+      "svg": "<path class=\"tratt\" stroke-width=\"10\" d=\"M20 15 L205 170\" /><circle class=\"pallino\" cx=\"217\" cy=\"182\" r=\"12\" />"
+    },
+    {
+      "nome": "tratteggio dalla fronte alla nuca nel verso delle piume, con pallino davanti alle dita",
+      "frase": "Gratto piano, seguendo le piume",
+      "parola": "Gratto",
+      "perche": "Il tratteggio corre sopra la testa dalla fronte verso la nuca, nello stesso verso in cui le dita devono scorrere sulle piume, e finisce in un pallino accanto alla mano.",
+      "inizio": 12.51,
+      "fine": 14.3,
+      "x": 120,
+      "y": 290,
+      "larghezza": 400,
+      "altezza": 140,
+      "entrata": "disegna",
+      "punta_a": {
+        "x": 440,
+        "y": 490,
+        "sull_ara": true,
+        "cosa": "piume della nuca sotto le dita"
+      },
+      "svg": "<circle class=\"pallino\" cx=\"20\" cy=\"110\" r=\"10\" /><path class=\"tratt\" stroke-width=\"10\" d=\"M20 110 C 110 30, 260 20, 340 90\" /><circle class=\"pallino\" cx=\"352\" cy=\"98\" r=\"12\" />"
+    },
+    {
+      "nome": "onda lenta sopra la testa rilassata",
+      "frase": "Occhi socchiusi: va bene così",
+      "parola": "Occhi",
+      "perche": "Un'onda morbida che si disegna piano sopra la testa dell'ara mentre socchiude gli occhi: il ritmo lento e calmo del grattino che va bene così.",
+      "inizio": 14.7,
+      "fine": 16.5,
+      "x": 300,
+      "y": 140,
+      "larghezza": 420,
+      "altezza": 100,
+      "entrata": "disegna",
+      "punta_a": {
+        "x": 520,
+        "y": 290,
+        "sull_ara": true,
+        "cosa": "cima della testa rilassata"
+      },
+      "svg": "<path d=\"M14 50 Q 66 10 118 50 T 222 50 T 326 50 T 406 50\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" />"
+    }
+  ]
+}
