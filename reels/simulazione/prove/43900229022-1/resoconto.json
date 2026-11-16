@@ -1,0 +1,707 @@
+{
+  "piano": {
+    "fuoriRegola": [],
+    "testa": {
+      "tratti": [
+        {
+          "inquadratura": "S1",
+          "da": 0,
+          "a": 3,
+          "secondi": 3,
+          "testa_y": 1360,
+          "sotto_px": 120
+        }
+      ],
+      "secondi": 3,
+      "conSottotitoli": 16.83,
+      "quota": 0.178,
+      "sottoMax": 120,
+      "entro": true,
+      "motivi": []
+    },
+    "intensita": "calmo",
+    "perche": "La voce osserva e racconta un gesto tenero (chinare la testa per i grattini) con tono dolce; il battito netto a 152 BPM dà il ritmo ai tagli, ai segni e alle rampe, senza bisogno di colpi forti.",
+    "variante": "V1",
+    "look": "L4",
+    "apertura": "A2",
+    "scritte": "T3",
+    "D": 20.867,
+    "tP": 16.833,
+    "inquadrature": [
+      {
+        "id": "S1",
+        "clip": 1,
+        "inizio": 0,
+        "fine": 3,
+        "segmenti": [
+          [
+            3,
+            0,
+            3
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "fermo",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 450,
+        "testa0": 400,
+        "testa_y": 1360,
+        "testaNeiSottotitoli": true,
+        "respiro": 1,
+        "picco": 1.04
+      },
+      {
+        "id": "S2",
+        "clip": 2,
+        "inizio": 3,
+        "fine": 4.6,
+        "segmenti": [
+          [
+            1.6,
+            0,
+            1.6
+          ]
+        ],
+        "scala": 1.087,
+        "x": 0,
+        "y": 0,
+        "movimento": "fermo",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 540,
+        "testa0": -160,
+        "testa_y": 786.1,
+        "respiro": 1,
+        "picco": 1.087
+      },
+      {
+        "id": "S3",
+        "clip": 2,
+        "inizio": 4.6,
+        "fine": 7.6,
+        "segmenti": [
+          [
+            3,
+            1.9,
+            4.9
+          ]
+        ],
+        "scala": 1.027,
+        "x": 0,
+        "y": 0,
+        "movimento": "fermo",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "divisa": true,
+        "testa_x": 476,
+        "testa0": 116.82,
+        "testa_y": 1080,
+        "respiro": 1,
+        "picco": 1.1092
+      },
+      {
+        "id": "S4",
+        "clip": 3,
+        "inizio": 7.6,
+        "fine": 11.133,
+        "segmenti": [
+          [
+            3.533,
+            0.3,
+            3.833
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "deriva",
+        "entrata": "frusta",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 380,
+        "testa0": 40,
+        "testa_y": 1000,
+        "respiro": 1.0277,
+        "picco": 1.1099
+      },
+      {
+        "id": "S5",
+        "clip": 4,
+        "inizio": 11.133,
+        "fine": 14.567,
+        "segmenti": [
+          [
+            1.472,
+            0.2,
+            1.672
+          ],
+          [
+            1.962,
+            1.672,
+            3.634
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "spinta",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 300,
+        "testa0": 105,
+        "testa_y": 1065,
+        "respiro": 1.06,
+        "picco": 1.06
+      },
+      {
+        "id": "S6",
+        "clip": 5,
+        "inizio": 14.567,
+        "fine": 20.867,
+        "segmenti": [
+          [
+            0.495,
+            0,
+            0.393
+          ],
+          [
+            5.805,
+            0.393,
+            5.002
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "apertura",
+        "entrata": "maschera_cerchio",
+        "punto": {
+          "x": 560,
+          "y": 520
+        },
+        "testa_x": 430,
+        "testa0": 40,
+        "testa_y": 1000,
+        "respiro": 1.06,
+        "picco": 1.06
+      }
+    ],
+    "effetti": [
+      {
+        "tipo": "zoom_a_ritmo",
+        "parola": "gonfia",
+        "inizio": 0.833,
+        "fine": 2.067
+      }
+    ],
+    "oggetti": [
+      {
+        "nome": "nuvola del pensiero coi puntini che diventano il punto interrogativo",
+        "tipo": "fumetto",
+        "frase": "gonfia il collo. Che cosa vuole?",
+        "parola": "gonfia",
+        "perche": "la domanda su cosa vuole l'ara che gonfia il collo | nuvola del pensiero coi tre puntini sopra la cresta, su 'vuole' i puntini diventano il punto interrogativo senape | l'ara fa un gesto strano e non si capisce cosa chiede | fumetti",
+        "inizio": 0.84,
+        "fine": 2.85,
+        "x": 410,
+        "y": 130,
+        "larghezza": 380,
+        "altezza": 155,
+        "punta_a": {
+          "x": 600,
+          "y": 365,
+          "sull_ara": true,
+          "cosa": "cresta della testa"
+        },
+        "entrata": "compare",
+        "parti": [],
+        "svg": "<path d=\"M62 112 C 22 112, 10 72, 46 62 C 36 26, 92 10, 116 36 C 136 6, 202 6, 218 36 C 248 10, 304 22, 302 56 C 348 58, 362 104, 322 116 C 324 136, 262 138, 250 122 C 220 142, 160 142, 150 122 C 120 140, 70 138, 62 112 Z\" fill=\"#F7F1E1\" stroke=\"#12263C\" stroke-width=\"3\" /><circle cx=\"38\" cy=\"136\" r=\"9\" fill=\"#F7F1E1\" stroke=\"#12263C\" stroke-width=\"3\" /><circle cx=\"16\" cy=\"148\" r=\"6\" fill=\"#F7F1E1\" stroke=\"#12263C\" stroke-width=\"3\" /><g class=\"prima\"><circle cx=\"150\" cy=\"76\" r=\"11\" fill=\"#12263C\" /><circle cx=\"190\" cy=\"76\" r=\"11\" fill=\"#12263C\" /><circle cx=\"230\" cy=\"76\" r=\"11\" fill=\"#12263C\" /></g><text class=\"dopo\" x=\"158\" y=\"112\" font-size=\"96\" font-weight=\"700\" fill=\"#C4862E\">?</text>",
+        "oggetto_della_frase": "la domanda su cosa vuole l'ara che gonfia il collo",
+        "cosa_fa": "nuvola del pensiero coi tre puntini sopra la cresta, su 'vuole' i puntini diventano il punto interrogativo senape",
+        "senza_audio": "l'ara fa un gesto strano e non si capisce cosa chiede",
+        "come_nel_riferimento": "fumetti",
+        "passi": [],
+        "diventa": {
+          "classi": true,
+          "parola": "vuole",
+          "inizio": 2.24
+        },
+        "movimento": null
+      },
+      {
+        "nome": "piuma della nuca che si arruffa",
+        "tipo": "piuma",
+        "frase": "china il capo e arruffa le piume della nuca.",
+        "parola": "china",
+        "perche": "le piume della nuca che l'ara arruffa chinando il capo | una piuma coi barbi lisci grigio-blu sopra la nuca chinata, su 'arruffa' i barbi diventano senape e sparati in tutte le direzioni | l'ara abbassa la testa e le piume si drizzano: sta mostrando la nuca | scontrino",
+        "inizio": 4.98,
+        "fine": 7.45,
+        "x": 330,
+        "y": 320,
+        "larghezza": 420,
+        "altezza": 170,
+        "punta_a": {
+          "x": 500,
+          "y": 570,
+          "sull_ara": true,
+          "cosa": "cresta della nuca chinata"
+        },
+        "entrata": "disegna",
+        "parti": [],
+        "svg": "<path d=\"M18 118 C 90 28, 280 0, 408 36 C 320 118, 170 160, 18 118 Z\" fill=\"#F7F1E1\" stroke=\"#12263C\" stroke-width=\"3\" /><path d=\"M18 118 L 408 36\" stroke=\"#12263C\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /><path class=\"prima\" d=\"M120 97 L 175 42 M 180 84 L 235 30 M 240 71 L 295 20 M 300 59 L 355 12 M 120 97 L 175 150 M 180 84 L 235 138 M 240 71 L 295 124 M 300 59 L 352 110\" stroke=\"#7D8B98\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /><path class=\"dopo\" d=\"M120 97 L 100 26 M 175 86 L 200 14 M 235 72 L 210 6 M 295 60 L 340 2 M 140 93 L 175 160 M 210 78 L 195 150 M 270 65 L 305 130\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" />",
+        "oggetto_della_frase": "le piume della nuca che l'ara arruffa chinando il capo",
+        "cosa_fa": "una piuma coi barbi lisci grigio-blu sopra la nuca chinata, su 'arruffa' i barbi diventano senape e sparati in tutte le direzioni",
+        "senza_audio": "l'ara abbassa la testa e le piume si drizzano: sta mostrando la nuca",
+        "come_nel_riferimento": "scontrino",
+        "passi": [],
+        "diventa": {
+          "classi": true,
+          "parola": "arruffa",
+          "inizio": 5.94
+        },
+        "movimento": null
+      },
+      {
+        "nome": "scintille sul punto in cui il compagno liscia la nuca",
+        "tipo": "scintille",
+        "frase": "è il compagno a lisciarle lì, dove il becco non arriva.",
+        "parola": "lisciarle",
+        "perche": "il punto della nuca che il compagno liscia col becco | tre scintille senape accanto al becco del compagno sulla nuca dell'altra, una su 'lisciarle', una su 'lì', una su 'becco' | lì dove il becco tocca succede qualcosa di buono: è il punto che l'altra non raggiunge | tocco",
+        "inizio": 8.8,
+        "fine": 10.983,
+        "x": 280,
+        "y": 430,
+        "larghezza": 180,
+        "altezza": 150,
+        "punta_a": {
+          "x": 470,
+          "y": 620,
+          "sull_ara": true,
+          "cosa": "punta del becco del compagno sulla nuca dell'altra"
+        },
+        "entrata": "pezzi",
+        "parti": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "svg": "<g class=\"p1\"><path d=\"M10 45 L 80 45 M 45 10 L 45 80 M 20 20 L 70 70 M 70 20 L 20 70\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /></g><g class=\"p2\"><path d=\"M95 40 L 165 40 M 130 5 L 130 75 M 105 15 L 155 65 M 155 15 L 105 65\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /></g><g class=\"p3\"><path d=\"M55 110 L 125 110 M 90 75 L 90 145 M 65 85 L 115 135 M 115 85 L 65 135\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" /></g>",
+        "oggetto_della_frase": "il punto della nuca che il compagno liscia col becco",
+        "cosa_fa": "tre scintille senape accanto al becco del compagno sulla nuca dell'altra, una su 'lisciarle', una su 'lì', una su 'becco'",
+        "senza_audio": "lì dove il becco tocca succede qualcosa di buono: è il punto che l'altra non raggiunge",
+        "come_nel_riferimento": "tocco",
+        "passi": [
+          {
+            "parte": "p2",
+            "parola": "lì",
+            "inizio": 9.24
+          },
+          {
+            "parte": "p3",
+            "parola": "becco",
+            "inizio": 9.9
+          }
+        ],
+        "diventa": null,
+        "movimento": null
+      },
+      {
+        "nome": "fumetto della richiesta coi puntini che diventa il messaggio",
+        "tipo": "fumetto",
+        "frase": "Ora lo chiede a me. Gratto piano,",
+        "parola": "chiede",
+        "perche": "la richiesta che l'ara fa a me | fumetto coi tre puntini che sale sopra la cresta mentre l'ara chiede, su 'Gratto' i puntini diventano le righe del messaggio: richiesta capita | l'ara sta chiedendo qualcosa e il messaggio arriva: la mano risponde grattando | chat",
+        "inizio": 11.48,
+        "fine": 14.4,
+        "x": 290,
+        "y": 210,
+        "larghezza": 340,
+        "altezza": 190,
+        "punta_a": {
+          "x": 430,
+          "y": 500,
+          "sull_ara": true,
+          "cosa": "cresta della testa"
+        },
+        "entrata": "sale",
+        "parti": [],
+        "svg": "<path d=\"M30 10 H310 Q340 10 340 40 V120 Q340 150 310 150 H175 L150 190 L135 150 H30 Q0 150 0 120 V40 Q0 10 30 10 Z\" fill=\"#F7F1E1\" stroke=\"#12263C\" stroke-width=\"3\" /><g class=\"prima\"><circle cx=\"120\" cy=\"80\" r=\"11\" fill=\"#12263C\" /><circle cx=\"170\" cy=\"80\" r=\"11\" fill=\"#12263C\" /><circle cx=\"220\" cy=\"80\" r=\"11\" fill=\"#12263C\" /></g><path class=\"dopo\" d=\"M50 60 L 290 60 M 50 100 L 220 100\" stroke=\"#7D8B98\" stroke-width=\"10\" stroke-linecap=\"round\" fill=\"none\" />",
+        "oggetto_della_frase": "la richiesta che l'ara fa a me",
+        "cosa_fa": "fumetto coi tre puntini che sale sopra la cresta mentre l'ara chiede, su 'Gratto' i puntini diventano le righe del messaggio: richiesta capita",
+        "senza_audio": "l'ara sta chiedendo qualcosa e il messaggio arriva: la mano risponde grattando",
+        "come_nel_riferimento": "chat",
+        "passi": [],
+        "diventa": {
+          "classi": true,
+          "parola": "Gratto",
+          "inizio": 12.55
+        },
+        "movimento": null
+      },
+      {
+        "nome": "occhio socchiuso che diventa la spunta",
+        "tipo": "spunta",
+        "frase": "Occhi socchiusi: va bene così.",
+        "parola": "Occhi",
+        "perche": "gli occhi socchiusi dell'ara e il 'va bene così' | un arco senape sopra la cresta, l'occhio che si chiude, disegnato su 'Occhi'; su 'bene' diventa la spunta senape | l'ara chiude gli occhi: sta bene, il gesto era giusto | tocco",
+        "inizio": 14.67,
+        "fine": 16.7,
+        "x": 300,
+        "y": 120,
+        "larghezza": 460,
+        "altezza": 130,
+        "punta_a": {
+          "x": 500,
+          "y": 290,
+          "sull_ara": true,
+          "cosa": "cresta della testa"
+        },
+        "entrata": "disegna",
+        "parti": [],
+        "svg": "<path class=\"prima\" d=\"M110 35 Q 230 125 350 35\" stroke=\"#C4862E\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" /><path class=\"dopo\" d=\"M140 70 L 210 120 L 340 20\" stroke=\"#C4862E\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\" />",
+        "oggetto_della_frase": "gli occhi socchiusi dell'ara e il 'va bene così'",
+        "cosa_fa": "un arco senape sopra la cresta, l'occhio che si chiude, disegnato su 'Occhi'; su 'bene' diventa la spunta senape",
+        "senza_audio": "l'ara chiude gli occhi: sta bene, il gesto era giusto",
+        "come_nel_riferimento": "tocco",
+        "passi": [],
+        "diventa": {
+          "classi": true,
+          "parola": "bene",
+          "inizio": 16.02
+        },
+        "movimento": null
+      }
+    ]
+  },
+  "correzioni": [
+    "inquadratura 5: rallentatore non ammesso in questo reel, velocità riportata a 1",
+    "inquadratura 6: rallentatore non ammesso in questo reel, velocità riportata a 1",
+    "inquadratura 6: velocità ridotte per stare nella clip 5",
+    "effetto 1 (zoom_a_ritmo): spostato da 0.06 a 0.84 s, quando la voce dice «gonfia»",
+    "effetto 3 (scritta_dietro): spostato da 5 a 6.82 s, quando la voce dice «nuca»",
+    "effetto 4 (timbro): riportato dentro lo schermo (x da 300 a 340)",
+    "effetto 5 (timbro): riportato dentro lo schermo (x da 850 a 740)",
+    "S3: scala da 1.07 a 1.027 per restare entro 1.11",
+    "S4: deriva ridotta a 1.0277 per restare entro 1.11",
+    "S2: spinta tolta per tenere diverse le due parti della clip 2",
+    "S2: scala da 1 a 1.087, le due parti della clip 2 restano inquadrature diverse",
+    "effetto mirino su «fissa»: finisce a 4.45 s, prima del taglio di 4.6 s",
+    "effetto mirino su «fissa»: resterebbe 0.48 s prima del taglio, troppo poco per vederlo, tolto",
+    "effetto scritta_dietro su «nuca»: finisce a 7.45 s, prima del taglio di 7.6 s",
+    "effetto scritta_dietro su «nuca»: resterebbe 0.62 s prima del taglio, troppo poco per vederlo, tolto",
+    "effetto timbro su «arriva»: allungato a 10.983 s, per farsi vedere",
+    "effetto timbro su «arriva»: resterebbe 0.78 s prima del taglio, troppo poco per vederlo, tolto",
+    "effetto timbro su «bene»: allungato a 16.833 s, per farsi vedere",
+    "effetto timbro su «bene»: resterebbe 0.87 s prima del taglio, troppo poco per vederlo, tolto",
+    "oggetto «nuvola del pensiero coi puntini che dive»: finisce a 2.85 s, prima del taglio di 3 s",
+    "oggetto «piuma della nuca che si arruffa»: finisce a 7.45 s, prima del taglio di 7.6 s",
+    "oggetto «scintille sul punto in cui il compagno l»: finisce a 10.983 s, prima del taglio di 11.133 s"
+  ],
+  "rifatto": [
+    "2 effetti in un reel \"calmo\" (contando gli oggetti oltre 2): ne servono almeno 3, ognuno sulla parola della voce che fa capire"
+  ],
+  "pianoNonRifatto": "regola 19: budget di Fable di questo reel finito: già 1.67 $ per il piano di montaggio, su 3.00 $ restano 18000 token di risposta, ne servono almeno 24000",
+  "sguardoSaltato": {
+    "giro": 2,
+    "motivo": "regola 19: budget di Fable di questo reel finito: per la revisione dei fotogrammi (giro 2) restano 0.11 $, ne servono almeno 0.94"
+  },
+  "novita": {
+    "novita": 15,
+    "media": 1.05,
+    "massimo": 2.02,
+    "piuLungo": [
+      12.55,
+      14.57
+    ],
+    "lunghi": []
+  },
+  "revisioni": [
+    {
+      "giro": 1,
+      "passa": false,
+      "passaFable": false,
+      "giudizio": "Tre segni soli, due dello stesso tipo, due vuoti di voce (2,65-8,2 e 14,3-16,83) e la piuma staccata dal compagno: non regge il confronto con lo scontrino. Riscritti cinque segni che cambiano sulle parole della voce, accanto alla cosa che indicano.",
+      "problemi": [
+        {
+          "segno": "o0",
+          "secondo": 1.5,
+          "cosa": "La nuvola del pensiero sta nel quadrato dell'angolo in alto a destra (x fino a 1020, y 120-275)."
+        },
+        {
+          "segno": "o1",
+          "secondo": 9.1,
+          "cosa": "La piuma è a 124 px dalla cresta del compagno e galleggia nel vuoto in alto: non si capisce cosa indica."
+        },
+        {
+          "segno": "o2",
+          "secondo": 12.6,
+          "cosa": "Il fumetto sta nell'angolo in alto a sinistra (x 110-440, y 200-390) e la spunta dentro è piccola."
+        },
+        {
+          "segno": "vuoto",
+          "secondo": 5.42,
+          "cosa": "Da 2,65 a 8,2 s la voce dice 'china il capo e arruffa le piume della nuca' senza nessun segno."
+        },
+        {
+          "segno": "vuoto",
+          "secondo": 15.56,
+          "cosa": "Da 14,3 a 16,83 s nessun segno: 'Occhi socchiusi: va bene così' resta scoperto."
+        },
+        {
+          "segno": "vuoto",
+          "secondo": 0.9,
+          "cosa": "Tre segni di due tipi (fumetto, piuma): servono almeno tre tipi diversi e più novità sulle parole (ritmo 1,4 s contro 1,16 dello scontrino)."
+        }
+      ],
+      "problemiCodice": [
+        {
+          "segno": "o1",
+          "secondo": 9.1,
+          "cosa": "staccato da quello che indica: il tratto più vicino è a 124 px da «cresta del compagno che liscia» (700,470), al massimo 120."
+        },
+        {
+          "segno": "tutti",
+          "secondo": 0.9,
+          "cosa": "poca varietà: 3 segni di 2 tipi (fumetto, piuma); ne servono almeno 3 diversi, ognuno il disegno che c'entra con la sua parola."
+        },
+        {
+          "segno": "tutti",
+          "secondo": 0.9,
+          "cosa": "sono tutti oggetti: servono segni diversi, e soprattutto le cose di cui parla la voce, disegnate come nello scontrino (il conto, la chat, i like)."
+        },
+        {
+          "segno": "ritmo",
+          "secondo": 4.6,
+          "cosa": "succede qualcosa di nuovo ogni 1,4 s di media (11 novità prima dell'invito): nello scontrino ogni 1,16 s. Aggiungi novità sulle parole della voce: una parte del disegno che compare (passi), un disegno che diventa un'altra cosa, un movimento della camera"
+        },
+        {
+          "segno": "vuoto",
+          "secondo": 5.42,
+          "cosa": "da 2,65 a 8,2 s la voce va avanti senza nessun segno: al massimo 3 s."
+        },
+        {
+          "segno": "vuoto",
+          "secondo": 15.56,
+          "cosa": "da 14,3 a 16,83 s nessun segno: l'ultimo segno deve arrivare almeno a 15,33 s (l'invito parte a 16,83 s)."
+        }
+      ],
+      "togli": [],
+      "oggetti": 5
+    }
+  ],
+  "problemiSegni": [
+    {
+      "segno": "o2",
+      "secondo": 8.8,
+      "cosa": "è un simbolo attaccato al corpo dell'ara («punta del becco del compagno sulla nuca dell'altra»): Allo, 16/11/2026, sulla prova del mattino (cuore sul compagno, tratteggi su cresta e nuca): «cuori a cazzo, senza senso». Disegna la cosa di cui parla la voce, come lo scontrino, la chat o i like."
+    },
+    {
+      "segno": "o4",
+      "secondo": 14.67,
+      "cosa": "è un simbolo attaccato al corpo dell'ara («cresta della testa»): Allo, 16/11/2026, sulla prova del mattino (cuore sul compagno, tratteggi su cresta e nuca): «cuori a cazzo, senza senso». Disegna la cosa di cui parla la voce, come lo scontrino, la chat o i like."
+    },
+    {
+      "segno": "o4",
+      "secondo": 15.68,
+      "cosa": "sta sopra l'ara: 8 punti del tratto cadono sulla sagoma misurata col ritaglio. Il segno va accanto, mai sopra né dentro."
+    }
+  ],
+  "D": 20.867,
+  "tP": 16.833,
+  "attacco": 52.9,
+  "bpm": 152,
+  "lufs": -14.59,
+  "ramo": [
+    {
+      "guadagno": 0.7071,
+      "restoDb": -148.5
+    },
+    {
+      "guadagno": 0.7071,
+      "restoDb": -148.4
+    }
+  ],
+  "magenta": 0,
+  "tipi": {
+    "segni": [
+      "punto interrogativo",
+      "puntini"
+    ],
+    "stacchi": [
+      "frusta",
+      "maschera"
+    ],
+    "effetti": [
+      "zoom a ritmo"
+    ]
+  },
+  "tempi": [
+    {
+      "nome": "battiti della musica",
+      "secondi": 23.2
+    },
+    {
+      "nome": "dove sta l'ara nelle clip (rembg)",
+      "secondi": 59.9
+    },
+    {
+      "nome": "piano di montaggio (Fable)",
+      "secondi": 362.4
+    },
+    {
+      "nome": "preparazione delle inquadrature",
+      "secondi": 456.1
+    },
+    {
+      "nome": "dove sta l'ara per gli oggetti (rembg)",
+      "secondi": 42.1
+    },
+    {
+      "nome": "controllo della timeline",
+      "secondi": 0.9
+    },
+    {
+      "nome": "render",
+      "secondi": 198.5
+    },
+    {
+      "nome": "render di controllo magenta",
+      "secondi": 93.1
+    },
+    {
+      "nome": "fotogrammi per la revisione (sguardo 1)",
+      "secondi": 13.5
+    },
+    {
+      "nome": "revisione dei fotogrammi (sguardo 1)",
+      "secondi": 244.2
+    },
+    {
+      "nome": "dove sta l'ara per gli oggetti (rembg) (correzione 1)",
+      "secondi": 71.2
+    },
+    {
+      "nome": "controllo della timeline (correzione 1)",
+      "secondi": 0.4
+    },
+    {
+      "nome": "render (correzione 1)",
+      "secondi": 181
+    },
+    {
+      "nome": "fotogrammi per la revisione (sguardo 2)",
+      "secondi": 15.7
+    },
+    {
+      "nome": "mix",
+      "secondi": 7.1
+    },
+    {
+      "nome": "unione",
+      "secondi": 0.6
+    }
+  ],
+  "audio": {
+    "misure": {
+      "voce": -15.83,
+      "musicaSottoVoce": -29.28,
+      "distacco": 13.45,
+      "lufs": -14.59,
+      "picco": -1.62
+    },
+    "scarti": [],
+    "riferimento": {
+      "voce": -15.81,
+      "musicaSottoVoce": -29.27,
+      "distacco": 13.46,
+      "lufs": -14.27,
+      "picco": -1.48
+    },
+    "musicaDb": 0.83,
+    "guadagnoFinale": 2.99
+  },
+  "testaSottotitoli": {
+    "tratti": [
+      {
+        "inquadratura": "S1",
+        "da": 0,
+        "a": 3,
+        "secondi": 3,
+        "testa_y": 1360,
+        "sotto_px": 120
+      }
+    ],
+    "secondi": 3,
+    "conSottotitoli": 16.83,
+    "quota": 0.178,
+    "sottoMax": 120,
+    "entro": true,
+    "motivi": []
+  },
+  "ritmo": {
+    "inquadrature": 6,
+    "durate": [
+      3,
+      1.6,
+      3,
+      3.53,
+      3.43,
+      6.3
+    ],
+    "media": 3.48,
+    "massima": 6.3,
+    "mediaMax": 4.4,
+    "lento": false,
+    "divise": 1
+  },
+  "crf": 18,
+  "pianoDaFable": true,
+  "velocitaVoce": {
+    "misurata": 3.277,
+    "nota": "voce approvata del 27/10, invariata"
+  },
+  "spesaFableUsd": 1.6729,
+  "spesaRevisioniUsd": 1.218,
+  "problemiSegniFinali": [
+    {
+      "segno": "o2",
+      "secondo": 8.8,
+      "cosa": "è un simbolo attaccato al corpo dell'ara («punta del becco del compagno sulla nuca dell'altra»): Allo, 16/11/2026, sulla prova del mattino (cuore sul compagno, tratteggi su cresta e nuca): «cuori a cazzo, senza senso». Disegna la cosa di cui parla la voce, come lo scontrino, la chat o i like."
+    },
+    {
+      "segno": "o4",
+      "secondo": 14.67,
+      "cosa": "è un simbolo attaccato al corpo dell'ara («cresta della testa»): Allo, 16/11/2026, sulla prova del mattino (cuore sul compagno, tratteggi su cresta e nuca): «cuori a cazzo, senza senso». Disegna la cosa di cui parla la voce, come lo scontrino, la chat o i like."
+    },
+    {
+      "segno": "o4",
+      "secondo": 15.68,
+      "cosa": "sta sopra l'ara: 8 punti del tratto cadono sulla sagoma misurata col ritaglio. Il segno va accanto, mai sopra né dentro."
+    }
+  ],
+  "registro": {
+    "data": "16/11 (prova a secco)",
+    "reel": "storytelling-ara-china-la-testa (prova a secco)",
+    "segni": "nuvola del pensiero coi puntini che diventano il punto interrogativo (0,84); piuma della nuca che si arruffa (4,98); scintille sul punto in cui il compagno liscia la nuca (8,8); fumetto della richiesta coi puntini che diventa il messaggio (11,48); occhio socchiuso che diventa la spunta (14,67)",
+    "tagli": "tagli puliti sul respiro (3 / 11,13); taglio che stringe o allarga la stessa ripresa (4,6)",
+    "transizioni": "frusta orizzontale con sfocatura (7,6); maschera circolare dall'occhio (14,57); invito sopra l'ultima ripresa, velo blu dal fondo",
+    "altri": "zoom a ritmo di musica (0,83), fermo / deriva / spinta / apertura"
+  }
+}

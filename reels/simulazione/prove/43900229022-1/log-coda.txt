@@ -1,0 +1,153 @@
+53.5s · encode (during capture) 2m 53.5s · assemble 0.1s
+   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.dev/studio/download?os=linux
+⏱ render: 198.5 s
+◆  Rendering reel-qc → /tmp/reel-prova-a-secco-sXIkGG/qc-magenta.mp4
+   30fps · draft · 2 workers
+[?25l│
+◒  Checking browser...
+[1G[J◇  Browser: env
+[?25h
+  Lint: 1 error(s), 14 warning(s) — run with --lint-verbose for full output.
+  Continuing render despite lint issues. Use --strict to block errors.
+[WARN] [Compiler] WARNING: Video "S1" has sparse keyframes (max interval: 3.2s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S1.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S3" has sparse keyframes (max interval: 3.33s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S3.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S4" has sparse keyframes (max interval: 3.87s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S4.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S6" has sparse keyframes (max interval: 6.53s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S6.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S5" has sparse keyframes (max interval: 3.9s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S5.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (2ms)
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (0ms)
+[initSession:beginframe] page.goto complete (630ms)
+[initSession:beginframe] page.goto complete (641ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] GSAP proxy flush complete (885ms)
+[initSession:beginframe] GSAP proxy flush complete (881ms)
+[initSession:beginframe] pollHfReady complete (947ms)
+[initSession:beginframe] pollHfReady complete (938ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (956ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (950ms)
+[initSession:beginframe] applyVideoMetadataHints complete (965ms)
+[initSession:beginframe] media + fonts + tailwind ready (999ms)
+[initSession:beginframe] applyVideoMetadataHints complete (987ms)
+[initSession:beginframe] media + fonts + tailwind ready (994ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (1032ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (1065ms)
+◇  /tmp/reel-prova-a-secco-sXIkGG/qc-magenta.mp4
+   3.0 MB · 20.9s video · rendered in 1m 29.8s
+   beginframe capture · software gpu · compile 1.4s · extract 20.1s · audio 0.0s · probe 0.8s · setup 0.0s · capture 1m 8.1s · encode (during capture) 1m 8.1s · assemble 0.1s
+   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.dev/studio/download?os=linux
+⏱ render di controllo magenta: 93.1 s
+Controllo magenta: 0 fotogrammi con bordo vuoto su 627.
+⏱ fotogrammi per la revisione (sguardo 1): 13.5 s
+Revisione dei fotogrammi (giro 1): claude-fable-5-1, fine end_turn, effort medium, 23 fotogrammi, token letti 37335, scritti 16893, costo 1.218 $ (revisioni in tutto 1.218 $).
+⏱ revisione dei fotogrammi (sguardo 1): 244.2 s
+Revisione dei fotogrammi, sguardo 1: non passa. Tre segni soli, due dello stesso tipo, due vuoti di voce (2,65-8,2 e 14,3-16,83) e la piuma staccata dal compagno: non regge il confronto con lo scontrino. Riscritti cinque segni che cambiano sulle parole della voce, accanto alla cosa che indicano.
+  o0 a 1.5 s: La nuvola del pensiero sta nel quadrato dell'angolo in alto a destra (x fino a 1020, y 120-275).
+  o1 a 9.1 s: La piuma è a 124 px dalla cresta del compagno e galleggia nel vuoto in alto: non si capisce cosa indica.
+  o2 a 12.6 s: Il fumetto sta nell'angolo in alto a sinistra (x 110-440, y 200-390) e la spunta dentro è piccola.
+  vuoto a 5.42 s: Da 2,65 a 8,2 s la voce dice 'china il capo e arruffa le piume della nuca' senza nessun segno.
+  vuoto a 15.56 s: Da 14,3 a 16,83 s nessun segno: 'Occhi socchiusi: va bene così' resta scoperto.
+  vuoto a 0.9 s: Tre segni di due tipi (fumetto, piuma): servono almeno tre tipi diversi e più novità sulle parole (ritmo 1,4 s contro 1,16 dello scontrino).
+Correzione della revisione: oggetto «nuvola del pensiero coi puntini che dive»: finisce a 2.85 s, prima del taglio di 3 s
+Correzione della revisione: oggetto «piuma della nuca che si arruffa»: finisce a 7.45 s, prima del taglio di 7.6 s
+Correzione della revisione: oggetto «scintille sul punto in cui il compagno l»: finisce a 10.983 s, prima del taglio di 11.133 s
+[0;93m2026-11-16 16:15:18.361548533 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-16 16:15:32.703900144 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-16 16:15:46.587689152 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-16 16:16:01.547485727 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-16 16:16:15.664865629 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/[REDACTED]" because filename "[REDACTED]" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+⏱ dove sta l'ara per gli oggetti (rembg) (correzione 1): 71.2 s
+Controllo dei segni (correzione 1): 3 problemi.
+  o2 a 8.8 s: è un simbolo attaccato al corpo dell'ara («punta del becco del compagno sulla nuca dell'altra»): Allo, 16/11/2026, sulla prova del mattino (cuore sul compagno, tratteggi su cresta e nuca): «cuori a cazzo, senza senso». Disegna la cosa di cui parla la voce, come lo scontrino, la chat o i like.
+  o4 a 14.67 s: è un simbolo attaccato al corpo dell'ara («cresta della testa»): Allo, 16/11/2026, sulla prova del mattino (cuore sul compagno, tratteggi su cresta e nuca): «cuori a cazzo, senza senso». Disegna la cosa di cui parla la voce, come lo scontrino, la chat o i like.
+  o4 a 15.68 s: sta sopra l'ara: 8 punti del tratto cadono sulla sagoma misurata col ritaglio. Il segno va accanto, mai sopra né dentro.
+⏱ controllo della timeline (correzione 1): 0.4 s
+◆  Rendering reel → /tmp/reel-prova-a-secco-sXIkGG/render.mp4
+   30fps · high · 2 workers
+[?25l│
+◒  Checking browser...
+[1G[J◇  Browser: env
+[?25h
+  Lint: 0 error(s), 14 warning(s) — run with --lint-verbose for full output.
+  Continuing render despite lint issues. Use --strict to block errors.
+[WARN] [Compiler] WARNING: Video "S3" has sparse keyframes (max interval: 3.33s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S3.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S1" has sparse keyframes (max interval: 3.2s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S1.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S4" has sparse keyframes (max interval: 3.87s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S4.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S5" has sparse keyframes (max interval: 3.9s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S5.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[WARN] [Compiler] WARNING: Video "S6" has sparse keyframes (max interval: 6.53s). This causes seek failures and frame freezing. Re-encode with: ffmpeg -i "assets/clips/S6.mp4" -c:v libx264 -r 30 -g 30 -keyint_min 30 -movflags +faststart -c:a copy output.mp4
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[BrowserManager] Browser launched (HeadlessChrome/149.0.7827.55, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (1ms)
+[initSession:beginframe] warmup loop started (0ms)
+[initSession:beginframe] page.goto start (0ms)
+[initSession:beginframe] page.goto complete (325ms)
+[initSession:beginframe] GSAP proxy flush complete (400ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] page.goto complete (451ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:beginframe] GSAP proxy flush complete (942ms)
+[initSession:beginframe] pollHfReady complete (1274ms)
+[initSession:beginframe] pollHfReady complete (1633ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (2137ms)
+[initSession:beginframe] pollSubCompositionTimelines complete (ready) (2229ms)
+[initSession:beginframe] applyVideoMetadataHints complete (2405ms)
+[initSession:beginframe] applyVideoMetadataHints complete (2340ms)
+[initSession:beginframe] media + fonts + tailwind ready (2553ms)
+[initSession:beginframe] media + fonts + tailwind ready (2491ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (2860ms)
+[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (3009ms)
+◇  /tmp/reel-prova-a-secco-sXIkGG/render.mp4
+   25.2 MB · 20.9s video · rendered in 2m 58.2s
+   beginframe capture · software gpu · compile 1.4s · extract 0.0s · audio 0.0s · probe 0.8s · setup 0.0s · capture 2m 56.2s · encode (during capture) 2m 56.2s · assemble 0.1s
+   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.dev/studio/download?os=linux
+⏱ render (correzione 1): 181.0 s
+⏱ fotogrammi per la revisione (sguardo 2): 15.7 s
+Revisione dei fotogrammi non riuscita (sguardo 2, prova 1): regola 19: budget di Fable di questo reel finito: per la revisione dei fotogrammi (giro 2) restano 0.11 $, ne servono almeno 0.94
+Revisione: non riuscita (prova a secco: il video esce senza revisione).
+Grafo del mix: [0:a]apad=whole_dur=20.867,aformat=channel_layouts=stereo,asplit=2[v][sc];[1:a][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=300:makeup=1[md];[2:a]adelay=7450|7450,volume=0.08,apad=whole_dur=20.867[w2];[3:a]adelay=14417|14417,volume=0.08,apad=whole_dur=20.867[w3];[v][md][w2][w3]amix=inputs=4:normalize=0:dropout_transition=0:duration=first,atrim=0:20.867[mix]
+mix-pre.wav: voce -18.80 dB, musica sotto la voce -33.09 dB, distacco 14.29 dB, -17.63 LUFS, picco -4.11 dBTP (k 0.707, spostamento 0 campioni)
+Grafo del mix: [0:a]apad=whole_dur=20.867,aformat=channel_layouts=stereo,asplit=2[v][sc];[1:a][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=300:makeup=1,volume=0.83dB[md];[2:a]adelay=7450|7450,volume=0.08,apad=whole_dur=20.867[w2];[3:a]adelay=14417|14417,volume=0.08,apad=whole_dur=20.867[w3];[v][md][w2][w3]amix=inputs=4:normalize=0:dropout_transition=0:duration=first,atrim=0:20.867[mix]
+mix-pre.wav: voce -18.80 dB, musica sotto la voce -32.26 dB, distacco 13.46 dB, -17.56 LUFS, picco -4.02 dBTP (k 0.707, spostamento 0 campioni)
+mix-finale.wav: voce -15.82 dB, musica sotto la voce -29.27 dB, distacco 13.45 dB, -14.58 LUFS, picco -1.68 dBTP (k 0.995, spostamento 0 campioni)
+Mix col riferimento: musica +0.83 dB dopo il sidechain, guadagno finale +2.99 dB.
+⏱ mix: 7.1 s
+Mix: -14.58 LUFS, picco -1.68 dBTP, prova del ramo musica [{"guadagno":0.7071,"restoDb":-148.5},{"guadagno":0.7071,"restoDb":-148.4}].
+⏱ unione: 0.6 s
+finale.mp4: voce -15.83 dB, musica sotto la voce -29.28 dB, distacco 13.45 dB, -14.59 LUFS, picco -1.62 dBTP (k 0.994, spostamento 0 campioni)
+Audio contro il reel dell'allevatore: {"voce":-15.83,"musicaSottoVoce":-29.28,"distacco":13.45,"lufs":-14.59,"picco":-1.62} — tutto entro 0,5 dB.
+File finale: -14.59 LUFS, formato ok, 0 tratti neri, 0 tratti fermi.
+Novità: 15 prima dell'invito, una ogni 1.05 s, la pausa più lunga 2.02 s (scontrino 1,16 e 4,36).
+Sguardi di Fable: fermati al 2° per il tetto di spesa (regola 19: budget di Fable di questo reel finito: per la revisione dei fotogrammi (giro 2) restano 0.11 $, ne servono almeno 0.94).
+Prova a secco finita: /home/runner/work/_temp/prova-a-secco/reel-prova-a-secco.mp4
+Oggetti disegnati: «nuvola del pensiero coi puntini che diventano il punto interrogativo» su «gonfia il collo. Che cosa vuole?» (0.84-2.85 s, 410,130 380x155, compare): la domanda su cosa vuole l'ara che gonfia il collo | nuvola del pensiero coi tre puntini sopra la cresta, su 'vuole' i puntini diventano il punto interrogativo senape | l'ara fa un gesto strano e non si capisce cosa chiede | fumetti | «piuma della nuca che si arruffa» su «china il capo e arruffa le piume della nuca.» (4.98-7.45 s, 330,320 420x170, disegna): le piume della nuca che l'ara arruffa chinando il capo | una piuma coi barbi lisci grigio-blu sopra la nuca chinata, su 'arruffa' i barbi diventano senape e sparati in tutte le direzioni | l'ara abbassa la testa e le piume si drizzano: sta mostrando la nuca | scontrino | «scintille sul punto in cui il compagno liscia la nuca» su «è il compagno a lisciarle lì, dove il becco non arriva.» (8.8-10.983 s, 280,430 180x150, pezzi): il punto della nuca che il compagno liscia col becco | tre scintille senape accanto al becco del compagno sulla nuca dell'altra, una su 'lisciarle', una su 'lì', una su 'becco' | lì dove il becco tocca succede qualcosa di buono: è il punto che l'altra non raggiunge | tocco | «fumetto della richiesta coi puntini che diventa il messaggio» su «Ora lo chiede a me. Gratto piano,» (11.48-14.4 s, 290,210 340x190, sale): la richiesta che l'ara fa a me | fumetto coi tre puntini che sale sopra la cresta mentre l'ara chiede, su 'Gratto' i puntini diventano le righe del messaggio: richiesta capita | l'ara sta chiedendo qualcosa e il messaggio arriva: la mano risponde grattando | chat | «occhio socchiuso che diventa la spunta» su «Occhi socchiusi: va bene così.» (14.67-16.7 s, 300,120 460x130, disegna): gli occhi socchiusi dell'ara e il 'va bene così' | un arco senape sopra la cresta, l'occhio che si chiude, disegnato su 'Occhi'; su 'bene' diventa la spunta senape | l'ara chiude gli occhi: sta bene, il gesto era giusto | tocco.
+Effetti del piano: zoom_a_ritmo su «gonfia» (0.833 s).
+Inquadrature: S1 clip 1 0-3 s taglio/fermo scala 1 x 0 y 0 | S2 clip 2 3-4.6 s taglio/fermo scala 1.087 x 0 y 0 | S3 clip 2 4.6-7.6 s taglio/fermo scala 1.027 x 0 y 0 | S4 clip 3 7.6-11.133 s frusta/deriva scala 1 x 0 y 0 | S5 clip 4 11.133-14.567 s taglio/spinta scala 1 x 0 y 0 | S6 clip 5 14.567-20.867 s maschera_cerchio/apertura scala 1 x 0 y 0.
+Correzione del piano: inquadratura 5: rallentatore non ammesso in questo reel, velocità riportata a 1
+Correzione del piano: inquadratura 6: rallentatore non ammesso in questo reel, velocità riportata a 1
+Correzione del piano: inquadratura 6: velocità ridotte per stare nella clip 5
+Correzione del piano: effetto 1 (zoom_a_ritmo): spostato da 0.06 a 0.84 s, quando la voce dice «gonfia»
+Correzione del piano: effetto 3 (scritta_dietro): spostato da 5 a 6.82 s, quando la voce dice «nuca»
+Correzione del piano: effetto 4 (timbro): riportato dentro lo schermo (x da 300 a 340)
+Correzione del piano: effetto 5 (timbro): riportato dentro lo schermo (x da 850 a 740)
+Correzione del piano: S3: scala da 1.07 a 1.027 per restare entro 1.11
+Correzione del piano: S4: deriva ridotta a 1.0277 per restare entro 1.11
+Correzione del piano: S2: spinta tolta per tenere diverse le due parti della clip 2
+Correzione del piano: S2: scala da 1 a 1.087, le due parti della clip 2 restano inquadrature diverse
+Correzione del piano: effetto mirino su «fissa»: finisce a 4.45 s, prima del taglio di 4.6 s
+Correzione del piano: effetto mirino su «fissa»: resterebbe 0.48 s prima del taglio, troppo poco per vederlo, tolto
+Correzione del piano: effetto scritta_dietro su «nuca»: finisce a 7.45 s, prima del taglio di 7.6 s
+Correzione del piano: effetto scritta_dietro su «nuca»: resterebbe 0.62 s prima del taglio, troppo poco per vederlo, tolto
+Correzione del piano: effetto timbro su «arriva»: allungato a 10.983 s, per farsi vedere
+Correzione del piano: effetto timbro su «arriva»: resterebbe 0.78 s prima del taglio, troppo poco per vederlo, tolto
+Correzione del piano: effetto timbro su «bene»: allungato a 16.833 s, per farsi vedere
+Correzione del piano: effetto timbro su «bene»: resterebbe 0.87 s prima del taglio, troppo poco per vederlo, tolto
+Correzione del piano: oggetto «nuvola del pensiero coi puntini che dive»: finisce a 2.85 s, prima del taglio di 3 s
+Correzione del piano: oggetto «piuma della nuca che si arruffa»: finisce a 7.45 s, prima del taglio di 7.6 s
+Correzione del piano: oggetto «scintille sul punto in cui il compagno l»: finisce a 10.983 s, prima del taglio di 11.133 s
+Tempi: battiti della musica 23.2 s, dove sta l'ara nelle clip (rembg) 59.9 s, piano di montaggio (Fable) 362.4 s, preparazione delle inquadrature 456.1 s, dove sta l'ara per gli oggetti (rembg) 42.1 s, controllo della timeline 0.9 s, render 198.5 s, render di controllo magenta 93.1 s, fotogrammi per la revisione (sguardo 1) 13.5 s, revisione dei fotogrammi (sguardo 1) 244.2 s, dove sta l'ara per gli oggetti (rembg) (correzione 1) 71.2 s, controllo della timeline (correzione 1) 0.4 s, render (correzione 1) 181 s, fotogrammi per la revisione (sguardo 2) 15.7 s, mix 7.1 s, unione 0.6 s
+Fogli dei fotogrammi: secondi-1.jpg, secondi-2.jpg, secondi-3.jpg, revisione-1-1.jpg, revisione-1-2.jpg, revisione-1-3.jpg, revisione-2-1.jpg, revisione-2-2.jpg, revisione-2-3.jpg, revisione-2-4.jpg, tagli.jpg, momenti-1.jpg.
