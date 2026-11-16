@@ -1,0 +1,275 @@
+{
+  "intensita": "wow",
+  "perche": "La musica a 152 BPM ha un battito netto (2,25) e la voce racconta un gesto con una domanda forte e un verdetto finale, quindi il ritmo lo danno anche gli effetti a tempo.",
+  "variante": "V1",
+  "look": "L4",
+  "apertura": "A2",
+  "scritte": "T1",
+  "inquadrature": [
+    {
+      "clip": 1,
+      "fine": 3,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 3,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "apertura",
+      "entrata": "taglio",
+      "testa_y": 1350,
+      "testa_x": 520
+    },
+    {
+      "clip": 2,
+      "fine": 4.7,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 1.7,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "spinta",
+      "entrata": "taglio",
+      "testa_y": 800,
+      "testa_x": 540
+    },
+    {
+      "clip": 2,
+      "fine": 7.4,
+      "da": 1.7,
+      "tratti": [
+        {
+          "durata": 2.7,
+          "velocita": 1
+        }
+      ],
+      "scala": 1.06,
+      "x": 0,
+      "y": 0,
+      "movimento": "fermo",
+      "entrata": "taglio",
+      "testa_y": 1055,
+      "testa_x": 445
+    },
+    {
+      "clip": 3,
+      "fine": 10.8,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 3.4,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "spinta",
+      "entrata": "frusta",
+      "testa_y": 985,
+      "testa_x": 400
+    },
+    {
+      "clip": 4,
+      "fine": 14.5,
+      "da": 0,
+      "tratti": [
+        {
+          "durata": 3.7,
+          "velocita": 1
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "deriva",
+      "entrata": "taglio",
+      "testa_y": 1063,
+      "testa_x": 272
+    },
+    {
+      "clip": 5,
+      "fine": 20.867,
+      "da": 0.9,
+      "tratti": [
+        {
+          "durata": 0.6,
+          "velocita": 1.5
+        },
+        {
+          "durata": 5.767,
+          "velocita": 0.54
+        }
+      ],
+      "scala": 1,
+      "x": 0,
+      "y": 0,
+      "movimento": "spinta",
+      "entrata": "maschera_cerchio",
+      "punto": {
+        "x": 560,
+        "y": 530
+      },
+      "testa_y": 1002,
+      "testa_x": 440
+    }
+  ],
+  "effetti": [
+    {
+      "tipo": "zoom_a_ritmo",
+      "parola": "gonfia",
+      "inizio": 0.84,
+      "fine": 1.7
+    },
+    {
+      "tipo": "puntini",
+      "parola": "cosa",
+      "inizio": 1.92,
+      "fine": 2.9,
+      "x": 840,
+      "y": 230
+    },
+    {
+      "tipo": "zoom_a_ritmo",
+      "parola": "china",
+      "inizio": 4.98,
+      "fine": 7.2
+    },
+    {
+      "tipo": "scossa",
+      "parola": "arruffa",
+      "inizio": 5.94
+    },
+    {
+      "tipo": "desaturazione",
+      "parola": "natura",
+      "inizio": 7.64,
+      "fine": 8.3
+    },
+    {
+      "tipo": "timbro",
+      "parola": "bene",
+      "inizio": 15.94,
+      "fine": 16.8,
+      "x": 860,
+      "y": 250,
+      "testo": "VA BENE"
+    }
+  ],
+  "oggetti": [
+    {
+      "nome": "tratteggio che scende seguendo la testa che si abbassa",
+      "frase": "Abbassa la testa e gonfia il collo",
+      "parola": "Abbassa",
+      "perche": "La linea tratteggiata si disegna dall'alto verso il basso a sinistra, nel vuoto sopra la cresta, e segue il verso in cui l'ara abbassa la testa.",
+      "inizio": 0.1,
+      "fine": 1.7,
+      "x": 150,
+      "y": 190,
+      "larghezza": 520,
+      "altezza": 300,
+      "entrata": "disegna",
+      "tipo": "tratteggio",
+      "punta_a": {
+        "x": 440,
+        "y": 370,
+        "sull_ara": true,
+        "cosa": "sommità della cresta che si abbassa"
+      },
+      "svg": "<circle class=\"pallino\" cx=\"480\" cy=\"40\" r=\"11\" /><path class=\"tratt\" d=\"M480 40 C 390 30, 190 90, 40 270\" stroke-width=\"10\" />"
+    },
+    {
+      "nome": "trattini arruffati sopra la nuca",
+      "frase": "arruffa le piume della nuca",
+      "parola": "arruffa",
+      "perche": "Tre trattini spessi, uno per battito, spuntano nel vuoto appena sopra la nuca e fanno vedere le piume che si arruffano proprio lì.",
+      "inizio": 5.94,
+      "fine": 7.25,
+      "x": 340,
+      "y": 330,
+      "larghezza": 400,
+      "altezza": 170,
+      "entrata": "pezzi",
+      "tipo": "trattini",
+      "punta_a": {
+        "x": 495,
+        "y": 555,
+        "sull_ara": true,
+        "cosa": "sommità della nuca arruffata"
+      },
+      "svg": "<path class=\"p1\" d=\"M60 160 L20 70\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" /><path class=\"p2\" d=\"M200 160 L200 40\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" /><path class=\"p3\" d=\"M340 160 L380 70\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" />"
+    },
+    {
+      "nome": "cuore pieno sopra il becco del compagno",
+      "frase": "è il compagno a lisciarle lì",
+      "parola": "compagno",
+      "perche": "Il cuore sale nel vuoto tra le due teste, sopra il becco del compagno che liscia la nuca dell'altra: il gesto d'affetto di coppia.",
+      "inizio": 8.24,
+      "fine": 10.6,
+      "x": 350,
+      "y": 410,
+      "larghezza": 100,
+      "altezza": 100,
+      "entrata": "sale",
+      "tipo": "cuore",
+      "punta_a": {
+        "x": 470,
+        "y": 590,
+        "sull_ara": true,
+        "cosa": "becco del compagno sulla nuca"
+      },
+      "svg": "<path d=\"M50 92 C 10 64, 2 32, 24 16 C 38 6, 48 16, 50 30 C 52 16, 62 6, 76 16 C 98 32, 90 64, 50 92 Z\" fill=\"#C4862E\" stroke=\"#F7F1E1\" stroke-width=\"3\" />"
+    },
+    {
+      "nome": "fumetto coi puntini sopra la fronte",
+      "frase": "Ora lo chiede a me",
+      "parola": "Ora",
+      "perche": "Il fumetto crema con i tre puntini, uno per battito, spunta nel vuoto sopra la fronte dell'ara con la coda verso la testa: è lei che chiede.",
+      "inizio": 11.21,
+      "fine": 12.7,
+      "x": 100,
+      "y": 280,
+      "larghezza": 300,
+      "altezza": 180,
+      "entrata": "pezzi",
+      "tipo": "fumetto",
+      "punta_a": {
+        "x": 293,
+        "y": 517,
+        "sull_ara": true,
+        "cosa": "cresta sulla fronte"
+      },
+      "svg": "<path class=\"p1\" d=\"M30 10 H270 Q290 10 290 30 V110 Q290 130 270 130 H240 L225 172 L200 130 H30 Q10 130 10 110 V30 Q10 10 30 10 Z\" fill=\"#F7F1E1\" stroke=\"#12263C\" stroke-width=\"5\" /><circle class=\"p2\" cx=\"95\" cy=\"70\" r=\"14\" fill=\"#12263C\" /><circle class=\"p3\" cx=\"150\" cy=\"70\" r=\"14\" fill=\"#12263C\" /><circle class=\"p4\" cx=\"205\" cy=\"70\" r=\"14\" fill=\"#12263C\" />"
+    },
+    {
+      "nome": "piuma leggera sopra le dita che grattano",
+      "frase": "Gratto piano, seguendo le piume",
+      "parola": "piano",
+      "perche": "Una piuma disegnata si traccia nel vuoto sopra le dita, inclinata nel verso delle piume della nuca: gratta piano, leggero come una piuma, seguendo le piume.",
+      "inizio": 12.8,
+      "fine": 14.3,
+      "x": 600,
+      "y": 340,
+      "larghezza": 320,
+      "altezza": 210,
+      "entrata": "disegna",
+      "tipo": "piuma",
+      "punta_a": {
+        "x": 520,
+        "y": 620,
+        "sull_ara": true,
+        "cosa": "nuca sotto le dita"
+      },
+      "svg": "<path d=\"M30 40 C 110 15, 230 40, 290 175 C 200 170, 90 130, 30 40 Z\" fill=\"#F7F1E1\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linejoin=\"round\" /><path d=\"M40 48 L278 165\" stroke=\"#12263C\" stroke-width=\"8\" stroke-linecap=\"round\" /><path d=\"M120 70 L108 112 M175 95 L162 140 M230 125 L220 160\" stroke=\"#12263C\" stroke-width=\"8\" stroke-linecap=\"round\" />"
+    }
+  ]
+}

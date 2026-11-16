@@ -1,0 +1,667 @@
+{
+  "piano": {
+    "fuoriRegola": [],
+    "testa": {
+      "tratti": [
+        {
+          "inquadratura": "S1",
+          "da": 0,
+          "a": 3,
+          "secondi": 3,
+          "testa_y": 1350,
+          "sotto_px": 110
+        }
+      ],
+      "secondi": 3,
+      "conSottotitoli": 16.83,
+      "quota": 0.178,
+      "sottoMax": 110,
+      "entro": true,
+      "motivi": []
+    },
+    "intensita": "wow",
+    "perche": "La musica a 152 BPM ha un battito netto (2,25) e la voce racconta un gesto con una domanda forte e un verdetto finale, quindi il ritmo lo danno anche gli effetti a tempo.",
+    "variante": "V1",
+    "look": "L4",
+    "apertura": "A2",
+    "scritte": "T1",
+    "D": 20.867,
+    "tP": 16.833,
+    "inquadrature": [
+      {
+        "id": "S1",
+        "clip": 1,
+        "inizio": 0,
+        "fine": 3,
+        "segmenti": [
+          [
+            3,
+            0,
+            3
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "apertura",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 520,
+        "testa0": 390,
+        "testa_y": 1350,
+        "testaNeiSottotitoli": true,
+        "respiro": 1.06,
+        "picco": 1.0913
+      },
+      {
+        "id": "S2",
+        "clip": 2,
+        "inizio": 3,
+        "fine": 4.6,
+        "segmenti": [
+          [
+            1.6,
+            0,
+            1.6
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "spinta",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 540,
+        "testa0": -160,
+        "testa_y": 800,
+        "respiro": 1.06,
+        "picco": 1.06
+      },
+      {
+        "id": "S3",
+        "clip": 2,
+        "inizio": 4.6,
+        "fine": 7.6,
+        "segmenti": [
+          [
+            3,
+            1.7,
+            4.7
+          ]
+        ],
+        "scala": 1.027,
+        "x": 0,
+        "y": 0,
+        "movimento": "fermo",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "divisa": true,
+        "testa_x": 445,
+        "testa0": 89.62,
+        "testa_y": 1052,
+        "respiro": 1,
+        "picco": 1.1092
+      },
+      {
+        "id": "S4",
+        "clip": 3,
+        "inizio": 7.6,
+        "fine": 11.133,
+        "segmenti": [
+          [
+            3.533,
+            0,
+            3.533
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "spinta",
+        "entrata": "frusta",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 400,
+        "testa0": 25,
+        "testa_y": 985,
+        "respiro": 1.06,
+        "picco": 1.0801
+      },
+      {
+        "id": "S5",
+        "clip": 4,
+        "inizio": 11.133,
+        "fine": 14.567,
+        "segmenti": [
+          [
+            3.434,
+            0,
+            3.434
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "deriva",
+        "entrata": "taglio",
+        "punto": {
+          "x": 540,
+          "y": 760
+        },
+        "testa_x": 272,
+        "testa0": 103,
+        "testa_y": 1063,
+        "respiro": 1.03,
+        "picco": 1.03
+      },
+      {
+        "id": "S6",
+        "clip": 5,
+        "inizio": 14.567,
+        "fine": 20.867,
+        "segmenti": [
+          [
+            0.594,
+            0.9,
+            1.791
+          ],
+          [
+            5.706,
+            1.791,
+            4.872
+          ]
+        ],
+        "scala": 1,
+        "x": 0,
+        "y": 0,
+        "movimento": "spinta",
+        "entrata": "maschera_cerchio",
+        "punto": {
+          "x": 560,
+          "y": 530
+        },
+        "testa_x": 440,
+        "testa0": 42,
+        "testa_y": 1002,
+        "respiro": 1.06,
+        "picco": 1.06
+      }
+    ],
+    "effetti": [
+      {
+        "tipo": "zoom_a_ritmo",
+        "parola": "gonfia",
+        "inizio": 0.833,
+        "fine": 1.7
+      },
+      {
+        "tipo": "scossa",
+        "parola": "arruffa",
+        "inizio": 5.8,
+        "fine": 6.1
+      },
+      {
+        "tipo": "desaturazione",
+        "parola": "natura",
+        "inizio": 7.633,
+        "fine": 8.3
+      }
+    ],
+    "oggetti": [
+      {
+        "nome": "tratteggio che scende sopra la cresta, dal pallino in alto a destra giù verso la fronte",
+        "tipo": "tratteggio",
+        "frase": "Abbassa la testa e gonfia il collo",
+        "parola": "Abbassa",
+        "perche": "La linea tratteggiata si disegna da destra verso il basso a sinistra, nel vuoto sopra la cresta, e segue il verso in cui l'ara abbassa la testa.",
+        "inizio": 0.1,
+        "fine": 2.85,
+        "x": 310,
+        "y": 170,
+        "larghezza": 320,
+        "altezza": 180,
+        "punta_a": {
+          "x": 330,
+          "y": 450,
+          "sull_ara": true,
+          "cosa": "cresta sopra la fronte, lato sinistro"
+        },
+        "entrata": "disegna",
+        "parti": [],
+        "svg": "<circle class=\"pallino\" cx=\"290\" cy=\"30\" r=\"11\" /><path class=\"tratt\" d=\"M290 30 C 210 20, 95 65, 20 170\" stroke-width=\"10\" />"
+      },
+      {
+        "nome": "tre trattini spessi che spuntano a destra della nuca mentre l'ara china il capo",
+        "tipo": "trattini",
+        "frase": "china il capo e arruffa le piume della nuca",
+        "parola": "china",
+        "perche": "Tre trattini senape, uno per battito, si irradiano dal lato della nuca nel vuoto della stanza mentre la testa si abbassa e le piume si arruffano proprio lì.",
+        "inizio": 4.98,
+        "fine": 7.45,
+        "x": 640,
+        "y": 400,
+        "larghezza": 260,
+        "altezza": 240,
+        "punta_a": {
+          "x": 600,
+          "y": 630,
+          "sull_ara": true,
+          "cosa": "nuca dell'ara china, lato destro"
+        },
+        "entrata": "pezzi",
+        "parti": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "svg": "<path class=\"p1\" d=\"M20 110 L150 20\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" /><path class=\"p2\" d=\"M30 130 L180 130\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" /><path class=\"p3\" d=\"M20 150 L150 210\" stroke=\"#C4862E\" stroke-width=\"11\" stroke-linecap=\"round\" />"
+      },
+      {
+        "nome": "cuore pieno senape sopra la testa del compagno",
+        "tipo": "cuore",
+        "frase": "è il compagno a lisciarle lì",
+        "parola": "compagno",
+        "perche": "Il cuore sale nel vuoto sopra la cresta del compagno che liscia la nuca dell'altra: il gesto d'affetto di coppia.",
+        "inizio": 8.24,
+        "fine": 10.98,
+        "x": 600,
+        "y": 275,
+        "larghezza": 150,
+        "altezza": 150,
+        "punta_a": {
+          "x": 690,
+          "y": 520,
+          "sull_ara": true,
+          "cosa": "cresta del compagno che liscia"
+        },
+        "entrata": "sale",
+        "parti": [],
+        "svg": "<path d=\"M75 138 C 15 96, 3 48, 36 24 C 57 9, 72 24, 75 45 C 78 24, 93 9, 114 24 C 147 48, 135 96, 75 138 Z\" fill=\"#C4862E\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linejoin=\"round\" />"
+      },
+      {
+        "nome": "fumetto crema coi tre puntini sopra la fronte dell'ara",
+        "tipo": "fumetto",
+        "frase": "Ora lo chiede a me",
+        "parola": "Ora",
+        "perche": "Il fumetto con i tre puntini, uno per battito, spunta nel vuoto sopra la fronte con la coda verso la testa: è lei che chiede.",
+        "inizio": 11.21,
+        "fine": 12.71,
+        "x": 160,
+        "y": 300,
+        "larghezza": 300,
+        "altezza": 180,
+        "punta_a": {
+          "x": 300,
+          "y": 540,
+          "sull_ara": true,
+          "cosa": "cresta sulla fronte"
+        },
+        "entrata": "pezzi",
+        "parti": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "svg": "<path class=\"p1\" d=\"M30 10 H270 Q290 10 290 30 V110 Q290 130 270 130 H240 L225 172 L200 130 H30 Q10 130 10 110 V30 Q10 10 30 10 Z\" fill=\"#F7F1E1\" stroke=\"#12263C\" stroke-width=\"5\" /><circle class=\"p2\" cx=\"95\" cy=\"70\" r=\"14\" fill=\"#12263C\" /><circle class=\"p3\" cx=\"150\" cy=\"70\" r=\"14\" fill=\"#12263C\" /><circle class=\"p4\" cx=\"205\" cy=\"70\" r=\"14\" fill=\"#12263C\" />"
+      },
+      {
+        "nome": "luna senape grande nel vuoto sopra il lato destro della cresta, per gli occhi socchiusi",
+        "tipo": "luna",
+        "frase": "Occhi socchiusi: va bene così",
+        "parola": "Occhi",
+        "perche": "La luna di senape compare nel vuoto sopra la cresta, a destra dove la testa è più bassa, mentre l'ara socchiude gli occhi: è rilassata, va bene così.",
+        "inizio": 14.67,
+        "fine": 16.7,
+        "x": 640,
+        "y": 120,
+        "larghezza": 160,
+        "altezza": 165,
+        "punta_a": {
+          "x": 720,
+          "y": 340,
+          "sull_ara": true,
+          "cosa": "cima della cresta, lato destro"
+        },
+        "entrata": "compare",
+        "parti": [],
+        "svg": "<path d=\"M110 6 C 34 20, 8 104, 64 148 C 98 166, 136 154, 154 130 C 92 140, 62 58, 110 6 Z\" fill=\"#C4862E\" stroke=\"#C4862E\" stroke-width=\"10\" stroke-linejoin=\"round\" />"
+      }
+    ]
+  },
+  "correzioni": [
+    "stacco 4 spostato da 10.8 a 11.133 s (pausa o battito)",
+    "effetto 3 (zoom_a_ritmo): insieme a frusta orizzontale con sfocatura (7.6 s) passerebbe l'ingrandimento massimo (1.11), tolto",
+    "effetto 6 (timbro): riportato dentro lo schermo (x da 860 a 740)",
+    "S3: scala da 1.06 a 1.027 per restare entro 1.11",
+    "effetto puntini su «cosa»: finisce a 2.85 s, prima del taglio di 3 s",
+    "effetto puntini su «cosa»: resterebbe 0.92 s prima del taglio, troppo poco per vederlo, tolto",
+    "effetto timbro su «bene»: allungato a 16.833 s, per farsi vedere",
+    "effetto timbro su «bene»: resterebbe 0.9 s prima del taglio, troppo poco per vederlo, tolto",
+    "oggetto «trattini arruffati sopra la nuca»: allungato a 7.44 s, per farsi vedere",
+    "oggetto «fumetto coi puntini sopra la fronte»: allungato a 12.71 s, per farsi vedere",
+    "oggetto «tratteggio che scende sopra la cresta, d»: finisce a 2.85 s, prima del taglio di 3 s",
+    "oggetto «tre trattini spessi che spuntano a destr»: finisce a 7.45 s, prima del taglio di 7.6 s",
+    "oggetto «cuore pieno senape sopra la testa del co»: finisce a 10.983 s, prima del taglio di 11.133 s"
+  ],
+  "rifatto": null,
+  "revisioni": [
+    {
+      "giro": 1,
+      "passa": false,
+      "passaFable": false,
+      "giudizio": "Il reel non è al livello del Mac: cuore troppo piccolo, piuma lontana dalla nuca e due buchi di voce senza segni (uno di oltre 4 s e uno proprio prima dell'invito). Ho rifatto i cinque segni: tratteggio che scende, trattini sulla nuca, cuore sopra il compagno, fumetto sulla fronte e luna sugli occhi socchiusi.",
+      "problemi": [
+        {
+          "segno": "o2",
+          "secondo": 9.42,
+          "cosa": "Il cuore misura solo 79x83 px, sul telefono quasi non si vede: serve almeno 90 px."
+        },
+        {
+          "segno": "o4",
+          "secondo": 13.55,
+          "cosa": "La piuma sta a 239 px dalla nuca sotto le dita, troppo staccata da quello che indica."
+        },
+        {
+          "segno": "vuoto",
+          "secondo": 3.82,
+          "cosa": "Da 1,7 a 5,94 s la voce va avanti più di 4 s senza nessun segno."
+        },
+        {
+          "segno": "vuoto",
+          "secondo": 15.56,
+          "cosa": "Da 14,3 s a 16,83 s nessun segno: l'ultimo deve arrivare almeno a 15,33 s."
+        },
+        {
+          "segno": "o0",
+          "secondo": 1.07,
+          "cosa": "Il tratteggio finisce a ridosso del bordo sinistro della cresta quando la testa è ancora alta e dura solo fino a 1,7 s."
+        }
+      ],
+      "problemiCodice": [
+        {
+          "segno": "o2",
+          "secondo": 9.42,
+          "cosa": "troppo piccolo: il simbolo misura 79x83 px, il lato lungo deve arrivare almeno a 90 px."
+        },
+        {
+          "segno": "o4",
+          "secondo": 13.55,
+          "cosa": "staccato da quello che indica: il tratto più vicino è a 239 px da «nuca sotto le dita» (520,620), al massimo 120."
+        },
+        {
+          "segno": "vuoto",
+          "secondo": 3.82,
+          "cosa": "da 1,7 a 5,94 s la voce va avanti senza nessun segno: al massimo 3 s."
+        },
+        {
+          "segno": "vuoto",
+          "secondo": 15.56,
+          "cosa": "da 14,3 a 16,83 s nessun segno: l'ultimo segno deve arrivare almeno a 15,33 s (l'invito parte a 16,83 s)."
+        }
+      ],
+      "togli": [],
+      "oggetti": 5
+    },
+    {
+      "giro": 2,
+      "passa": false,
+      "passaFable": false,
+      "giudizio": "Molto meglio dello sguardo prima, ma i trattini sfiorano la testa china, la luna è piccola e cade sulla cresta, e tra 2,85 e 5,94 s la voce va avanti senza niente: sposto i trattini su «china» e la luna più a destra e più grande.",
+      "problemi": [
+        {
+          "segno": "o1",
+          "secondo": 6.7,
+          "cosa": "Il trattino basso tocca la testa china dell'ara: va spostato più in alto e a destra, nel vuoto accanto alla nuca."
+        },
+        {
+          "segno": "o4",
+          "secondo": 15.68,
+          "cosa": "La luna è troppo piccola (116x145) e la sua metà bassa cade sulla cresta: va ingrandita e messa più a destra, dove la cresta è più bassa."
+        },
+        {
+          "segno": "vuoto",
+          "secondo": 4.4,
+          "cosa": "Da 2,85 a 5,94 s nessun segno: i trattini partono su «china» a 4,98 s così il vuoto scende sotto 3 s."
+        }
+      ],
+      "problemiCodice": [
+        {
+          "segno": "o1",
+          "secondo": 6.7,
+          "cosa": "sta sopra l'ara: 4 punti del tratto cadono sulla sagoma misurata col ritaglio. Il segno va accanto, mai sopra né dentro."
+        },
+        {
+          "segno": "o4",
+          "secondo": 15.68,
+          "cosa": "troppo piccolo: il disegno misura 116x145 px, il lato lungo deve arrivare almeno a 150 px."
+        },
+        {
+          "segno": "o4",
+          "secondo": 15.68,
+          "cosa": "sta sopra l'ara: 107 punti del tratto cadono sulla sagoma misurata col ritaglio. Il segno va accanto, mai sopra né dentro."
+        },
+        {
+          "segno": "vuoto",
+          "secondo": 4.4,
+          "cosa": "da 2,85 a 5,94 s la voce va avanti senza nessun segno: al massimo 3 s."
+        }
+      ],
+      "togli": [],
+      "oggetti": 5
+    },
+    {
+      "giro": 3,
+      "passa": true,
+      "passaFable": true,
+      "giudizio": "I cinque segni sono tutti accanto alla cosa che indicano, grandi, diversi tra loro (tratteggio, trattini, cuore, fumetto, luna) e con due oggetti disegnati; nessun vuoto di voce oltre 3 s e il codice non trova problemi: il reel è al livello del Mac.",
+      "problemi": [],
+      "problemiCodice": [],
+      "togli": [],
+      "oggetti": 0
+    }
+  ],
+  "problemiSegni": [],
+  "D": 20.867,
+  "tP": 16.833,
+  "attacco": 52.9,
+  "bpm": 152,
+  "lufs": -14.59,
+  "ramo": [
+    {
+      "guadagno": 0.7071,
+      "restoDb": -148.5
+    },
+    {
+      "guadagno": 0.7071,
+      "restoDb": -148.4
+    }
+  ],
+  "magenta": 0,
+  "tipi": {
+    "segni": [
+      "puntini"
+    ],
+    "stacchi": [
+      "frusta",
+      "maschera"
+    ],
+    "effetti": [
+      "zoom a ritmo",
+      "rampa",
+      "scossa",
+      "desaturazione"
+    ]
+  },
+  "tempi": [
+    {
+      "nome": "battiti della musica",
+      "secondi": 17.9
+    },
+    {
+      "nome": "dove sta l'ara nelle clip (rembg)",
+      "secondi": 40.8
+    },
+    {
+      "nome": "piano di montaggio (Fable)",
+      "secondi": 381.1
+    },
+    {
+      "nome": "preparazione delle inquadrature",
+      "secondi": 376
+    },
+    {
+      "nome": "dove sta l'ara per gli oggetti (rembg)",
+      "secondi": 47.2
+    },
+    {
+      "nome": "controllo della timeline",
+      "secondi": 2.5
+    },
+    {
+      "nome": "render",
+      "secondi": 182.5
+    },
+    {
+      "nome": "render di controllo magenta",
+      "secondi": 77.7
+    },
+    {
+      "nome": "fotogrammi per la revisione (sguardo 1)",
+      "secondi": 13.2
+    },
+    {
+      "nome": "revisione dei fotogrammi (sguardo 1)",
+      "secondi": 317.9
+    },
+    {
+      "nome": "dove sta l'ara per gli oggetti (rembg) (correzione 1)",
+      "secondi": 48.1
+    },
+    {
+      "nome": "controllo della timeline (correzione 1)",
+      "secondi": 0.5
+    },
+    {
+      "nome": "render (correzione 1)",
+      "secondi": 159.6
+    },
+    {
+      "nome": "fotogrammi per la revisione (sguardo 2)",
+      "secondi": 13.6
+    },
+    {
+      "nome": "revisione dei fotogrammi (sguardo 2)",
+      "secondi": 111.3
+    },
+    {
+      "nome": "dove sta l'ara per gli oggetti (rembg) (correzione 2)",
+      "secondi": 49.2
+    },
+    {
+      "nome": "controllo della timeline (correzione 2)",
+      "secondi": 0.4
+    },
+    {
+      "nome": "render (correzione 2)",
+      "secondi": 163.5
+    },
+    {
+      "nome": "fotogrammi per la revisione (sguardo 3)",
+      "secondi": 14
+    },
+    {
+      "nome": "revisione dei fotogrammi (sguardo 3)",
+      "secondi": 32.5
+    },
+    {
+      "nome": "mix",
+      "secondi": 5.5
+    },
+    {
+      "nome": "unione",
+      "secondi": 0.5
+    }
+  ],
+  "audio": {
+    "misure": {
+      "voce": -15.83,
+      "musicaSottoVoce": -29.28,
+      "distacco": 13.44,
+      "lufs": -14.59,
+      "picco": -1.64
+    },
+    "scarti": [],
+    "riferimento": {
+      "voce": -15.81,
+      "musicaSottoVoce": -29.27,
+      "distacco": 13.46,
+      "lufs": -14.27,
+      "picco": -1.48
+    },
+    "musicaDb": 0.83,
+    "guadagnoFinale": 2.99
+  },
+  "testaSottotitoli": {
+    "tratti": [
+      {
+        "inquadratura": "S1",
+        "da": 0,
+        "a": 3,
+        "secondi": 3,
+        "testa_y": 1350,
+        "sotto_px": 110
+      }
+    ],
+    "secondi": 3,
+    "conSottotitoli": 16.83,
+    "quota": 0.178,
+    "sottoMax": 110,
+    "entro": true,
+    "motivi": []
+  },
+  "ritmo": {
+    "inquadrature": 6,
+    "durate": [
+      3,
+      1.6,
+      3,
+      3.53,
+      3.43,
+      6.3
+    ],
+    "media": 3.48,
+    "massima": 6.3,
+    "mediaMax": 4.4,
+    "lento": false,
+    "divise": 1
+  },
+  "crf": 18,
+  "pianoDaFable": true,
+  "velocitaVoce": {
+    "misurata": 3.277,
+    "nota": "voce approvata del 27/10, invariata"
+  },
+  "spesaFableUsd": 1.6133,
+  "spesaRevisioniUsd": 2.3532,
+  "problemiSegniFinali": [],
+  "registro": {
+    "data": "16/11 (prova a secco)",
+    "reel": "storytelling-ara-china-la-testa (prova a secco)",
+    "segni": "tratteggio che scende sopra la cresta, dal pallino in alto a destra giù verso la fronte (0,1); tre trattini spessi che spuntano a destra della nuca mentre l'ara china il capo (4,98); cuore pieno senape sopra la testa del compagno (8,24); fumetto crema coi tre puntini sopra la fronte dell'ara (11,21); luna senape grande nel vuoto sopra il lato destro della cresta, per gli occhi socchiusi (14,67)",
+    "tagli": "tagli puliti sul respiro (3 / 11,13); taglio che stringe o allarga la stessa ripresa (4,6)",
+    "transizioni": "frusta orizzontale con sfocatura (7,6); maschera circolare dall'occhio (14,57); invito sopra l'ultima ripresa, velo blu dal fondo",
+    "altri": "rampa veloce→lento, zoom a ritmo di musica (0,83), scossa (5,8), desaturazione (7,63), apertura / spinta / fermo / deriva"
+  }
+}
