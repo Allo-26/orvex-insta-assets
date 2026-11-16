@@ -1,0 +1,29 @@
+{
+  "cosa_si_vede": [
+    { "da": 0, "a": 1.85, "frase": "Abbassa la testa e gonfia il collo.", "cosa": "C1 primo piano: l'ara abbassa la testa e si gonfia; nessun disegno, la ripresa lo mostra già", "come_cambia": "su «gonfia» la camera si gonfia con lei (spinta da 1,07 a 1,11, ripresa alzata di 105 px)", "senza_audio": "l'ara si gonfia e abbassa la testa", "simile_a": "spinta della camera dello scontrino su «subito?»" },
+    { "da": 1.85, "a": 3.0, "frase": "Che cosa vuole?", "cosa": "fumetto del pensiero crema in alto a sinistra (440x360) coi tre puntini navy, lontano dalla faccia", "come_cambia": "salta fuori, i puntini saltellano, su «vuole?» i puntini spariscono e scatta un «?» senape grande; via al taglio", "senza_audio": "l'ara pensa qualcosa, non si capisce cosa: una domanda", "simile_a": "il fumetto coi puntini salvato da Allo il 16/11; i fumetti dello scontrino" },
+    { "da": 3.0, "a": 5.75, "frase": "L'Ara sul trespolo mi fissa, poi china il capo", "cosa": "C2 figura intera: l'ara guarda in camera e poi china il capo (è nella ripresa)", "come_cambia": "deriva lenta 1,0 → 1,06; colpo di camera secco su «fissa»", "senza_audio": "l'ara fissa chi guarda, poi si inchina", "simile_a": "colpo del dito dello scontrino" },
+    { "da": 5.75, "a": 7.2, "frase": "e arruffa le piume della nuca", "cosa": "sei linee senape sottili (10 px, 150-180 px) sulla nuca della testa china, a ventaglio", "come_cambia": "spuntano una per volta sdraiate (±80°), su «nuca» si drizzano a ventaglio con rimbalzo e fremono", "senza_audio": "le piume della nuca si drizzano", "simile_a": "idea di Allo del 16/11: linee che si arruffano o si drizzano" },
+    { "da": 7.2, "a": 10.7666, "frase": "In natura è il compagno a lisciarle lì, dove il becco non arriva.", "cosa": "C3 due are sul ramo, una liscia la nuca dell'altra; un cuore grande trasparente (860x840) intorno alle due teste", "come_cambia": "il cuore si disegna col tratto senape in 0,65 s, si riempie di un velo crema, batte due volte su «lì»; su «becco» la camera stringe sulle teste e il cuore cresce con lei; sfuma al taglio", "senza_audio": "in natura sono in due, è un gesto d'affetto tra compagni", "simile_a": "idea di Allo del 16/11: cuore grande trasparente coi due pappagalli dentro" },
+    { "da": 10.7666, "a": 13.08, "frase": "Ora lo chiede a me.", "cosa": "C4 la mano gratta la nuca: schermo stretto (640 px) con bande rosa-arancio #F4D2BF ai lati, l'ara e la mano in mezzo", "come_cambia": "entra già stretto al taglio con una deriva lenta; su «Gratto» le bande scivolano via e lo schermo si apre a tutto quadro (0,4 s)", "senza_audio": "adesso è una persona a farlo: la mano sulla nuca", "simile_a": "effetto sullo schermo chiesto da Allo (schermo stretto con bande)" },
+    { "da": 13.08, "a": 14.5666, "frase": "Gratto piano, seguendo le piume.", "cosa": "C4 a tutto schermo, nessun disegno: la ripresa mostra le dita che seguono le piume", "come_cambia": "su «seguendo» la camera accompagna piano (1,04 → 1,09)", "senza_audio": "si gratta piano la nuca", "simile_a": "il foglio dello scontrino: quando la ripresa mostra la cosa non si disegna" },
+    { "da": 14.5666, "a": 15.7666, "frase": "Occhi socchiusi:", "cosa": "taglio veloce (1,2 s) sulla seconda parte di C3: l'ara lisciata chiude gli occhi; due palpebre navy dall'alto e dal basso socchiudono lo schermo", "come_cambia": "le palpebre si chiudono in 0,45 s su «socchiusi» e lasciano una fessura con le due teste (y 430-1240)", "senza_audio": "gli occhi si chiudono: lo schermo stesso socchiude gli occhi", "simile_a": "schermo che si comprime (richiesta di Allo); schermo che si schiaccia della gabbia" },
+    { "da": 15.7666, "a": 20.867, "frase": "va bene così. Scrivi guida nei commenti…", "cosa": "C5 primo piano con l'occhio socchiuso; le palpebre si riaprono su «va bene»; poi velo e campo del commento fissi", "come_cambia": "palpebre aperte in 0,42 s, poi spinta lenta 1,02 → 1,07 fino alla fine, sotto il velo", "senza_audio": "l'ara è serena: così va bene", "simile_a": "finale della gabbia" }
+  ],
+  "tagli": [3.0, 7.2, 10.7666, 14.5666, 15.7666],
+  "teste": [
+    { "da": 0, "a": 3.0, "y": 1343, "nota": "C1 alzata di 105 px a scala 1,11; il becco scende sotto 1240 solo nell'ultimo secondo, al massimo di 103 px" },
+    { "da": 3.0, "a": 7.2, "y": 1000 },
+    { "da": 7.2, "a": 10.7666, "y": 930 },
+    { "da": 10.7666, "a": 14.5666, "y": 1060 },
+    { "da": 14.5666, "a": 15.7666, "y": 930 },
+    { "da": 15.7666, "a": 20.867, "y": 980 }
+  ],
+  "riga_registro": {
+    "segni": "fumetto del pensiero coi puntini che diventano «?»; sei linee della nuca che si drizzano a ventaglio; cuore grande trasparente intorno alle due are; schermo stretto con bande rosa-arancio che si aprono su «Gratto»; palpebre navy che socchiudono lo schermo su «socchiusi» e si riaprono su «va bene»",
+    "tagli": "sulle pause della voce, sul battito (3,0 / 7,2 / 10,77 / 14,57 / 15,77), uno veloce da 1,2 s su «Occhi socchiusi»",
+    "transizioni": "palpebre chiuse a cavallo del taglio C3→C5; bande laterali al taglio su C4",
+    "altri": "spinta della camera su «gonfia», colpo secco su «fissa», stretta su «becco», accompagnamento su «seguendo»; look L1 Mattino, traccia 6"
+  },
+  "note": "La shell del runner non è partita (sandbox: socat non installato), quindi non ho potuto lanciare node kit/controlla.js, kit/foto.js né rigenerare reel/index.html: build.js va eseguito dal codice a valle (node build.js). Posizioni misurate sui fotogrammi con griglia (C1 2,9 s, C2 4,2 s, C4 2,9 s). Se il controllo segnala la testa di S1 (C1) sotto la fascia: è al massimo 103 px sotto per circa 1 s su 3, entro il terzo del tempo. Le due bande navy delle palpebre (data-effetto=schermo) entrano nella fascia dei sottotitoli per 1,5 s ma sono un effetto sullo schermo, non una scritta; i sottotitoli restano sopra (z 33)."
+}
